@@ -1,4 +1,4 @@
-const CACHE_NAME = "history-quiz-pwa-v1";
+const CACHE_NAME = "history-quiz-pwa-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
