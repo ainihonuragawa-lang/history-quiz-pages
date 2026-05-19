@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-19T21:00:27.114Z",
+  "generatedAt": "2026-05-19T22:01:02.673Z",
   "app": {
     "name": "歴史の裏側クイズ",
     "brand": "AI日本の裏側",
@@ -9,8 +9,8 @@
   },
   "content": {
     "reviewStatus": "fact_checked",
-    "createdAt": "2026-05-15",
-    "sourceAccessedAt": "2026-05-15",
+    "createdAt": "2026-05-20",
+    "sourceAccessedAt": "2026-05-20",
     "packs": [
       {
         "id": "jp-meiji-state-001",
@@ -1619,6 +1619,1659 @@
                 "url": "https://www.archives.go.jp/exhibition/digital/s20/contents/7_02.html",
                 "rank": "A/C",
                 "note": "戦後改革、女性参政権、1946年総選挙、女性議員39名"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "jp-sengoku-sekigahara-001",
+        "title": "関ヶ原の戦いの裏側",
+        "description": "天下分け目を、政権構造・戦場地形・後世資料から読み直す10問。",
+        "linkedChannel": {
+          "name": "AI日本の裏側",
+          "video_url": "",
+          "episode_title": ""
+        },
+        "questionCount": 10,
+        "questions": [
+          {
+            "id": "jp-sengoku-sekigahara-001-q01",
+            "type": "single_choice",
+            "difficulty": 1,
+            "era": "安土桃山",
+            "tags": [
+              "関ヶ原",
+              "日付",
+              "基礎"
+            ],
+            "prompt": "関ヶ原の戦いが行われた日付と主戦場の組み合わせとして正しいものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "慶長5年（1600）9月15日、美濃国関ヶ原"
+              },
+              {
+                "id": "B",
+                "text": "天正10年（1582）6月2日、京都本能寺"
+              },
+              {
+                "id": "C",
+                "text": "天正3年（1575）5月21日、三河国長篠"
+              },
+              {
+                "id": "D",
+                "text": "慶長19年（1614）12月、大坂城周辺"
+              }
+            ],
+            "answer": "A",
+            "explanation": "国立公文書館は、慶長5年9月15日に家康方と三成方が関ヶ原で対峙したと説明している。文化遺産オンラインでも関ヶ原古戦場として、開戦地・決戦地などが指定されている。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "SG01",
+                "title": "関ヶ原の戦い｜徳川家康ー将軍家蔵書からみるその生涯ー",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/ieyasu/contents3_01/",
+                "rank": "A/C",
+                "note": "関ヶ原の戦いの背景、日付、兵力規模、小早川秀秋の寝返り、江戸幕府成立への流れを確認。"
+              },
+              {
+                "id": "SG02",
+                "title": "関ヶ原古戦場",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/region/21/21362",
+                "rank": "A/C",
+                "note": "国指定史跡としての開戦地・決戦地・陣地・首塚などの構成要素を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-sekigahara-001-q02",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "安土桃山",
+            "tags": [
+              "関ヶ原",
+              "兵力",
+              "東軍西軍"
+            ],
+            "prompt": "国立公文書館の解説で示される、関ヶ原本戦時の兵力規模にもっとも近いものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "家康方約7万人、三成方約8万人"
+              },
+              {
+                "id": "B",
+                "text": "家康方約700人、三成方約800人"
+              },
+              {
+                "id": "C",
+                "text": "家康方約20万人、三成方約3万人"
+              },
+              {
+                "id": "D",
+                "text": "双方とも約1万人でほぼ同数"
+              }
+            ],
+            "answer": "A",
+            "explanation": "関ヶ原は少数の英雄だけで決まった決闘ではなく、約7万対約8万と説明される大規模な会戦だった。古戦場の指定範囲にも複数の陣地や戦闘地点が残る。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "SG01",
+                "title": "関ヶ原の戦い｜徳川家康ー将軍家蔵書からみるその生涯ー",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/ieyasu/contents3_01/",
+                "rank": "A/C",
+                "note": "関ヶ原の戦いの背景、日付、兵力規模、小早川秀秋の寝返り、江戸幕府成立への流れを確認。"
+              },
+              {
+                "id": "SG02",
+                "title": "関ヶ原古戦場",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/region/21/21362",
+                "rank": "A/C",
+                "note": "国指定史跡としての開戦地・決戦地・陣地・首塚などの構成要素を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-sekigahara-001-q03",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "安土桃山",
+            "tags": [
+              "豊臣政権",
+              "五大老",
+              "五奉行"
+            ],
+            "prompt": "関ヶ原を「家康と三成の個人的ケンカ」だけで説明しにくい理由として、資料に合うものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "豊臣秀吉死後の五大老・五奉行による政権運営と、その均衡崩れが背景にあるから"
+              },
+              {
+                "id": "B",
+                "text": "戦いの直前まで日本に武士が存在しなかったから"
+              },
+              {
+                "id": "C",
+                "text": "豊臣秀吉が戦場で直接指揮していたから"
+              },
+              {
+                "id": "D",
+                "text": "関ヶ原は江戸時代末期の農民一揆だったから"
+              }
+            ],
+            "answer": "A",
+            "explanation": "国立公文書館の解説は、秀吉死後の豊臣政権運営、前田利家死去後のパワーバランス変化、反家康派形成という流れを示している。人物対立だけに縮めると背景を落としやすい。",
+            "certainty": "条件付き",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "SG01",
+                "title": "関ヶ原の戦い｜徳川家康ー将軍家蔵書からみるその生涯ー",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/ieyasu/contents3_01/",
+                "rank": "A/C",
+                "note": "関ヶ原の戦いの背景、日付、兵力規模、小早川秀秋の寝返り、江戸幕府成立への流れを確認。"
+              },
+              {
+                "id": "SG02",
+                "title": "関ヶ原古戦場",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/region/21/21362",
+                "rank": "A/C",
+                "note": "国指定史跡としての開戦地・決戦地・陣地・首塚などの構成要素を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-sekigahara-001-q04",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "安土桃山",
+            "tags": [
+              "関ヶ原古戦場",
+              "史跡",
+              "戦場地形"
+            ],
+            "prompt": "文化遺産オンラインの関ヶ原古戦場ページで、史跡の構成要素として確認できるものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "開戦地・決戦地・徳川家康陣地・石田三成陣地・首塚など"
+              },
+              {
+                "id": "B",
+                "text": "江戸城天守・大阪造幣局・東京駅丸の内駅舎"
+              },
+              {
+                "id": "C",
+                "text": "厳島神社・平等院鳳凰堂・法隆寺金堂"
+              },
+              {
+                "id": "D",
+                "text": "五稜郭・函館奉行所・戊辰戦争碑のみ"
+              }
+            ],
+            "answer": "A",
+            "explanation": "関ヶ原古戦場は、単一の碑だけではなく、開戦地、決戦地、徳川家康最初・最後陣地、石田三成陣地、首塚など複数地点から成る史跡として説明される。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "SG02",
+                "title": "関ヶ原古戦場",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/region/21/21362",
+                "rank": "A/C",
+                "note": "国指定史跡としての開戦地・決戦地・陣地・首塚などの構成要素を確認。"
+              },
+              {
+                "id": "SG01",
+                "title": "関ヶ原の戦い｜徳川家康ー将軍家蔵書からみるその生涯ー",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/ieyasu/contents3_01/",
+                "rank": "A/C",
+                "note": "関ヶ原の戦いの背景、日付、兵力規模、小早川秀秋の寝返り、江戸幕府成立への流れを確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-sekigahara-001-q05",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "安土桃山",
+            "tags": [
+              "小早川秀秋",
+              "寝返り",
+              "戦況"
+            ],
+            "prompt": "小早川秀秋について、出典に沿った説明としてもっとも適切なものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "三成方が総崩れとなる契機として、国立公文書館も文化遺産オンラインも言及している"
+              },
+              {
+                "id": "B",
+                "text": "関ヶ原の戦いには一切関係せず、江戸後期の商人だった"
+              },
+              {
+                "id": "C",
+                "text": "戦いの前にすでに死亡していたため、史跡には名前が出ない"
+              },
+              {
+                "id": "D",
+                "text": "徳川家康の実子として将軍になった人物である"
+              }
+            ],
+            "answer": "A",
+            "explanation": "国立公文書館は「金吾」小早川秀秋の裏切りを三成方崩壊の契機として説明し、文化遺産オンラインも決戦地の説明で小早川秀秋の反旗に触れている。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "SG01",
+                "title": "関ヶ原の戦い｜徳川家康ー将軍家蔵書からみるその生涯ー",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/ieyasu/contents3_01/",
+                "rank": "A/C",
+                "note": "関ヶ原の戦いの背景、日付、兵力規模、小早川秀秋の寝返り、江戸幕府成立への流れを確認。"
+              },
+              {
+                "id": "SG02",
+                "title": "関ヶ原古戦場",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/region/21/21362",
+                "rank": "A/C",
+                "note": "国指定史跡としての開戦地・決戦地・陣地・首塚などの構成要素を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-sekigahara-001-q06",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "安土桃山",
+            "tags": [
+              "笹尾山",
+              "決戦地",
+              "石田三成"
+            ],
+            "prompt": "文化遺産オンラインの説明に照らすと、関ヶ原の「決戦地」はどのあたりとされる？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "石田三成が最後の決戦を試みた笹尾山下一帯"
+              },
+              {
+                "id": "B",
+                "text": "京都御所の紫宸殿前"
+              },
+              {
+                "id": "C",
+                "text": "江戸城本丸の大広間"
+              },
+              {
+                "id": "D",
+                "text": "長篠城の本丸跡"
+              }
+            ],
+            "answer": "A",
+            "explanation": "関ヶ原古戦場の解説では、決戦地は小早川秀秋の反旗後、大谷吉隆が戦死し、小西・宇喜多両軍が破れ、石田三成が最後の決戦を試みた笹尾山下一帯と説明される。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "SG02",
+                "title": "関ヶ原古戦場",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/region/21/21362",
+                "rank": "A/C",
+                "note": "国指定史跡としての開戦地・決戦地・陣地・首塚などの構成要素を確認。"
+              },
+              {
+                "id": "SG01",
+                "title": "関ヶ原の戦い｜徳川家康ー将軍家蔵書からみるその生涯ー",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/ieyasu/contents3_01/",
+                "rank": "A/C",
+                "note": "関ヶ原の戦いの背景、日付、兵力規模、小早川秀秋の寝返り、江戸幕府成立への流れを確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-sekigahara-001-q07",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "江戸",
+            "tags": [
+              "合戦図屏風",
+              "後世資料",
+              "史料読解"
+            ],
+            "prompt": "文化遺産オンラインの「関ヶ原合戦図屏風」について、資料の性格として正しいものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "江戸時代の紙本著色・六曲一双屏風で、戦場を南方から俯瞰して描く"
+              },
+              {
+                "id": "B",
+                "text": "戦い当日に徳川家康本人がスマートフォンで撮影した写真"
+              },
+              {
+                "id": "C",
+                "text": "明治政府が作った選挙ポスター"
+              },
+              {
+                "id": "D",
+                "text": "室町時代の茶道具で、戦場とは無関係"
+              }
+            ],
+            "answer": "A",
+            "explanation": "この屏風は江戸時代の作品として登録され、関ヶ原合戦当日の様子を戦場南方から俯瞰した構図と説明される。後世の絵画資料なので、直接の戦闘記録とは分けて読む必要がある。",
+            "certainty": "条件付き",
+            "contestedNote": "屏風は後世の美術資料であり、同時代の戦闘記録そのものではない。",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "SG03",
+                "title": "関ヶ原合戦図屏風",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/detail/23094",
+                "rank": "C",
+                "note": "江戸時代の屏風資料として、南方から俯瞰した構図や陣形表現を確認。"
+              },
+              {
+                "id": "SG01",
+                "title": "関ヶ原の戦い｜徳川家康ー将軍家蔵書からみるその生涯ー",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/ieyasu/contents3_01/",
+                "rank": "A/C",
+                "note": "関ヶ原の戦いの背景、日付、兵力規模、小早川秀秋の寝返り、江戸幕府成立への流れを確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-sekigahara-001-q08",
+            "type": "single_choice",
+            "difficulty": 4,
+            "era": "江戸",
+            "tags": [
+              "合戦図屏風",
+              "陣形",
+              "史料批判"
+            ],
+            "prompt": "関ヶ原合戦図屏風をクイズの出典に使うときの注意として、もっとも妥当なのはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "陣形表現などを参考にできるが、江戸時代の後世資料として史料批判を添える"
+              },
+              {
+                "id": "B",
+                "text": "屏風に描かれたことは、すべて秒単位で戦場実況された事実と扱う"
+              },
+              {
+                "id": "C",
+                "text": "屏風は関ヶ原と無関係なので、題名も無視する"
+              },
+              {
+                "id": "D",
+                "text": "美術資料は歴史学習で一切使ってはいけない"
+              }
+            ],
+            "answer": "A",
+            "explanation": "文化遺産オンラインは、屏風の陣形がおおむね史実に沿うと説明する一方、江戸時代の作品として登録している。アプリでは「後世資料である」ことを表示して扱うのが安全。",
+            "certainty": "条件付き",
+            "contestedNote": "後世絵画資料のため、細部を同時代事実として断定しない。",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "SG03",
+                "title": "関ヶ原合戦図屏風",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/detail/23094",
+                "rank": "C",
+                "note": "江戸時代の屏風資料として、南方から俯瞰した構図や陣形表現を確認。"
+              },
+              {
+                "id": "SG02",
+                "title": "関ヶ原古戦場",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/region/21/21362",
+                "rank": "A/C",
+                "note": "国指定史跡としての開戦地・決戦地・陣地・首塚などの構成要素を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-sekigahara-001-q09",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "安土桃山",
+            "tags": [
+              "岡山烽火場",
+              "視界",
+              "戦場観察"
+            ],
+            "prompt": "関ヶ原古戦場の岡山烽火場について、文化遺産オンラインの説明に合うものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "東西両軍の陣地を一望できる地点とされる"
+              },
+              {
+                "id": "B",
+                "text": "天守閣の最上階にある茶室とされる"
+              },
+              {
+                "id": "C",
+                "text": "鉄砲を製造した江戸の工場とされる"
+              },
+              {
+                "id": "D",
+                "text": "宮本武蔵が『五輪書』を書いた洞窟とされる"
+              }
+            ],
+            "answer": "A",
+            "explanation": "岡山烽火場は、東西両軍の陣地を一望できる地点と説明される。戦場を読むには、人物名だけでなく地形と視界のポイントも効いてくる。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "SG02",
+                "title": "関ヶ原古戦場",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/region/21/21362",
+                "rank": "A/C",
+                "note": "国指定史跡としての開戦地・決戦地・陣地・首塚などの構成要素を確認。"
+              },
+              {
+                "id": "SG01",
+                "title": "関ヶ原の戦い｜徳川家康ー将軍家蔵書からみるその生涯ー",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/ieyasu/contents3_01/",
+                "rank": "A/C",
+                "note": "関ヶ原の戦いの背景、日付、兵力規模、小早川秀秋の寝返り、江戸幕府成立への流れを確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-sekigahara-001-q10",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "江戸",
+            "tags": [
+              "徳川家康",
+              "江戸幕府",
+              "戦後処理"
+            ],
+            "prompt": "関ヶ原の戦後の流れとして、国立公文書館の解説に合うものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "慶長8年（1603）に家康が征夷大将軍となり、江戸に幕府を開く流れにつながった"
+              },
+              {
+                "id": "B",
+                "text": "戦後すぐに鎌倉幕府が成立した"
+              },
+              {
+                "id": "C",
+                "text": "徳川家康は関ヶ原後に豊臣秀吉の家臣に戻った"
+              },
+              {
+                "id": "D",
+                "text": "関ヶ原の戦いの翌日に明治維新が起きた"
+              }
+            ],
+            "answer": "A",
+            "explanation": "国立公文書館は、関ヶ原後の慶長8年に家康が征夷大将軍へ任ぜられ、江戸幕府を開いたことを、武家の棟梁として頂点に立つ重要な契機として説明している。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "SG01",
+                "title": "関ヶ原の戦い｜徳川家康ー将軍家蔵書からみるその生涯ー",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/ieyasu/contents3_01/",
+                "rank": "A/C",
+                "note": "関ヶ原の戦いの背景、日付、兵力規模、小早川秀秋の寝返り、江戸幕府成立への流れを確認。"
+              },
+              {
+                "id": "SG02",
+                "title": "関ヶ原古戦場",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/region/21/21362",
+                "rank": "A/C",
+                "note": "国指定史跡としての開戦地・決戦地・陣地・首塚などの構成要素を確認。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "jp-sengoku-castles-001",
+        "title": "戦国の城と攻城戦",
+        "description": "天守だけでは見えない、堀・石垣・門・道・発掘成果から城を読む10問。",
+        "linkedChannel": {
+          "name": "AI日本の裏側",
+          "video_url": "",
+          "episode_title": ""
+        },
+        "questionCount": 10,
+        "questions": [
+          {
+            "id": "jp-sengoku-castles-001-q01",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "江戸",
+            "tags": [
+              "姫路城",
+              "縄張",
+              "防御線"
+            ],
+            "prompt": "姫路城公式サイトが、姫路城の縄張の特徴として挙げているものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "抵抗線が3重の螺旋形になった複雑な縄張"
+              },
+              {
+                "id": "B",
+                "text": "一直線の一本道だけで天守に入れる構造"
+              },
+              {
+                "id": "C",
+                "text": "堀や門をまったく持たない開放的な広場"
+              },
+              {
+                "id": "D",
+                "text": "城郭ではなく海上の浮き桟橋"
+              }
+            ],
+            "answer": "A",
+            "explanation": "姫路城公式サイトは、抵抗線が三重の螺旋形になった縄張を要塞機能の重要点として説明する。文化遺産オンラインの姫路城跡解説も、螺旋状の内堀や中堀、外堀の配置を示している。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "CS01",
+                "title": "姫路城の規模",
+                "author": "姫路城公式サイト",
+                "url": "https://www.city.himeji.lg.jp/castle/0000007746.html",
+                "rank": "C",
+                "note": "三重の螺旋形防御線、連立式天守、保存状態、面積などを確認。"
+              },
+              {
+                "id": "CS03",
+                "title": "姫路城跡",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/detail/216979",
+                "rank": "A/C",
+                "note": "史跡としての姫路城跡、螺旋状の堀、石垣・門・塀・通路の防備性を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-castles-001-q02",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "江戸",
+            "tags": [
+              "姫路城",
+              "防御",
+              "建築"
+            ],
+            "prompt": "「城は天守だけ見れば十分」という見方に対して、姫路城の資料から言えることはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "櫓・門・土塀・石垣・堀・通路などが一体で防御を構成している"
+              },
+              {
+                "id": "B",
+                "text": "天守以外の施設はすべて明治以降の遊具である"
+              },
+              {
+                "id": "C",
+                "text": "堀や門は観光客のためだけに平成に新造された"
+              },
+              {
+                "id": "D",
+                "text": "城の防御は屋根瓦の色だけで決まる"
+              }
+            ],
+            "answer": "A",
+            "explanation": "文化遺産オンラインは、天守群だけでなく櫓、門、土塀、通路、堀などが防御のために配置されたことを説明する。姫路城跡の史跡解説も石垣・通路・堀の防備性を強調している。",
+            "certainty": "条件付き",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "CS02",
+                "title": "姫路城",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/index.php/special_content/component/23",
+                "rank": "A/C",
+                "note": "世界遺産としての姫路城の歴史、池田輝政期の建築、門・土塀・通路の防御性を確認。"
+              },
+              {
+                "id": "CS03",
+                "title": "姫路城跡",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/detail/216979",
+                "rank": "A/C",
+                "note": "史跡としての姫路城跡、螺旋状の堀、石垣・門・塀・通路の防備性を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-castles-001-q03",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "江戸",
+            "tags": [
+              "姫路城",
+              "池田輝政",
+              "築城"
+            ],
+            "prompt": "文化遺産オンラインの姫路城解説に照らすと、池田輝政期の築造時期として正しいものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "1601年から1609年にかけて築造しなおした"
+              },
+              {
+                "id": "B",
+                "text": "1185年から1192年にかけて源頼朝が築いた"
+              },
+              {
+                "id": "C",
+                "text": "1868年から1872年にかけて新政府が新築した"
+              },
+              {
+                "id": "D",
+                "text": "1945年から1950年にかけて米軍が建てた"
+              }
+            ],
+            "answer": "A",
+            "explanation": "文化遺産オンラインは、1600年に城主となった池田輝政が、1601年から1609年にかけて古城を廃して新たに築造しなおしたと説明している。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "CS02",
+                "title": "姫路城",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/index.php/special_content/component/23",
+                "rank": "A/C",
+                "note": "世界遺産としての姫路城の歴史、池田輝政期の建築、門・土塀・通路の防御性を確認。"
+              },
+              {
+                "id": "CS03",
+                "title": "姫路城跡",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/detail/216979",
+                "rank": "A/C",
+                "note": "史跡としての姫路城跡、螺旋状の堀、石垣・門・塀・通路の防備性を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-castles-001-q04",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "江戸",
+            "tags": [
+              "姫路城",
+              "門",
+              "通路"
+            ],
+            "prompt": "姫路城の通路や門の工夫として、文化遺産オンラインの説明に合うものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "天守群へ向かう道を曲がりくねらせ、門や土塀を通して防御性を高めた"
+              },
+              {
+                "id": "B",
+                "text": "敵が迷わないよう天守まで広い直線道路を一本だけ通した"
+              },
+              {
+                "id": "C",
+                "text": "城内に門を置かず、誰でも自由に天守へ入れるようにした"
+              },
+              {
+                "id": "D",
+                "text": "城の防御のために水田だけを並べた"
+              }
+            ],
+            "answer": "A",
+            "explanation": "文化遺産オンラインは、天守群へ至るには各門を通過する必要があり、道を曲がりくねらせて敵を通りにくくしたと説明する。見た目の美しさだけでなく、侵入経路の制御が重要だった。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "CS02",
+                "title": "姫路城",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/index.php/special_content/component/23",
+                "rank": "A/C",
+                "note": "世界遺産としての姫路城の歴史、池田輝政期の建築、門・土塀・通路の防御性を確認。"
+              },
+              {
+                "id": "CS01",
+                "title": "姫路城の規模",
+                "author": "姫路城公式サイト",
+                "url": "https://www.city.himeji.lg.jp/castle/0000007746.html",
+                "rank": "C",
+                "note": "三重の螺旋形防御線、連立式天守、保存状態、面積などを確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-castles-001-q05",
+            "type": "single_choice",
+            "difficulty": 1,
+            "era": "安土桃山",
+            "tags": [
+              "安土城",
+              "織田信長",
+              "天下統一"
+            ],
+            "prompt": "滋賀県の安土城跡資料に照らすと、安土城を築いた人物と目的の組み合わせとして正しいものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "織田信長が天下統一の拠点として琵琶湖岸に築いた"
+              },
+              {
+                "id": "B",
+                "text": "源頼朝が鎌倉幕府の政庁として瀬戸内海に築いた"
+              },
+              {
+                "id": "C",
+                "text": "徳川慶喜が大政奉還後に北海道へ築いた"
+              },
+              {
+                "id": "D",
+                "text": "宮本武蔵が修行場として熊本の洞窟内に築いた"
+              }
+            ],
+            "answer": "A",
+            "explanation": "滋賀県は、安土城を織田信長が天下統一の拠点として琵琶湖岸に築いた大城郭と説明している。英語版の県資料でも、全国統一の足場となる拠点としての性格が示される。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "CS04",
+                "title": "特別史跡安土城跡の調査と整備",
+                "author": "滋賀県",
+                "url": "https://www.pref.shiga.lg.jp/ippan/bunakasports/bunkazaihogo/312344.html",
+                "rank": "C",
+                "note": "安土城の大手道、石垣、発掘調査、伝羽柴邸跡・伝前田邸跡などを確認。"
+              },
+              {
+                "id": "CS05",
+                "title": "Ruins of Azuchi Castle, a Special Historic Site",
+                "author": "滋賀県",
+                "url": "https://www.pref.shiga.lg.jp/ippan/bunakasports/bunkazaihogo/312330.html",
+                "rank": "C",
+                "note": "安土城の着工、天主完成、本能寺の変後の焼失、特別史跡としての保存整備を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-castles-001-q06",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "安土桃山",
+            "tags": [
+              "安土城",
+              "年表",
+              "本能寺の変"
+            ],
+            "prompt": "滋賀県の安土城跡資料に基づく時系列として、もっとも適切なものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "1576年築城開始、1579年天主完成、1582年本能寺の変後に天主・本丸が焼失"
+              },
+              {
+                "id": "B",
+                "text": "1600年築城開始、1868年天主完成、1945年に初めて使用された"
+              },
+              {
+                "id": "C",
+                "text": "1185年築城開始、1333年天主完成、1603年に焼失"
+              },
+              {
+                "id": "D",
+                "text": "江戸時代後期に観光施設として建てられ、現存天守が残る"
+              }
+            ],
+            "answer": "A",
+            "explanation": "滋賀県の英語版資料は、1576年に築城が始まり、1579年に天主が完成して信長が移ったこと、1582年の本能寺の変後に天主と本丸が焼失したことを説明している。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "CS05",
+                "title": "Ruins of Azuchi Castle, a Special Historic Site",
+                "author": "滋賀県",
+                "url": "https://www.pref.shiga.lg.jp/ippan/bunakasports/bunkazaihogo/312330.html",
+                "rank": "C",
+                "note": "安土城の着工、天主完成、本能寺の変後の焼失、特別史跡としての保存整備を確認。"
+              },
+              {
+                "id": "CS04",
+                "title": "特別史跡安土城跡の調査と整備",
+                "author": "滋賀県",
+                "url": "https://www.pref.shiga.lg.jp/ippan/bunakasports/bunkazaihogo/312344.html",
+                "rank": "C",
+                "note": "安土城の大手道、石垣、発掘調査、伝羽柴邸跡・伝前田邸跡などを確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-castles-001-q07",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "安土桃山",
+            "tags": [
+              "安土城",
+              "大手道",
+              "発掘"
+            ],
+            "prompt": "安土城の大手道について、滋賀県の調査成果に合う説明はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "大手口から直線的に約180m進み、直線部は約8m幅で石敷側溝と石塁を持つ"
+              },
+              {
+                "id": "B",
+                "text": "城内の道はすべて木造の吊り橋で、地面には道がなかった"
+              },
+              {
+                "id": "C",
+                "text": "大手道は明治時代の鉄道線路として作られた"
+              },
+              {
+                "id": "D",
+                "text": "大手道は宮本武蔵が五輪書を書いた机の名前である"
+              }
+            ],
+            "answer": "A",
+            "explanation": "滋賀県の調査成果では、大手道は大手口と城内を結ぶルートで、直線的に180m進み、道幅は直線部で約8m、両側に石敷側溝と石塁を持つとされる。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "CS04",
+                "title": "特別史跡安土城跡の調査と整備",
+                "author": "滋賀県",
+                "url": "https://www.pref.shiga.lg.jp/ippan/bunakasports/bunkazaihogo/312344.html",
+                "rank": "C",
+                "note": "安土城の大手道、石垣、発掘調査、伝羽柴邸跡・伝前田邸跡などを確認。"
+              },
+              {
+                "id": "CS05",
+                "title": "Ruins of Azuchi Castle, a Special Historic Site",
+                "author": "滋賀県",
+                "url": "https://www.pref.shiga.lg.jp/ippan/bunakasports/bunkazaihogo/312330.html",
+                "rank": "C",
+                "note": "安土城の着工、天主完成、本能寺の変後の焼失、特別史跡としての保存整備を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-castles-001-q08",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "安土桃山",
+            "tags": [
+              "安土城",
+              "石垣",
+              "保存"
+            ],
+            "prompt": "安土城の石垣について、滋賀県資料に合う説明はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "自然石を巧みに使った石垣が残り、保存を基本に必要部分のみ復元している"
+              },
+              {
+                "id": "B",
+                "text": "石垣はすべてプラスチックで復元され、遺構は残っていない"
+              },
+              {
+                "id": "C",
+                "text": "石垣は江戸末期の西洋式レンガ塀だけで構成される"
+              },
+              {
+                "id": "D",
+                "text": "石垣は城とは無関係な近代道路標識である"
+              }
+            ],
+            "answer": "A",
+            "explanation": "滋賀県は、安土城の石垣を自然石を巧みに使って積み上げたものと説明し、整備では築城時の石垣の保存を基本に、安全上必要な部分だけを当時の工法で復元するとしている。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "CS04",
+                "title": "特別史跡安土城跡の調査と整備",
+                "author": "滋賀県",
+                "url": "https://www.pref.shiga.lg.jp/ippan/bunakasports/bunkazaihogo/312344.html",
+                "rank": "C",
+                "note": "安土城の大手道、石垣、発掘調査、伝羽柴邸跡・伝前田邸跡などを確認。"
+              },
+              {
+                "id": "CS05",
+                "title": "Ruins of Azuchi Castle, a Special Historic Site",
+                "author": "滋賀県",
+                "url": "https://www.pref.shiga.lg.jp/ippan/bunakasports/bunkazaihogo/312330.html",
+                "rank": "C",
+                "note": "安土城の着工、天主完成、本能寺の変後の焼失、特別史跡としての保存整備を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-castles-001-q09",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "中世から近世",
+            "tags": [
+              "発掘",
+              "城館城下",
+              "遺構"
+            ],
+            "prompt": "国立歴史民俗博物館の城館城下発掘データベースが、とくに注目しているものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "発掘調査で城館や城下遺跡からどのような遺構が検出されたか"
+              },
+              {
+                "id": "B",
+                "text": "戦国武将の血液型占い"
+              },
+              {
+                "id": "C",
+                "text": "現代のゲーム内ランキング"
+              },
+              {
+                "id": "D",
+                "text": "江戸時代の料理レシピだけ"
+              }
+            ],
+            "answer": "A",
+            "explanation": "歴博は、城館・城下遺跡の発掘調査情報を集成し、とくに検出遺構に注目するデータベースだと説明している。城は物語だけでなく、考古資料からも読む対象になる。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "CS06",
+                "title": "城館城下発掘データベース概要",
+                "author": "国立歴史民俗博物館",
+                "url": "https://www.rekihaku.ac.jp/doc/gaiyou/joukan.html",
+                "rank": "B/C",
+                "note": "城館・城下遺跡の発掘調査情報と検出遺構を集成したデータベースの性格を確認。"
+              },
+              {
+                "id": "CS07",
+                "title": "Databases",
+                "author": "国立歴史民俗博物館",
+                "url": "https://www.rekihaku.ac.jp/doc/e-db-index.html",
+                "rank": "B/C",
+                "note": "城館城下発掘データベースの公開情報と件数を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-castles-001-q10",
+            "type": "single_choice",
+            "difficulty": 4,
+            "era": "中世から近世",
+            "tags": [
+              "攻城戦",
+              "読み方",
+              "城郭"
+            ],
+            "prompt": "攻城戦や城のリアルさを扱うクイズとして、もっとも出典に沿った問い方はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "天守の美しさだけでなく、堀・石垣・門・通路・発掘遺構から防御の仕組みを問う"
+              },
+              {
+                "id": "B",
+                "text": "有名武将の必殺技名だけを答えさせる"
+              },
+              {
+                "id": "C",
+                "text": "城の写真を見ずに、すべて現代アニメ設定で断定する"
+              },
+              {
+                "id": "D",
+                "text": "史跡や発掘成果は退屈なので、出典から外す"
+              }
+            ],
+            "answer": "A",
+            "explanation": "姫路城・安土城・歴博データベースはいずれも、城を建物単体ではなく、堀、石垣、門、道、郭、発掘遺構などの総合として示している。視聴者層には、この実物感が刺さりやすい。",
+            "certainty": "条件付き",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "CS01",
+                "title": "姫路城の規模",
+                "author": "姫路城公式サイト",
+                "url": "https://www.city.himeji.lg.jp/castle/0000007746.html",
+                "rank": "C",
+                "note": "三重の螺旋形防御線、連立式天守、保存状態、面積などを確認。"
+              },
+              {
+                "id": "CS03",
+                "title": "姫路城跡",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/detail/216979",
+                "rank": "A/C",
+                "note": "史跡としての姫路城跡、螺旋状の堀、石垣・門・塀・通路の防備性を確認。"
+              },
+              {
+                "id": "CS04",
+                "title": "特別史跡安土城跡の調査と整備",
+                "author": "滋賀県",
+                "url": "https://www.pref.shiga.lg.jp/ippan/bunakasports/bunkazaihogo/312344.html",
+                "rank": "C",
+                "note": "安土城の大手道、石垣、発掘調査、伝羽柴邸跡・伝前田邸跡などを確認。"
+              },
+              {
+                "id": "CS06",
+                "title": "城館城下発掘データベース概要",
+                "author": "国立歴史民俗博物館",
+                "url": "https://www.rekihaku.ac.jp/doc/gaiyou/joukan.html",
+                "rank": "B/C",
+                "note": "城館・城下遺跡の発掘調査情報と検出遺構を集成したデータベースの性格を確認。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "jp-kenjutsu-miyamoto-musashi-001",
+        "title": "宮本武蔵と『五輪書』",
+        "description": "剣豪イメージを、書誌・巻構成・兵法思想・後世の物語から読み分ける10問。",
+        "linkedChannel": {
+          "name": "AI日本の裏側",
+          "video_url": "",
+          "episode_title": ""
+        },
+        "questionCount": 10,
+        "questions": [
+          {
+            "id": "jp-kenjutsu-miyamoto-musashi-001-q01",
+            "type": "single_choice",
+            "difficulty": 1,
+            "era": "江戸初期",
+            "tags": [
+              "宮本武蔵",
+              "五輪書",
+              "書誌"
+            ],
+            "prompt": "国立国会図書館サーチの書誌で確認できる『五輪の書 : 原本』の著者は誰？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "宮本武蔵"
+              },
+              {
+                "id": "B",
+                "text": "吉川英治"
+              },
+              {
+                "id": "C",
+                "text": "徳川家康"
+              },
+              {
+                "id": "D",
+                "text": "織田信長"
+              }
+            ],
+            "answer": "A",
+            "explanation": "国立国会図書館サーチの『五輪の書 : 原本』は、著者を宮本武蔵とする書誌情報を示している。東北大学の所蔵情報でも、制作者は宮本武蔵とされる。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "MU01",
+                "title": "五輪の書 : 原本",
+                "author": "国立国会図書館サーチ",
+                "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I1071527",
+                "rank": "A/B",
+                "note": "『五輪の書』の書誌、宮本武蔵著、目次、デジタルコレクションへの接続を確認。"
+              },
+              {
+                "id": "MU02",
+                "title": "五輪の書",
+                "author": "東北大学総合知デジタルアーカイブ",
+                "url": "https://touda.tohoku.ac.jp/collection/database/library/10050010000630",
+                "rank": "B",
+                "note": "東北大学附属図書館所蔵の『五輪の書』書誌情報を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-kenjutsu-miyamoto-musashi-001-q02",
+            "type": "single_choice",
+            "difficulty": 1,
+            "era": "江戸初期",
+            "tags": [
+              "五輪書",
+              "巻構成",
+              "地水火風空"
+            ],
+            "prompt": "ネットミュージアム兵庫文学館の解説で示される、『五輪書』の五部構成はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "地・水・火・風・空"
+              },
+              {
+                "id": "B",
+                "text": "春・夏・秋・冬・梅雨"
+              },
+              {
+                "id": "C",
+                "text": "東・西・南・北・中央"
+              },
+              {
+                "id": "D",
+                "text": "金・銀・銅・鉄・鉛"
+              }
+            ],
+            "answer": "A",
+            "explanation": "兵庫文学館は、『五輪書』が仏教の五輪、つまり地・水・火・風・空の意味から五部構成になったと説明している。NDLサーチの目次にも地の巻などが確認できる。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "MU03",
+                "title": "宮本武蔵館",
+                "author": "ネットミュージアム兵庫文学館",
+                "url": "https://www.artm.pref.hyogo.jp/bungaku/kikaku/musashi/",
+                "rank": "C",
+                "note": "『五輪書』の五部構成、地・水・火・風・空の各巻の説明、霊巌洞での執筆、後世イメージを確認。"
+              },
+              {
+                "id": "MU01",
+                "title": "五輪の書 : 原本",
+                "author": "国立国会図書館サーチ",
+                "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I1071527",
+                "rank": "A/B",
+                "note": "『五輪の書』の書誌、宮本武蔵著、目次、デジタルコレクションへの接続を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-kenjutsu-miyamoto-musashi-001-q03",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "江戸初期",
+            "tags": [
+              "五輪書",
+              "地の巻",
+              "二天一流"
+            ],
+            "prompt": "兵庫文学館の解説に照らすと、『地の巻』で扱われる内容として近いものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "兵法一般と、武蔵自身の二天一流の原点"
+              },
+              {
+                "id": "B",
+                "text": "関ヶ原古戦場の首塚だけの所在地一覧"
+              },
+              {
+                "id": "C",
+                "text": "姫路城の入城料改定表"
+              },
+              {
+                "id": "D",
+                "text": "明治時代の選挙制度の解説"
+              }
+            ],
+            "answer": "A",
+            "explanation": "兵庫文学館は、地の巻では兵法一般と自らの二天一流の原点を説くと説明する。五輪書は単なる技名集ではなく、兵法の考え方を体系化した書として扱える。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "MU03",
+                "title": "宮本武蔵館",
+                "author": "ネットミュージアム兵庫文学館",
+                "url": "https://www.artm.pref.hyogo.jp/bungaku/kikaku/musashi/",
+                "rank": "C",
+                "note": "『五輪書』の五部構成、地・水・火・風・空の各巻の説明、霊巌洞での執筆、後世イメージを確認。"
+              },
+              {
+                "id": "MU01",
+                "title": "五輪の書 : 原本",
+                "author": "国立国会図書館サーチ",
+                "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I1071527",
+                "rank": "A/B",
+                "note": "『五輪の書』の書誌、宮本武蔵著、目次、デジタルコレクションへの接続を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-kenjutsu-miyamoto-musashi-001-q04",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "江戸初期",
+            "tags": [
+              "五輪書",
+              "水の巻",
+              "観見"
+            ],
+            "prompt": "『水の巻』について、兵庫文学館の解説に合うものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "実戦時の心身の持ちようや、観と見の洞察を説く"
+              },
+              {
+                "id": "B",
+                "text": "琵琶湖の水運史だけを論じる"
+              },
+              {
+                "id": "C",
+                "text": "姫路城の井戸水の成分表である"
+              },
+              {
+                "id": "D",
+                "text": "江戸時代の料理の水加減をまとめた本である"
+              }
+            ],
+            "answer": "A",
+            "explanation": "兵庫文学館は、水の巻を実戦時の心身の持ちようや、相手の本質を見る「観」と表面を見る「見」に関わる内容として説明している。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "MU03",
+                "title": "宮本武蔵館",
+                "author": "ネットミュージアム兵庫文学館",
+                "url": "https://www.artm.pref.hyogo.jp/bungaku/kikaku/musashi/",
+                "rank": "C",
+                "note": "『五輪書』の五部構成、地・水・火・風・空の各巻の説明、霊巌洞での執筆、後世イメージを確認。"
+              },
+              {
+                "id": "MU01",
+                "title": "五輪の書 : 原本",
+                "author": "国立国会図書館サーチ",
+                "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I1071527",
+                "rank": "A/B",
+                "note": "『五輪の書』の書誌、宮本武蔵著、目次、デジタルコレクションへの接続を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-kenjutsu-miyamoto-musashi-001-q05",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "江戸初期",
+            "tags": [
+              "五輪書",
+              "火の巻",
+              "兵法"
+            ],
+            "prompt": "『火の巻』について、兵庫文学館の解説に近いものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "先手と臨機応変、駆け引きなど戦いの組み立てを扱う"
+              },
+              {
+                "id": "B",
+                "text": "火縄銃の製造番号だけを並べた台帳"
+              },
+              {
+                "id": "C",
+                "text": "安土城の火災保険契約書"
+              },
+              {
+                "id": "D",
+                "text": "茶室で火鉢を置く位置の作法だけを述べる"
+              }
+            ],
+            "answer": "A",
+            "explanation": "兵庫文学館は、火の巻では先手や臨機応変、駆け引き、相手の立場に立って戦いを組み立てる必要性を述べると説明している。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "MU03",
+                "title": "宮本武蔵館",
+                "author": "ネットミュージアム兵庫文学館",
+                "url": "https://www.artm.pref.hyogo.jp/bungaku/kikaku/musashi/",
+                "rank": "C",
+                "note": "『五輪書』の五部構成、地・水・火・風・空の各巻の説明、霊巌洞での執筆、後世イメージを確認。"
+              },
+              {
+                "id": "MU01",
+                "title": "五輪の書 : 原本",
+                "author": "国立国会図書館サーチ",
+                "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I1071527",
+                "rank": "A/B",
+                "note": "『五輪の書』の書誌、宮本武蔵著、目次、デジタルコレクションへの接続を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-kenjutsu-miyamoto-musashi-001-q06",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "江戸初期",
+            "tags": [
+              "五輪書",
+              "風の巻",
+              "他流批判"
+            ],
+            "prompt": "『風の巻』の読み方として、兵庫文学館の解説に合うものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "他流派の形や道具へのこだわりを批判的に見る内容が含まれる"
+              },
+              {
+                "id": "B",
+                "text": "天気予報と風向きだけを記した航海日誌である"
+              },
+              {
+                "id": "C",
+                "text": "関ヶ原の東西両軍の旗印一覧だけである"
+              },
+              {
+                "id": "D",
+                "text": "城の換気設備の設計図だけである"
+              }
+            ],
+            "answer": "A",
+            "explanation": "兵庫文学館は、風の巻を、形や道具にこだわる他流派への批判を含む内容として説明している。『風』は気象ではなく、他流との比較として読める。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "MU03",
+                "title": "宮本武蔵館",
+                "author": "ネットミュージアム兵庫文学館",
+                "url": "https://www.artm.pref.hyogo.jp/bungaku/kikaku/musashi/",
+                "rank": "C",
+                "note": "『五輪書』の五部構成、地・水・火・風・空の各巻の説明、霊巌洞での執筆、後世イメージを確認。"
+              },
+              {
+                "id": "MU01",
+                "title": "五輪の書 : 原本",
+                "author": "国立国会図書館サーチ",
+                "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I1071527",
+                "rank": "A/B",
+                "note": "『五輪の書』の書誌、宮本武蔵著、目次、デジタルコレクションへの接続を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-kenjutsu-miyamoto-musashi-001-q07",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "江戸初期",
+            "tags": [
+              "五輪書",
+              "空の巻",
+              "思想"
+            ],
+            "prompt": "『空の巻』について、兵庫文学館の解説に合うものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "迷いや執着から離れた心境、二天一流の真髄に関わる内容"
+              },
+              {
+                "id": "B",
+                "text": "鳥の飛び方を分類した自然観察記録"
+              },
+              {
+                "id": "C",
+                "text": "空城計という中国故事だけを解説した巻"
+              },
+              {
+                "id": "D",
+                "text": "江戸城の空き部屋台帳"
+              }
+            ],
+            "answer": "A",
+            "explanation": "兵庫文学館は、空の巻を、迷い・執着から解き放たれた心境や、二天一流の真髄に関わる内容として説明している。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "MU03",
+                "title": "宮本武蔵館",
+                "author": "ネットミュージアム兵庫文学館",
+                "url": "https://www.artm.pref.hyogo.jp/bungaku/kikaku/musashi/",
+                "rank": "C",
+                "note": "『五輪書』の五部構成、地・水・火・風・空の各巻の説明、霊巌洞での執筆、後世イメージを確認。"
+              },
+              {
+                "id": "MU01",
+                "title": "五輪の書 : 原本",
+                "author": "国立国会図書館サーチ",
+                "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I1071527",
+                "rank": "A/B",
+                "note": "『五輪の書』の書誌、宮本武蔵著、目次、デジタルコレクションへの接続を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-kenjutsu-miyamoto-musashi-001-q08",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "江戸初期",
+            "tags": [
+              "五輪書",
+              "武具",
+              "実用"
+            ],
+            "prompt": "兵庫文学館の『地の巻』解説にある「武道具は手にあうようにあるべし」に近い意味はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "使いこなせる得物こそ効力を発する"
+              },
+              {
+                "id": "B",
+                "text": "高価な武具なら誰でも必ず勝てる"
+              },
+              {
+                "id": "C",
+                "text": "武具は見た目が派手なら重さは関係ない"
+              },
+              {
+                "id": "D",
+                "text": "剣術では道具を一切使ってはいけない"
+              }
+            ],
+            "answer": "A",
+            "explanation": "兵庫文学館は、地の巻の説明で、武道具は手に合うようにあるべきで、使いこなせる得物こそ十分な効力を発すると解説している。現代的に言えば、道具選びも兵法の一部ということ。",
+            "certainty": "条件付き",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "MU03",
+                "title": "宮本武蔵館",
+                "author": "ネットミュージアム兵庫文学館",
+                "url": "https://www.artm.pref.hyogo.jp/bungaku/kikaku/musashi/",
+                "rank": "C",
+                "note": "『五輪書』の五部構成、地・水・火・風・空の各巻の説明、霊巌洞での執筆、後世イメージを確認。"
+              },
+              {
+                "id": "MU01",
+                "title": "五輪の書 : 原本",
+                "author": "国立国会図書館サーチ",
+                "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I1071527",
+                "rank": "A/B",
+                "note": "『五輪の書』の書誌、宮本武蔵著、目次、デジタルコレクションへの接続を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-kenjutsu-miyamoto-musashi-001-q09",
+            "type": "single_choice",
+            "difficulty": 4,
+            "era": "江戸初期",
+            "tags": [
+              "五輪書",
+              "写本",
+              "史料批判"
+            ],
+            "prompt": "『五輪書』の伝来について、兵庫文学館の説明から注意すべき点はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "直筆の『五輪書』は焼失し、今伝わるものは弟子筋が写したものと説明される"
+              },
+              {
+                "id": "B",
+                "text": "武蔵本人が現代の動画サイトに全文を投稿した"
+              },
+              {
+                "id": "C",
+                "text": "原本は姫路城大天守の屋根瓦に刻まれている"
+              },
+              {
+                "id": "D",
+                "text": "国立国会図書館の書誌に『著者不明』と明記されている"
+              }
+            ],
+            "answer": "A",
+            "explanation": "兵庫文学館は、武蔵が美濃紙に書いた直筆の五輪書は焼失し、現在伝わるのは弟子筋が写したものだと説明している。書誌で著者や所蔵を確認しつつ、伝来の注意も添えるのが安全。",
+            "certainty": "条件付き",
+            "contestedNote": "伝来や序文の扱いには見方があり、アプリでは断定を避ける。",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "MU03",
+                "title": "宮本武蔵館",
+                "author": "ネットミュージアム兵庫文学館",
+                "url": "https://www.artm.pref.hyogo.jp/bungaku/kikaku/musashi/",
+                "rank": "C",
+                "note": "『五輪書』の五部構成、地・水・火・風・空の各巻の説明、霊巌洞での執筆、後世イメージを確認。"
+              },
+              {
+                "id": "MU02",
+                "title": "五輪の書",
+                "author": "東北大学総合知デジタルアーカイブ",
+                "url": "https://touda.tohoku.ac.jp/collection/database/library/10050010000630",
+                "rank": "B",
+                "note": "東北大学附属図書館所蔵の『五輪の書』書誌情報を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-kenjutsu-miyamoto-musashi-001-q10",
+            "type": "single_choice",
+            "difficulty": 4,
+            "era": "近現代",
+            "tags": [
+              "宮本武蔵",
+              "吉川英治",
+              "後世イメージ"
+            ],
+            "prompt": "宮本武蔵を扱うとき、史料と後世イメージを分ける例としてもっとも適切なのはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "NDLで『五輪書』の書誌を確認し、吉川英治の小説『宮本武蔵』は後世の文学作品として区別する"
+              },
+              {
+                "id": "B",
+                "text": "吉川英治の小説に出る場面を、すべて武蔵本人の自筆日記として扱う"
+              },
+              {
+                "id": "C",
+                "text": "五輪書と小説は同じ本なので、著者名も出版年も確認しない"
+              },
+              {
+                "id": "D",
+                "text": "後世の作品がある人物は、歴史クイズに一切出せない"
+              }
+            ],
+            "answer": "A",
+            "explanation": "NDLサーチでは『五輪の書 : 原本』と吉川英治著『宮本武蔵』を別の書誌として確認できる。剣豪イメージの面白さは活かしつつ、出典種別を分けて示すのが公開前品質に合う。",
+            "certainty": "条件付き",
+            "contestedNote": "文学作品の筋書きは、一次的な人物史料とは分けて扱う。",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "MU01",
+                "title": "五輪の書 : 原本",
+                "author": "国立国会図書館サーチ",
+                "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I1071527",
+                "rank": "A/B",
+                "note": "『五輪の書』の書誌、宮本武蔵著、目次、デジタルコレクションへの接続を確認。"
+              },
+              {
+                "id": "MU04",
+                "title": "宮本武蔵 第1巻",
+                "author": "国立国会図書館サーチ",
+                "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000000976051",
+                "rank": "A/B",
+                "note": "吉川英治著『宮本武蔵』の書誌情報を確認。後世の小説表現と史料情報を分けるために使用。"
+              },
+              {
+                "id": "MU03",
+                "title": "宮本武蔵館",
+                "author": "ネットミュージアム兵庫文学館",
+                "url": "https://www.artm.pref.hyogo.jp/bungaku/kikaku/musashi/",
+                "rank": "C",
+                "note": "『五輪書』の五部構成、地・水・火・風・空の各巻の説明、霊巌洞での執筆、後世イメージを確認。"
               }
             ]
           }
