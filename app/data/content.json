@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-19T22:01:02.673Z",
+  "generatedAt": "2026-05-19T22:52:38.352Z",
   "app": {
     "name": "歴史の裏側クイズ",
     "brand": "AI日本の裏側",
@@ -3272,6 +3272,1691 @@
                 "url": "https://www.artm.pref.hyogo.jp/bungaku/kikaku/musashi/",
                 "rank": "C",
                 "note": "『五輪書』の五部構成、地・水・火・風・空の各巻の説明、霊巌洞での執筆、後世イメージを確認。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "jp-sengoku-guns-001",
+        "title": "鉄砲と戦国の戦い方",
+        "description": "長篠・設楽原を入口に、鉄砲・馬防柵・三段撃ち説の注意点を読む10問。",
+        "linkedChannel": {
+          "name": "AI日本の裏側",
+          "video_url": "",
+          "episode_title": ""
+        },
+        "questionCount": 10,
+        "questions": [
+          {
+            "id": "jp-sengoku-guns-001-q01",
+            "type": "single_choice",
+            "difficulty": 1,
+            "era": "安土桃山",
+            "tags": [
+              "長篠",
+              "設楽原",
+              "基礎"
+            ],
+            "prompt": "新城市の公式解説で、長篠・設楽原の戦いが行われた日付として示されるものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "天正3年（1575）5月21日"
+              },
+              {
+                "id": "B",
+                "text": "慶長5年（1600）9月15日"
+              },
+              {
+                "id": "C",
+                "text": "天正10年（1582）6月2日"
+              },
+              {
+                "id": "D",
+                "text": "元和元年（1615）5月8日"
+              }
+            ],
+            "answer": "A",
+            "explanation": "新城市の長篠・設楽原の戦い解説は、天正3年5月21日の戦いとして説明している。関ヶ原や本能寺と混同せず、戦国の戦い方を変えた局面として扱う。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "GUN01",
+                "title": "長篠・設楽原の戦い",
+                "author": "新城市",
+                "url": "https://www.city.shinshiro.lg.jp/kanko/meisyo/nagashino-shitaragah.html",
+                "rank": "C",
+                "note": "長篠・設楽原の戦いの日付、長篠城包囲、織田・徳川連合軍、馬防柵と鉄砲に関する公式解説。"
+              },
+              {
+                "id": "GUN02",
+                "title": "歴史を辿る",
+                "author": "新城市",
+                "url": "https://www.city.shinshiro.lg.jp/promotion/history/rekishi.html",
+                "rank": "C",
+                "note": "新城市の古代から近世までの概説。長篠・設楽原の戦いの概要と火縄銃使用に触れる。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-guns-001-q02",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "安土桃山",
+            "tags": [
+              "長篠城",
+              "包囲",
+              "奥平貞昌"
+            ],
+            "prompt": "長篠・設楽原の戦いの導入として、新城市の説明に合うものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "武田勝頼軍が、奥平貞昌の守る長篠城を包囲した"
+              },
+              {
+                "id": "B",
+                "text": "徳川家康が大坂城を包囲し、豊臣秀頼を攻めた"
+              },
+              {
+                "id": "C",
+                "text": "宮本武蔵が巌流島で小次郎と戦った"
+              },
+              {
+                "id": "D",
+                "text": "織田信長が安土城の天主を完成させた"
+              }
+            ],
+            "answer": "A",
+            "explanation": "新城市は、武田勝頼が三河へ進攻し、約500人が守る長篠城を包囲した流れを説明する。鉄砲だけでなく、城の救援戦として見ると構図がわかりやすい。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "GUN01",
+                "title": "長篠・設楽原の戦い",
+                "author": "新城市",
+                "url": "https://www.city.shinshiro.lg.jp/kanko/meisyo/nagashino-shitaragah.html",
+                "rank": "C",
+                "note": "長篠・設楽原の戦いの日付、長篠城包囲、織田・徳川連合軍、馬防柵と鉄砲に関する公式解説。"
+              },
+              {
+                "id": "GUN02",
+                "title": "歴史を辿る",
+                "author": "新城市",
+                "url": "https://www.city.shinshiro.lg.jp/promotion/history/rekishi.html",
+                "rank": "C",
+                "note": "新城市の古代から近世までの概説。長篠・設楽原の戦いの概要と火縄銃使用に触れる。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-guns-001-q03",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "安土桃山",
+            "tags": [
+              "織田信長",
+              "徳川家康",
+              "武田勝頼"
+            ],
+            "prompt": "長篠・設楽原の戦いで、武田勝頼軍と対峙した勢力として正しいものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "織田信長・徳川家康の連合軍"
+              },
+              {
+                "id": "B",
+                "text": "源頼朝・北条政子の連合軍"
+              },
+              {
+                "id": "C",
+                "text": "西郷隆盛・大久保利通の連合軍"
+              },
+              {
+                "id": "D",
+                "text": "足利尊氏・楠木正成の連合軍"
+              }
+            ],
+            "answer": "A",
+            "explanation": "新城市の解説では、信長と家康の連合軍が設楽原に布陣し、武田軍と対峙したと説明される。戦場は単なる鉄砲実験場ではなく、同盟・救援・野戦が重なった場所だった。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "GUN01",
+                "title": "長篠・設楽原の戦い",
+                "author": "新城市",
+                "url": "https://www.city.shinshiro.lg.jp/kanko/meisyo/nagashino-shitaragah.html",
+                "rank": "C",
+                "note": "長篠・設楽原の戦いの日付、長篠城包囲、織田・徳川連合軍、馬防柵と鉄砲に関する公式解説。"
+              },
+              {
+                "id": "GUN03",
+                "title": "馬防柵",
+                "author": "新城市",
+                "url": "https://www.city.shinshiro.lg.jp/kanko/meisyo/babosaku.html",
+                "rank": "C",
+                "note": "馬防柵の位置、連吾川沿い約2km、三重の柵、毎年再現される点を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-guns-001-q04",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "安土桃山",
+            "tags": [
+              "馬防柵",
+              "連吾川",
+              "防御"
+            ],
+            "prompt": "新城市の馬防柵解説に合う説明はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "連吾川沿い約2kmに、武田騎馬隊を防ぐため三重の柵が設けられた"
+              },
+              {
+                "id": "B",
+                "text": "長篠城の天守最上階に置かれた茶道具である"
+              },
+              {
+                "id": "C",
+                "text": "関ヶ原の首塚を囲む石垣である"
+              },
+              {
+                "id": "D",
+                "text": "宮本武蔵が書いた五輪書の別名である"
+              }
+            ],
+            "answer": "A",
+            "explanation": "新城市は、連吾川沿い約2kmに武田騎馬隊を防ぐ三重の柵を設けたと説明している。鉄砲の威力だけでなく、防御施設と地形の組み合わせが戦い方のポイントになる。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "GUN03",
+                "title": "馬防柵",
+                "author": "新城市",
+                "url": "https://www.city.shinshiro.lg.jp/kanko/meisyo/babosaku.html",
+                "rank": "C",
+                "note": "馬防柵の位置、連吾川沿い約2km、三重の柵、毎年再現される点を確認。"
+              },
+              {
+                "id": "GUN01",
+                "title": "長篠・設楽原の戦い",
+                "author": "新城市",
+                "url": "https://www.city.shinshiro.lg.jp/kanko/meisyo/nagashino-shitaragah.html",
+                "rank": "C",
+                "note": "長篠・設楽原の戦いの日付、長篠城包囲、織田・徳川連合軍、馬防柵と鉄砲に関する公式解説。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-guns-001-q05",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "安土桃山",
+            "tags": [
+              "馬防柵",
+              "鉄砲",
+              "戦術"
+            ],
+            "prompt": "馬防柵と鉄砲の関係として、出典に沿った理解はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "柵で敵の突進を止め、鉄砲を活かす防御線として読む"
+              },
+              {
+                "id": "B",
+                "text": "鉄砲があれば柵や地形は完全に不要になる"
+              },
+              {
+                "id": "C",
+                "text": "馬防柵は戦闘後に観光客だけのために初めて考案された"
+              },
+              {
+                "id": "D",
+                "text": "鉄砲は長篠には一挺も関係しない"
+              }
+            ],
+            "answer": "A",
+            "explanation": "新城市は、馬防柵と鉄砲隊を関連づけて説明している。戦国の戦い方は、武器単体よりも地形、柵、城救援、部隊運用の組み合わせとして見るほうが実態に近い。",
+            "certainty": "条件付き",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "GUN01",
+                "title": "長篠・設楽原の戦い",
+                "author": "新城市",
+                "url": "https://www.city.shinshiro.lg.jp/kanko/meisyo/nagashino-shitaragah.html",
+                "rank": "C",
+                "note": "長篠・設楽原の戦いの日付、長篠城包囲、織田・徳川連合軍、馬防柵と鉄砲に関する公式解説。"
+              },
+              {
+                "id": "GUN03",
+                "title": "馬防柵",
+                "author": "新城市",
+                "url": "https://www.city.shinshiro.lg.jp/kanko/meisyo/babosaku.html",
+                "rank": "C",
+                "note": "馬防柵の位置、連吾川沿い約2km、三重の柵、毎年再現される点を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-guns-001-q06",
+            "type": "single_choice",
+            "difficulty": 4,
+            "era": "安土桃山",
+            "tags": [
+              "三段撃ち",
+              "史料批判",
+              "長篠"
+            ],
+            "prompt": "「長篠の三段撃ち」を扱うとき、公開前クイズとして安全な姿勢はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "有名説として紹介しつつ、研究上は見直しがあり断定を避ける"
+              },
+              {
+                "id": "B",
+                "text": "すべての兵が完全な機械式ローテーションで撃ったと断定する"
+              },
+              {
+                "id": "C",
+                "text": "三段撃ちという言葉があるので、出典確認は不要とする"
+              },
+              {
+                "id": "D",
+                "text": "長篠の戦い自体が存在しないと断定する"
+              }
+            ],
+            "answer": "A",
+            "explanation": "新城市設楽原歴史資料館は、三段撃ちの謎を企画展テーマにしており、近年は『実施していない』という説も示している。アプリでは定説扱いで押し切らず、条件付きで説明する。",
+            "certainty": "条件付き",
+            "contestedNote": "三段撃ち説は有名だが、研究上の見直しがあるため断定しない。",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "GUN04",
+                "title": "令和4年春の企画展「鉄炮三段撃ちの謎」",
+                "author": "新城市設楽原歴史資料館",
+                "url": "https://www.city.shinshiro.lg.jp/mokuteki/shisetu/shiryokan/shitaragahara/kikakutennnazo.html",
+                "rank": "C",
+                "note": "長篠合戦と三段撃ち説の扱い、研究上の見直しを確認。"
+              },
+              {
+                "id": "GUN01",
+                "title": "長篠・設楽原の戦い",
+                "author": "新城市",
+                "url": "https://www.city.shinshiro.lg.jp/kanko/meisyo/nagashino-shitaragah.html",
+                "rank": "C",
+                "note": "長篠・設楽原の戦いの日付、長篠城包囲、織田・徳川連合軍、馬防柵と鉄砲に関する公式解説。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-guns-001-q07",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "戦国",
+            "tags": [
+              "鉄砲伝来",
+              "普及",
+              "国立歴史民俗博物館"
+            ],
+            "prompt": "国立歴史民俗博物館の企画展示テーマから見た、鉄砲伝来の扱いとして妥当なのはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "種子島への伝来から、戦国大名や技術・社会への影響まで広く扱うテーマである"
+              },
+              {
+                "id": "B",
+                "text": "長篠の日だけに突然発明され、その日のうちに消えた道具である"
+              },
+              {
+                "id": "C",
+                "text": "江戸時代後期の玩具で、戦国とは無関係である"
+              },
+              {
+                "id": "D",
+                "text": "宮本武蔵の二刀流だけを説明する用語である"
+              }
+            ],
+            "answer": "A",
+            "explanation": "歴博の企画展示は、種子島から戊辰戦争までを範囲に、鉄炮伝来とその影響を扱う。鉄砲は一戦闘だけでなく、技術・流通・戦国大名の軍事運用に関わるテーマとして読む。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "GUN05",
+                "title": "歴史のなかの鉄炮伝来 - 種子島から戊辰戦争まで -",
+                "author": "国立歴史民俗博物館",
+                "url": "https://www.rekihaku.ac.jp/exhibitions/project/old/140318/index.html",
+                "rank": "B/C",
+                "note": "鉄炮伝来から戦国大名による普及、技術と社会への影響を扱う企画展示。"
+              },
+              {
+                "id": "GUN06",
+                "title": "鉄砲伝来とその影響",
+                "author": "国立国会図書館サーチ",
+                "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001355603",
+                "rank": "B",
+                "note": "鉄砲伝来、製銃法の伝習、普及、南蛮流砲術などを扱う書誌。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-guns-001-q08",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "戦国",
+            "tags": [
+              "鉄砲",
+              "火縄銃",
+              "普及"
+            ],
+            "prompt": "『鉄砲伝来とその影響』の書誌に見える章題から、鉄砲普及を考える視点として合うものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "伝来、製銃法の伝習、急速な普及などを分けて考える"
+              },
+              {
+                "id": "B",
+                "text": "鉄砲は誰にも伝わらず、製造技術も不要だったと考える"
+              },
+              {
+                "id": "C",
+                "text": "鉄砲は甲冑の装飾だけで、戦い方には関係しないと考える"
+              },
+              {
+                "id": "D",
+                "text": "鉄砲は奈良時代の仏像制作法そのものと考える"
+              }
+            ],
+            "answer": "A",
+            "explanation": "NDLサーチの書誌で確認できる同書は、伝来、製銃法の伝習、急速な普及などを扱う。武器の効果は、輸入だけでなく、製造・運用・普及の段階で見たほうがよい。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "GUN06",
+                "title": "鉄砲伝来とその影響",
+                "author": "国立国会図書館サーチ",
+                "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000001355603",
+                "rank": "B",
+                "note": "鉄砲伝来、製銃法の伝習、普及、南蛮流砲術などを扱う書誌。"
+              },
+              {
+                "id": "GUN05",
+                "title": "歴史のなかの鉄炮伝来 - 種子島から戊辰戦争まで -",
+                "author": "国立歴史民俗博物館",
+                "url": "https://www.rekihaku.ac.jp/exhibitions/project/old/140318/index.html",
+                "rank": "B/C",
+                "note": "鉄炮伝来から戦国大名による普及、技術と社会への影響を扱う企画展示。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-guns-001-q09",
+            "type": "single_choice",
+            "difficulty": 4,
+            "era": "江戸",
+            "tags": [
+              "長篠合戦図屏風",
+              "後世資料",
+              "視覚資料"
+            ],
+            "prompt": "長篠合戦図屏風のような合戦図を出典に使うときの注意として適切なのはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "後世の視覚資料として、戦場イメージの手がかりにしつつ同時代記録とは区別する"
+              },
+              {
+                "id": "B",
+                "text": "屏風に描かれた配置を、すべて秒単位の実況記録として扱う"
+              },
+              {
+                "id": "C",
+                "text": "絵画資料は題名が合戦でも歴史学習に一切使えない"
+              },
+              {
+                "id": "D",
+                "text": "屏風は現代の写真なので史料批判は不要である"
+              }
+            ],
+            "answer": "A",
+            "explanation": "文化遺産オンラインの合戦図屏風は、戦場イメージを学ぶ材料になる。一方で、後世に制作・伝来した視覚資料なので、鉄砲の運用や配置の細部を即断定しない扱いが安全。",
+            "certainty": "条件付き",
+            "contestedNote": "合戦図は視覚資料であり、同時代の戦闘実況ではない。",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "GUN07",
+                "title": "長篠合戦図屏風",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/detail/96809/1",
+                "rank": "C",
+                "note": "長篠合戦を描いた後世絵画資料。戦いのイメージ資料として、同時代記録とは区別して使用。"
+              },
+              {
+                "id": "GUN04",
+                "title": "令和4年春の企画展「鉄炮三段撃ちの謎」",
+                "author": "新城市設楽原歴史資料館",
+                "url": "https://www.city.shinshiro.lg.jp/mokuteki/shisetu/shiryokan/shitaragahara/kikakutennnazo.html",
+                "rank": "C",
+                "note": "長篠合戦と三段撃ち説の扱い、研究上の見直しを確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sengoku-guns-001-q10",
+            "type": "single_choice",
+            "difficulty": 4,
+            "era": "戦国",
+            "tags": [
+              "戦い方",
+              "総合理解",
+              "長篠"
+            ],
+            "prompt": "戦国の鉄砲を扱うクイズとして、もっとも出典に沿う切り口はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "鉄砲の数だけでなく、城救援、地形、馬防柵、普及過程、後世説の注意を合わせて問う"
+              },
+              {
+                "id": "B",
+                "text": "鉄砲が登場した瞬間に日本中の戦いが完全に終わったと説明する"
+              },
+              {
+                "id": "C",
+                "text": "鉄砲は長篠ではなく明治維新だけの道具だったと説明する"
+              },
+              {
+                "id": "D",
+                "text": "武器の話では出典を見ないほうが面白いと説明する"
+              }
+            ],
+            "answer": "A",
+            "explanation": "新城市、歴博、NDLの出典を合わせると、鉄砲は一つの有名場面だけでなく、包囲戦、救援戦、地形、柵、普及・技術、後世説の見直しを含むテーマとして扱える。",
+            "certainty": "条件付き",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "GUN01",
+                "title": "長篠・設楽原の戦い",
+                "author": "新城市",
+                "url": "https://www.city.shinshiro.lg.jp/kanko/meisyo/nagashino-shitaragah.html",
+                "rank": "C",
+                "note": "長篠・設楽原の戦いの日付、長篠城包囲、織田・徳川連合軍、馬防柵と鉄砲に関する公式解説。"
+              },
+              {
+                "id": "GUN03",
+                "title": "馬防柵",
+                "author": "新城市",
+                "url": "https://www.city.shinshiro.lg.jp/kanko/meisyo/babosaku.html",
+                "rank": "C",
+                "note": "馬防柵の位置、連吾川沿い約2km、三重の柵、毎年再現される点を確認。"
+              },
+              {
+                "id": "GUN04",
+                "title": "令和4年春の企画展「鉄炮三段撃ちの謎」",
+                "author": "新城市設楽原歴史資料館",
+                "url": "https://www.city.shinshiro.lg.jp/mokuteki/shisetu/shiryokan/shitaragahara/kikakutennnazo.html",
+                "rank": "C",
+                "note": "長篠合戦と三段撃ち説の扱い、研究上の見直しを確認。"
+              },
+              {
+                "id": "GUN05",
+                "title": "歴史のなかの鉄炮伝来 - 種子島から戊辰戦争まで -",
+                "author": "国立歴史民俗博物館",
+                "url": "https://www.rekihaku.ac.jp/exhibitions/project/old/140318/index.html",
+                "rank": "B/C",
+                "note": "鉄炮伝来から戦国大名による普及、技術と社会への影響を扱う企画展示。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "jp-kenjutsu-yagyu-001",
+        "title": "柳生新陰流と徳川の兵法",
+        "description": "柳生宗厳・宗矩から、剣術が徳川政権の兵法思想へ接続した流れを読む10問。",
+        "linkedChannel": {
+          "name": "AI日本の裏側",
+          "video_url": "",
+          "episode_title": ""
+        },
+        "questionCount": 10,
+        "questions": [
+          {
+            "id": "jp-kenjutsu-yagyu-001-q01",
+            "type": "single_choice",
+            "difficulty": 1,
+            "era": "戦国",
+            "tags": [
+              "柳生宗厳",
+              "新陰流",
+              "上泉信綱"
+            ],
+            "prompt": "なら旅ネットの柳生宗厳解説で、宗厳が出会った新陰流の人物として示されるのは誰？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "上泉信綱"
+              },
+              {
+                "id": "B",
+                "text": "宮本武蔵"
+              },
+              {
+                "id": "C",
+                "text": "徳川家光"
+              },
+              {
+                "id": "D",
+                "text": "豊臣秀吉"
+              }
+            ],
+            "answer": "A",
+            "explanation": "なら旅ネットは、柳生宗厳が永禄6年に上泉信綱と出会い、のちに新陰流を伝えられたと説明している。柳生新陰流は、個人の武勇伝だけでなく流派伝承として読む必要がある。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "YG01",
+                "title": "柳生宗厳",
+                "author": "なら旅ネット",
+                "url": "https://yamatoji.nara-kankou.or.jp/artifact/0000000100",
+                "rank": "C",
+                "note": "柳生宗厳の人物解説。上泉信綱との出会い、新陰流の印可、家康への演武などを確認。"
+              },
+              {
+                "id": "YG02",
+                "title": "柳生宗矩",
+                "author": "なら旅ネット",
+                "url": "https://yamatoji.nara-kankou.or.jp/artifact/0000000101",
+                "rank": "C",
+                "note": "柳生宗矩の人物解説。徳川家への出仕、将軍家剣術指南、所領加増などを確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-kenjutsu-yagyu-001-q02",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "戦国",
+            "tags": [
+              "柳生宗厳",
+              "徳川家康",
+              "演武"
+            ],
+            "prompt": "柳生宗厳と徳川家康の接点として、なら旅ネットの説明に合うものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "宗厳が五男宗矩を連れて家康の前で演武し、宗矩が家康に仕える流れにつながった"
+              },
+              {
+                "id": "B",
+                "text": "宗厳が関ヶ原で西軍の総大将として戦った"
+              },
+              {
+                "id": "C",
+                "text": "宗厳が安土城の天主を設計した"
+              },
+              {
+                "id": "D",
+                "text": "宗厳が鉄砲を日本へ初めて持ち込んだ"
+              }
+            ],
+            "answer": "A",
+            "explanation": "なら旅ネットは、文禄3年に宗厳が宗矩を連れて徳川家康のもとで演武し、宗矩が家康に仕える契機になったと説明している。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "YG01",
+                "title": "柳生宗厳",
+                "author": "なら旅ネット",
+                "url": "https://yamatoji.nara-kankou.or.jp/artifact/0000000100",
+                "rank": "C",
+                "note": "柳生宗厳の人物解説。上泉信綱との出会い、新陰流の印可、家康への演武などを確認。"
+              },
+              {
+                "id": "YG02",
+                "title": "柳生宗矩",
+                "author": "なら旅ネット",
+                "url": "https://yamatoji.nara-kankou.or.jp/artifact/0000000101",
+                "rank": "C",
+                "note": "柳生宗矩の人物解説。徳川家への出仕、将軍家剣術指南、所領加増などを確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-kenjutsu-yagyu-001-q03",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "江戸初期",
+            "tags": [
+              "柳生宗矩",
+              "徳川家康",
+              "将軍家"
+            ],
+            "prompt": "柳生宗矩について、なら旅ネットの説明に合うものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "徳川家康に仕え、のちに将軍家の剣術指南役となった"
+              },
+              {
+                "id": "B",
+                "text": "武田勝頼の嫡男として長篠城を守った"
+              },
+              {
+                "id": "C",
+                "text": "織田信長の鉄砲鍛冶として種子島に住んだ"
+              },
+              {
+                "id": "D",
+                "text": "吉川英治の小説だけに登場する架空人物である"
+              }
+            ],
+            "answer": "A",
+            "explanation": "なら旅ネットは、柳生宗矩が家康に出仕し、秀忠・家光に仕え、将軍家剣術指南として重要な位置にあったことを説明している。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "YG02",
+                "title": "柳生宗矩",
+                "author": "なら旅ネット",
+                "url": "https://yamatoji.nara-kankou.or.jp/artifact/0000000101",
+                "rank": "C",
+                "note": "柳生宗矩の人物解説。徳川家への出仕、将軍家剣術指南、所領加増などを確認。"
+              },
+              {
+                "id": "YG01",
+                "title": "柳生宗厳",
+                "author": "なら旅ネット",
+                "url": "https://yamatoji.nara-kankou.or.jp/artifact/0000000100",
+                "rank": "C",
+                "note": "柳生宗厳の人物解説。上泉信綱との出会い、新陰流の印可、家康への演武などを確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-kenjutsu-yagyu-001-q04",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "江戸初期",
+            "tags": [
+              "柳生宗矩",
+              "大名",
+              "所領"
+            ],
+            "prompt": "柳生宗矩の出世について、なら旅ネットの説明に合うものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "所領を加増され、柳生藩一万二千五百石の大名になった"
+              },
+              {
+                "id": "B",
+                "text": "一度も徳川家に仕えず、生涯無官の流浪者だった"
+              },
+              {
+                "id": "C",
+                "text": "関ヶ原で敗れ、ただちに処刑された"
+              },
+              {
+                "id": "D",
+                "text": "幕末に新選組の局長となった"
+              }
+            ],
+            "answer": "A",
+            "explanation": "なら旅ネットは、宗矩が大坂夏の陣後の加増などを経て、柳生藩一万二千五百石の大名になったと説明している。剣術が政権中枢と結びついた点が見える。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "YG02",
+                "title": "柳生宗矩",
+                "author": "なら旅ネット",
+                "url": "https://yamatoji.nara-kankou.or.jp/artifact/0000000101",
+                "rank": "C",
+                "note": "柳生宗矩の人物解説。徳川家への出仕、将軍家剣術指南、所領加増などを確認。"
+              },
+              {
+                "id": "YG03",
+                "title": "兵法家伝書",
+                "author": "国立国会図書館典拠データ検索・提供サービス",
+                "url": "https://id.ndl.go.jp/auth/ndlna/00935035",
+                "rank": "A/B",
+                "note": "『兵法家伝書』の統一タイトル、著者・柳生宗矩、剣道分類を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-kenjutsu-yagyu-001-q05",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "江戸初期",
+            "tags": [
+              "兵法家伝書",
+              "柳生宗矩",
+              "書誌"
+            ],
+            "prompt": "NDL典拠データで、『兵法家伝書』の著者として確認できる人物は誰？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "柳生宗矩"
+              },
+              {
+                "id": "B",
+                "text": "宮本武蔵"
+              },
+              {
+                "id": "C",
+                "text": "石田三成"
+              },
+              {
+                "id": "D",
+                "text": "池田輝政"
+              }
+            ],
+            "answer": "A",
+            "explanation": "NDL典拠データは、『兵法家伝書』を柳生宗矩の著作として扱っている。柳生新陰流を扱うときは、人物伝だけでなく文献の書誌確認も重要になる。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "YG03",
+                "title": "兵法家伝書",
+                "author": "国立国会図書館典拠データ検索・提供サービス",
+                "url": "https://id.ndl.go.jp/auth/ndlna/00935035",
+                "rank": "A/B",
+                "note": "『兵法家伝書』の統一タイトル、著者・柳生宗矩、剣道分類を確認。"
+              },
+              {
+                "id": "YG04",
+                "title": "兵法家伝書",
+                "author": "CiNii Books",
+                "url": "https://ci.nii.ac.jp/ncid/BN08075318",
+                "rank": "B",
+                "note": "『兵法家伝書』の構成、成立時期、収録内容の書誌情報を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-kenjutsu-yagyu-001-q06",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "江戸初期",
+            "tags": [
+              "兵法家伝書",
+              "構成",
+              "殺人刀活人剣"
+            ],
+            "prompt": "CiNii Booksの『兵法家伝書』書誌に見える構成として正しいものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "進履橋、殺人刀、活人剣"
+              },
+              {
+                "id": "B",
+                "text": "地の巻、水の巻、火の巻、風の巻、空の巻"
+              },
+              {
+                "id": "C",
+                "text": "内堀、中堀、外堀"
+              },
+              {
+                "id": "D",
+                "text": "伝来、製銃法、急速な普及"
+              }
+            ],
+            "answer": "A",
+            "explanation": "CiNii Booksの書誌は、『兵法家伝書』に進履橋、殺人刀、活人剣などの構成があることを示している。五輪書の五巻構成とは分けて覚えると整理しやすい。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "YG04",
+                "title": "兵法家伝書",
+                "author": "CiNii Books",
+                "url": "https://ci.nii.ac.jp/ncid/BN08075318",
+                "rank": "B",
+                "note": "『兵法家伝書』の構成、成立時期、収録内容の書誌情報を確認。"
+              },
+              {
+                "id": "YG03",
+                "title": "兵法家伝書",
+                "author": "国立国会図書館典拠データ検索・提供サービス",
+                "url": "https://id.ndl.go.jp/auth/ndlna/00935035",
+                "rank": "A/B",
+                "note": "『兵法家伝書』の統一タイトル、著者・柳生宗矩、剣道分類を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-kenjutsu-yagyu-001-q07",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "江戸初期",
+            "tags": [
+              "剣術思想",
+              "兵法",
+              "研究"
+            ],
+            "prompt": "『兵法家伝書』を扱うクイズとして、CiNii Researchの研究文献から見て自然な切り口はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "技の名前だけでなく、剣術思想として読む"
+              },
+              {
+                "id": "B",
+                "text": "刀の長さだけを測る物理実験として読む"
+              },
+              {
+                "id": "C",
+                "text": "長篠の三段撃ちだけの記録として読む"
+              },
+              {
+                "id": "D",
+                "text": "姫路城の建築図面として読む"
+              }
+            ],
+            "answer": "A",
+            "explanation": "CiNii Researchには『柳生宗矩の「兵法家伝書」における剣術思想』という研究文献が確認できる。柳生の兵法は、単なる技リストではなく思想として問う余地がある。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "YG05",
+                "title": "柳生宗矩の「兵法家伝書」における剣術思想",
+                "author": "CiNii Research",
+                "url": "https://cir.nii.ac.jp/crid/1050001201679614976",
+                "rank": "B",
+                "note": "『兵法家伝書』を剣術思想として読む研究文献の書誌情報を確認。"
+              },
+              {
+                "id": "YG03",
+                "title": "兵法家伝書",
+                "author": "国立国会図書館典拠データ検索・提供サービス",
+                "url": "https://id.ndl.go.jp/auth/ndlna/00935035",
+                "rank": "A/B",
+                "note": "『兵法家伝書』の統一タイトル、著者・柳生宗矩、剣道分類を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-kenjutsu-yagyu-001-q08",
+            "type": "single_choice",
+            "difficulty": 4,
+            "era": "江戸初期",
+            "tags": [
+              "細川家文書",
+              "新陰流",
+              "伝書"
+            ],
+            "prompt": "J-STAGEの細川家文書『新陰流兵法書』に関する研究から見えることはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "新陰流の兵法は、柳生宗矩から細川忠利へ伝えられた文書としても研究される"
+              },
+              {
+                "id": "B",
+                "text": "新陰流は江戸時代には文書を一切残さなかった"
+              },
+              {
+                "id": "C",
+                "text": "細川家文書は鉄砲の製造マニュアルだけである"
+              },
+              {
+                "id": "D",
+                "text": "柳生宗矩は実在せず、文書研究の対象にならない"
+              }
+            ],
+            "answer": "A",
+            "explanation": "J-STAGE掲載論文は、細川家文書の『新陰流兵法書』を、柳生宗矩が細川忠利に教えた技法を記す文書として扱っている。流派は口伝だけでなく伝書研究の対象にもなる。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "YG06",
+                "title": "細川家文書『新陰流兵法書』について",
+                "author": "J-STAGE",
+                "url": "https://www.jstage.jst.go.jp/article/jjmh/44/1/44_1/_article/-char/ja/",
+                "rank": "B",
+                "note": "柳生宗矩が細川忠利に伝えた新陰流兵法の伝書に関する研究文献。"
+              },
+              {
+                "id": "YG02",
+                "title": "柳生宗矩",
+                "author": "なら旅ネット",
+                "url": "https://yamatoji.nara-kankou.or.jp/artifact/0000000101",
+                "rank": "C",
+                "note": "柳生宗矩の人物解説。徳川家への出仕、将軍家剣術指南、所領加増などを確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-kenjutsu-yagyu-001-q09",
+            "type": "single_choice",
+            "difficulty": 4,
+            "era": "江戸初期",
+            "tags": [
+              "徳川政権",
+              "兵法",
+              "政治"
+            ],
+            "prompt": "柳生新陰流と徳川の関係を扱うとき、もっとも出典に沿う説明はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "柳生宗矩が将軍家の剣術指南役となり、剣術が政権中枢の教養・兵法と結びついた"
+              },
+              {
+                "id": "B",
+                "text": "徳川家は剣術を法律で全面禁止し、宗矩も処罰された"
+              },
+              {
+                "id": "C",
+                "text": "柳生新陰流は室町以前に消滅し、江戸時代には存在しなかった"
+              },
+              {
+                "id": "D",
+                "text": "宗矩は関ヶ原で西軍の鉄砲隊長だった"
+              }
+            ],
+            "answer": "A",
+            "explanation": "なら旅ネットは宗矩の徳川家出仕と将軍家指南を説明し、NDL・CiNiiは『兵法家伝書』を宗矩の著作として示す。政権と兵法が交わる点が、このテーマの面白さになる。",
+            "certainty": "条件付き",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "YG02",
+                "title": "柳生宗矩",
+                "author": "なら旅ネット",
+                "url": "https://yamatoji.nara-kankou.or.jp/artifact/0000000101",
+                "rank": "C",
+                "note": "柳生宗矩の人物解説。徳川家への出仕、将軍家剣術指南、所領加増などを確認。"
+              },
+              {
+                "id": "YG03",
+                "title": "兵法家伝書",
+                "author": "国立国会図書館典拠データ検索・提供サービス",
+                "url": "https://id.ndl.go.jp/auth/ndlna/00935035",
+                "rank": "A/B",
+                "note": "『兵法家伝書』の統一タイトル、著者・柳生宗矩、剣道分類を確認。"
+              },
+              {
+                "id": "YG04",
+                "title": "兵法家伝書",
+                "author": "CiNii Books",
+                "url": "https://ci.nii.ac.jp/ncid/BN08075318",
+                "rank": "B",
+                "note": "『兵法家伝書』の構成、成立時期、収録内容の書誌情報を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-kenjutsu-yagyu-001-q10",
+            "type": "single_choice",
+            "difficulty": 4,
+            "era": "江戸初期",
+            "tags": [
+              "史料読解",
+              "伝承",
+              "剣術"
+            ],
+            "prompt": "柳生新陰流をクイズ化するとき、公開前品質として避けるべき姿勢はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "演武・伝書・研究文献を分けず、すべて無検証の必殺技伝説として断定する"
+              },
+              {
+                "id": "B",
+                "text": "人物解説と書誌情報を照合して、説明文に出典種別を残す"
+              },
+              {
+                "id": "C",
+                "text": "『兵法家伝書』の著者や構成をNDL・CiNiiで確認する"
+              },
+              {
+                "id": "D",
+                "text": "政権との関係は、宗矩の出仕や将軍家指南から条件付きで説明する"
+              }
+            ],
+            "answer": "A",
+            "explanation": "柳生新陰流は人気テーマだが、伝承・演武・伝書・研究文献を混同すると過剰演出になりやすい。出典種別を分けることで、剣術ファンにも納得感のある問題にできる。",
+            "certainty": "条件付き",
+            "contestedNote": "武芸伝承は後世の脚色を含む場合があるため、文献と伝承を分ける。",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "YG01",
+                "title": "柳生宗厳",
+                "author": "なら旅ネット",
+                "url": "https://yamatoji.nara-kankou.or.jp/artifact/0000000100",
+                "rank": "C",
+                "note": "柳生宗厳の人物解説。上泉信綱との出会い、新陰流の印可、家康への演武などを確認。"
+              },
+              {
+                "id": "YG02",
+                "title": "柳生宗矩",
+                "author": "なら旅ネット",
+                "url": "https://yamatoji.nara-kankou.or.jp/artifact/0000000101",
+                "rank": "C",
+                "note": "柳生宗矩の人物解説。徳川家への出仕、将軍家剣術指南、所領加増などを確認。"
+              },
+              {
+                "id": "YG03",
+                "title": "兵法家伝書",
+                "author": "国立国会図書館典拠データ検索・提供サービス",
+                "url": "https://id.ndl.go.jp/auth/ndlna/00935035",
+                "rank": "A/B",
+                "note": "『兵法家伝書』の統一タイトル、著者・柳生宗矩、剣道分類を確認。"
+              },
+              {
+                "id": "YG06",
+                "title": "細川家文書『新陰流兵法書』について",
+                "author": "J-STAGE",
+                "url": "https://www.jstage.jst.go.jp/article/jjmh/44/1/44_1/_article/-char/ja/",
+                "rank": "B",
+                "note": "柳生宗矩が細川忠利に伝えた新陰流兵法の伝書に関する研究文献。"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "jp-sword-armor-realities-001",
+        "title": "刀と甲冑のリアル",
+        "description": "日本刀と甲冑を、美術品・武器・防具・身体運用の実物資料から読む10問。",
+        "linkedChannel": {
+          "name": "AI日本の裏側",
+          "video_url": "",
+          "episode_title": ""
+        },
+        "questionCount": 10,
+        "questions": [
+          {
+            "id": "jp-sword-armor-realities-001-q01",
+            "type": "single_choice",
+            "difficulty": 1,
+            "era": "中世から近世",
+            "tags": [
+              "日本刀",
+              "文化財",
+              "武器"
+            ],
+            "prompt": "東京都教育委員会の資料に照らすと、日本刀の扱いとしてもっとも適切なのはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "武器であると同時に、美術工芸品・文化財としても扱われる"
+              },
+              {
+                "id": "B",
+                "text": "完全に現代の玩具で、歴史資料にはならない"
+              },
+              {
+                "id": "C",
+                "text": "甲冑の飾り紐の名前で、刀身は存在しない"
+              },
+              {
+                "id": "D",
+                "text": "鉄砲伝来後に初めて作られた架空の道具である"
+              }
+            ],
+            "answer": "A",
+            "explanation": "東京都教育委員会の資料は、日本刀を武器としてだけでなく、美術工芸品・文化財としても扱っている。アプリでは、斬る道具という一面だけにしない。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "AR08",
+                "title": "文化財としての日本刀",
+                "author": "東京都教育委員会",
+                "url": "https://www.syougai.metro.tokyo.lg.jp/bunkazai/week/touken.pdf",
+                "rank": "C",
+                "note": "日本刀の種類、製作工程、武器であると同時に美術工芸品である点を確認。"
+              },
+              {
+                "id": "AR01",
+                "title": "太刀 銘長光",
+                "author": "e国宝",
+                "url": "https://emuseum.nich.go.jp/detail?content_base_id=100191&content_part_id=0&content_pict_id=0&langId=ja&webView=",
+                "rank": "A/C",
+                "note": "鎌倉時代の太刀。刃長、反り、刃文など、日本刀の実物情報を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sword-armor-realities-001-q02",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "中世から近世",
+            "tags": [
+              "日本刀",
+              "製作",
+              "工程"
+            ],
+            "prompt": "日本刀のリアルな見方として、東京都教育委員会の資料から言えることはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "素材、鍛錬、焼入れ、研磨など複数工程を経る工芸技術として見る"
+              },
+              {
+                "id": "B",
+                "text": "一本の木を削るだけで完成する"
+              },
+              {
+                "id": "C",
+                "text": "陶器と同じ窯で焼けば刀身になる"
+              },
+              {
+                "id": "D",
+                "text": "紙を折って作る儀式用の飾りである"
+              }
+            ],
+            "answer": "A",
+            "explanation": "東京都教育委員会の資料は、日本刀の制作を複数工程の工芸技術として説明している。刀は単なる武器スペックではなく、素材と加工の知識が必要な対象でもある。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "AR08",
+                "title": "文化財としての日本刀",
+                "author": "東京都教育委員会",
+                "url": "https://www.syougai.metro.tokyo.lg.jp/bunkazai/week/touken.pdf",
+                "rank": "C",
+                "note": "日本刀の種類、製作工程、武器であると同時に美術工芸品である点を確認。"
+              },
+              {
+                "id": "AR03",
+                "title": "太刀 銘備前国友成造",
+                "author": "e国宝",
+                "url": "https://emuseum.nich.go.jp/detail?content_base_id=100192&content_part_id=0&content_pict_id=0&langId=ja&webView=",
+                "rank": "A/C",
+                "note": "日本刀形式の成熟、太刀の姿・反り・刃文を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sword-armor-realities-001-q03",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "鎌倉",
+            "tags": [
+              "太刀",
+              "長光",
+              "e国宝"
+            ],
+            "prompt": "e国宝の「太刀 銘長光」から、実物資料として確認できる情報はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "刃長や反り、銘、時代などの具体的な刀身情報"
+              },
+              {
+                "id": "B",
+                "text": "武田騎馬隊の人数だけ"
+              },
+              {
+                "id": "C",
+                "text": "柳生宗矩の所領高だけ"
+              },
+              {
+                "id": "D",
+                "text": "安土城の大手道の幅だけ"
+              }
+            ],
+            "answer": "A",
+            "explanation": "e国宝の刀剣資料は、刃長、反り、銘、制作時代、刃文などを示す。刀のリアルは、伝説ではなく実物の寸法と姿からも確認できる。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "AR01",
+                "title": "太刀 銘長光",
+                "author": "e国宝",
+                "url": "https://emuseum.nich.go.jp/detail?content_base_id=100191&content_part_id=0&content_pict_id=0&langId=ja&webView=",
+                "rank": "A/C",
+                "note": "鎌倉時代の太刀。刃長、反り、刃文など、日本刀の実物情報を確認。"
+              },
+              {
+                "id": "AR08",
+                "title": "文化財としての日本刀",
+                "author": "東京都教育委員会",
+                "url": "https://www.syougai.metro.tokyo.lg.jp/bunkazai/week/touken.pdf",
+                "rank": "C",
+                "note": "日本刀の種類、製作工程、武器であると同時に美術工芸品である点を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sword-armor-realities-001-q04",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "平安から鎌倉",
+            "tags": [
+              "太刀",
+              "日本刀形式",
+              "反り"
+            ],
+            "prompt": "e国宝の太刀資料を読むとき、日本刀の姿を考えるうえで重要な観点はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "反り、鎬造、刃文など、形と鍛えの特徴を見る"
+              },
+              {
+                "id": "B",
+                "text": "刀は常に真っすぐで反りがないと決めつける"
+              },
+              {
+                "id": "C",
+                "text": "刀は必ず竹製で刃文は存在しないと見る"
+              },
+              {
+                "id": "D",
+                "text": "太刀と短刀は同じ長さなので分類しない"
+              }
+            ],
+            "answer": "A",
+            "explanation": "e国宝の太刀資料では、反り、鎬造、刃文などが説明される。日本刀を扱う問題では、武将名だけでなく、実物の形態情報を読むと厚みが出る。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "AR03",
+                "title": "太刀 銘備前国友成造",
+                "author": "e国宝",
+                "url": "https://emuseum.nich.go.jp/detail?content_base_id=100192&content_part_id=0&content_pict_id=0&langId=ja&webView=",
+                "rank": "A/C",
+                "note": "日本刀形式の成熟、太刀の姿・反り・刃文を確認。"
+              },
+              {
+                "id": "AR01",
+                "title": "太刀 銘長光",
+                "author": "e国宝",
+                "url": "https://emuseum.nich.go.jp/detail?content_base_id=100191&content_part_id=0&content_pict_id=0&langId=ja&webView=",
+                "rank": "A/C",
+                "note": "鎌倉時代の太刀。刃長、反り、刃文など、日本刀の実物情報を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sword-armor-realities-001-q05",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "南北朝",
+            "tags": [
+              "短刀",
+              "寸延短刀",
+              "刀種"
+            ],
+            "prompt": "e国宝の「短刀 銘長谷部国重」を手がかりに、刀種を扱うときの注意として正しいものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "短刀にも寸法や姿の個体差があり、単に『小さい刀』だけでは説明しきれない"
+              },
+              {
+                "id": "B",
+                "text": "短刀はすべて同じ長さで、銘や時代差はない"
+              },
+              {
+                "id": "C",
+                "text": "短刀は甲冑の紐を結ぶ道具で、刀身は存在しない"
+              },
+              {
+                "id": "D",
+                "text": "短刀は戦国時代以後、法令で完全に消滅した"
+              }
+            ],
+            "answer": "A",
+            "explanation": "e国宝の短刀資料は、刃長や姿、時代などの具体情報を示す。刀種は大ざっぱなイメージだけでなく、実物寸法と制作背景で見るのが安全。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "AR02",
+                "title": "短刀 銘長谷部国重",
+                "author": "e国宝",
+                "url": "https://emuseum.nich.go.jp/detail?content_base_id=100525&content_part_id=0&content_pict_id=0&langId=ja&webView=",
+                "rank": "A/C",
+                "note": "南北朝時代の短刀。寸延短刀など、刀種の実物差を確認。"
+              },
+              {
+                "id": "AR08",
+                "title": "文化財としての日本刀",
+                "author": "東京都教育委員会",
+                "url": "https://www.syougai.metro.tokyo.lg.jp/bunkazai/week/touken.pdf",
+                "rank": "C",
+                "note": "日本刀の種類、製作工程、武器であると同時に美術工芸品である点を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sword-armor-realities-001-q06",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "中世から近世",
+            "tags": [
+              "甲冑",
+              "胴丸",
+              "具足"
+            ],
+            "prompt": "文化遺産オンラインの甲冑資料に照らすと、胴丸具足を扱うときに見るべきものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "胴、兜、袖、籠手、佩楯、臑当などの構成"
+              },
+              {
+                "id": "B",
+                "text": "刀の刃文だけ"
+              },
+              {
+                "id": "C",
+                "text": "長篠合戦の鉄砲隊だけ"
+              },
+              {
+                "id": "D",
+                "text": "柳生宗矩の著書名だけ"
+              }
+            ],
+            "answer": "A",
+            "explanation": "文化遺産オンラインの白糸威胴丸具足は、胴、袖、兜、小具足などを含む資料として説明される。甲冑は一枚の鉄板ではなく、身体を守る複合装備として見る。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "AR04",
+                "title": "白糸威胴丸具足",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/detail/160216",
+                "rank": "A/C",
+                "note": "胴丸具足の構成、16世紀末から17世紀初頭、松平家乗所用伝来などを確認。"
+              },
+              {
+                "id": "AR07",
+                "title": "日本のよろい!",
+                "author": "東京国立博物館",
+                "url": "https://www.tnm.jp/uploads/r_press/219.pdf",
+                "rank": "C",
+                "note": "甲冑の保護機能、色・意匠・身分表現、展示解説を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sword-armor-realities-001-q07",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "室町",
+            "tags": [
+              "胴丸",
+              "動きやすさ",
+              "草摺"
+            ],
+            "prompt": "文化遺産オンラインの胴丸解説から見た、胴丸の特徴として適切なのはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "右脇を開閉し、草摺を分けるなど、着用と動きに関わる構造がある"
+              },
+              {
+                "id": "B",
+                "text": "全身を完全に固定して歩けないようにする道具である"
+              },
+              {
+                "id": "C",
+                "text": "紙だけで作り、水に溶ける前提の儀式服である"
+              },
+              {
+                "id": "D",
+                "text": "鉄砲の弾を撃つための銃身である"
+              }
+            ],
+            "answer": "A",
+            "explanation": "文化遺産オンラインの樫鳥糸肩赤威胴丸は、右脇開きや八間の草摺などの構造を説明している。甲冑は重さだけでなく、装着・可動の工夫も見るべき対象。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "AR05",
+                "title": "樫鳥糸肩赤威胴丸",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/detail/201020",
+                "rank": "A/C",
+                "note": "胴丸の構造、右脇開き、草摺、威糸、兜・大袖との組み合わせを確認。"
+              },
+              {
+                "id": "AR04",
+                "title": "白糸威胴丸具足",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/detail/160216",
+                "rank": "A/C",
+                "note": "胴丸具足の構成、16世紀末から17世紀初頭、松平家乗所用伝来などを確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sword-armor-realities-001-q08",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "中世から近世",
+            "tags": [
+              "甲冑",
+              "威",
+              "意匠"
+            ],
+            "prompt": "甲冑の『威』や色糸について、文化遺産オンラインや東京国立博物館の資料から言えることはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "防具でありながら、色や意匠も重要な要素だった"
+              },
+              {
+                "id": "B",
+                "text": "甲冑は透明なので色や意匠は存在しない"
+              },
+              {
+                "id": "C",
+                "text": "甲冑は食器の一種なので、戦いとは関係しない"
+              },
+              {
+                "id": "D",
+                "text": "威糸は火縄銃の弾丸の別名である"
+              }
+            ],
+            "answer": "A",
+            "explanation": "文化遺産オンラインの胴丸資料は威糸や配色を詳しく示し、東京国立博物館の資料も甲冑の保護機能と造形の面を扱う。戦場の道具であると同時に、見せる装備でもあった。",
+            "certainty": "条件付き",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "AR05",
+                "title": "樫鳥糸肩赤威胴丸",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/detail/201020",
+                "rank": "A/C",
+                "note": "胴丸の構造、右脇開き、草摺、威糸、兜・大袖との組み合わせを確認。"
+              },
+              {
+                "id": "AR07",
+                "title": "日本のよろい!",
+                "author": "東京国立博物館",
+                "url": "https://www.tnm.jp/uploads/r_press/219.pdf",
+                "rank": "C",
+                "note": "甲冑の保護機能、色・意匠・身分表現、展示解説を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sword-armor-realities-001-q09",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "古代から中世",
+            "tags": [
+              "甲冑",
+              "変化",
+              "戦い方"
+            ],
+            "prompt": "京都国立博物館の古墳時代甲冑解説を踏まえると、甲冑を歴史的に見る視点として正しいものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "武器や戦い方、技術の変化に応じて甲冑の形も変わっていく"
+              },
+              {
+                "id": "B",
+                "text": "古代から近世まで、甲冑は一切形が変わらない"
+              },
+              {
+                "id": "C",
+                "text": "甲冑は文字を書くための筆記具である"
+              },
+              {
+                "id": "D",
+                "text": "甲冑は刀の鞘だけを指す"
+              }
+            ],
+            "answer": "A",
+            "explanation": "京都国立博物館の解説は、古墳時代の甲冑を戦い方や馬具との関係で説明する。戦国の甲冑を考えるときも、武器・戦術・身体運用の変化と合わせる視点が有効。",
+            "certainty": "条件付き",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "AR06",
+                "title": "古墳時代の甲冑",
+                "author": "京都国立博物館",
+                "url": "https://www.kyohaku.go.jp/jp/learn/home/dictio/kouko/37kofun_katchu/",
+                "rank": "C",
+                "note": "甲冑が戦い方や技術に応じて変化することを、古い甲冑の解説から確認。"
+              },
+              {
+                "id": "AR07",
+                "title": "日本のよろい!",
+                "author": "東京国立博物館",
+                "url": "https://www.tnm.jp/uploads/r_press/219.pdf",
+                "rank": "C",
+                "note": "甲冑の保護機能、色・意匠・身分表現、展示解説を確認。"
+              }
+            ]
+          },
+          {
+            "id": "jp-sword-armor-realities-001-q10",
+            "type": "single_choice",
+            "difficulty": 4,
+            "era": "中世から近世",
+            "tags": [
+              "刀",
+              "甲冑",
+              "リアル"
+            ],
+            "prompt": "『刀と甲冑のリアル』を扱うクイズとして、もっとも出典に沿う問い方はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "実物の寸法・構造・製作工程・防具の可動性を、文化財資料から問う"
+              },
+              {
+                "id": "B",
+                "text": "刀は何でも一刀両断でき、甲冑は必ず無意味だったと断定する"
+              },
+              {
+                "id": "C",
+                "text": "甲冑を着ると絶対に動けないので、実物構造は見ない"
+              },
+              {
+                "id": "D",
+                "text": "刀と甲冑は現代創作だけに存在すると説明する"
+              }
+            ],
+            "answer": "A",
+            "explanation": "e国宝、文化遺産オンライン、博物館資料を合わせると、刀と甲冑は伝説の強さだけでなく、寸法、構造、制作工程、可動性、意匠から理解できる。歴史好き向けにはこの実物感が強い入口になる。",
+            "certainty": "条件付き",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "AR01",
+                "title": "太刀 銘長光",
+                "author": "e国宝",
+                "url": "https://emuseum.nich.go.jp/detail?content_base_id=100191&content_part_id=0&content_pict_id=0&langId=ja&webView=",
+                "rank": "A/C",
+                "note": "鎌倉時代の太刀。刃長、反り、刃文など、日本刀の実物情報を確認。"
+              },
+              {
+                "id": "AR04",
+                "title": "白糸威胴丸具足",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/detail/160216",
+                "rank": "A/C",
+                "note": "胴丸具足の構成、16世紀末から17世紀初頭、松平家乗所用伝来などを確認。"
+              },
+              {
+                "id": "AR05",
+                "title": "樫鳥糸肩赤威胴丸",
+                "author": "文化遺産オンライン",
+                "url": "https://online.bunka.go.jp/heritages/detail/201020",
+                "rank": "A/C",
+                "note": "胴丸の構造、右脇開き、草摺、威糸、兜・大袖との組み合わせを確認。"
+              },
+              {
+                "id": "AR08",
+                "title": "文化財としての日本刀",
+                "author": "東京都教育委員会",
+                "url": "https://www.syougai.metro.tokyo.lg.jp/bunkazai/week/touken.pdf",
+                "rank": "C",
+                "note": "日本刀の種類、製作工程、武器であると同時に美術工芸品である点を確認。"
               }
             ]
           }
