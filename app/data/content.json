@@ -1,0 +1,1685 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-19T21:00:27.114Z",
+  "app": {
+    "name": "歴史の裏側クイズ",
+    "brand": "AI日本の裏側",
+    "privacyUrl": "../privacy.html",
+    "youtubeUrl": "https://www.youtube.com/@AI%E6%97%A5%E6%9C%AC%E3%81%AE%E8%A3%8F%E5%81%B4"
+  },
+  "content": {
+    "reviewStatus": "fact_checked",
+    "createdAt": "2026-05-15",
+    "sourceAccessedAt": "2026-05-15",
+    "packs": [
+      {
+        "id": "jp-meiji-state-001",
+        "title": "明治国家の制度設計",
+        "description": "五箇条の御誓文から明治憲法まで、近代国家が制度として組み立てられた過程を学ぶ10問。",
+        "linkedChannel": {
+          "name": "AI日本の裏側",
+          "video_url": "",
+          "episode_title": "明治国家はどう作られたか: 制度設計の裏側"
+        },
+        "questionCount": 10,
+        "questions": [
+          {
+            "id": "jp-meiji-state-001-q01",
+            "type": "single_choice",
+            "difficulty": 1,
+            "era": "明治",
+            "tags": [
+              "維新",
+              "政治方針",
+              "公議"
+            ],
+            "prompt": "明治元年の五箇条の御誓文が示した新政府の基本方針として、もっとも近いものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "広く会議を興し、重要な政治を公論で決める方向"
+              },
+              {
+                "id": "B",
+                "text": "すべての藩主に世襲支配を続けさせる方向"
+              },
+              {
+                "id": "C",
+                "text": "外国との交際を全面的に禁じる方向"
+              },
+              {
+                "id": "D",
+                "text": "武家諸法度を復活させる方向"
+              }
+            ],
+            "answer": "A",
+            "explanation": "五箇条の御誓文は、明治新政府の基本方針を示したもの。代表的な一条に「広く会議を興し万機公論に決すべし」があり、のちの公議・議会論の出発点として読める。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "M01",
+                "title": "五箇条の御誓文が発せられる",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/ayumi/kobetsu/m01_1868_02.html",
+                "rank": "A/C",
+                "note": "五箇条の御誓文の発布日と新政府の基本方針"
+              },
+              {
+                "id": "M15",
+                "title": "五箇条の誓文/五箇条の御誓文",
+                "author": "国立国会図書館国際子ども図書館",
+                "url": "https://www.kodomo.go.jp/yareki/archive/archive_04.html",
+                "rank": "B/C",
+                "note": "五箇条の御誓文の発布、第一条の「広く会議を興し」の経緯"
+              }
+            ]
+          },
+          {
+            "id": "jp-meiji-state-001-q02",
+            "type": "single_choice",
+            "difficulty": 1,
+            "era": "明治",
+            "tags": [
+              "版籍奉還",
+              "中央集権"
+            ],
+            "prompt": "版籍奉還の「版」と「籍」は、何を指すと説明されている？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "土地と人民"
+              },
+              {
+                "id": "B",
+                "text": "刀と城"
+              },
+              {
+                "id": "C",
+                "text": "税と軍隊"
+              },
+              {
+                "id": "D",
+                "text": "学校と役所"
+              }
+            ],
+            "answer": "A",
+            "explanation": "国立公文書館は、版籍奉還を「版（土地）と籍（人民）を天皇へ返還すること」と説明している。藩主の支配をすぐ廃止したというより、中央集権化へ進む途中段階だった。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "M02",
+                "title": "版籍奉還と廃藩置県",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/modean_state/contents/return/index.html",
+                "rank": "A/C",
+                "note": "版籍奉還、廃藩置県、御親兵、県再編の解説"
+              },
+              {
+                "id": "M03",
+                "title": "廃藩置県が断行される",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/ayumi/kobetsu/m04_1871_04.html",
+                "rank": "A/C",
+                "note": "1871年7月14日の廃藩置県、藩知事罷免、3府302県"
+              }
+            ]
+          },
+          {
+            "id": "jp-meiji-state-001-q03",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "明治",
+            "tags": [
+              "廃藩置県",
+              "地方行政"
+            ],
+            "prompt": "1871年の廃藩置県で、旧藩主である藩知事はどう扱われた？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "すべて罷免され、東京に居住することを命じられた"
+              },
+              {
+                "id": "B",
+                "text": "全員がそのまま世襲の県知事になった"
+              },
+              {
+                "id": "C",
+                "text": "軍事権だけを残して地方支配を続けた"
+              },
+              {
+                "id": "D",
+                "text": "幕府の老中として再任された"
+              }
+            ],
+            "answer": "A",
+            "explanation": "廃藩置県では藩知事が罷免され、政府が任命する府知事・県知事が行政を担った。ここに、地方権力を中央政府の任命制へ置き換える狙いが見える。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "M02",
+                "title": "版籍奉還と廃藩置県",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/modean_state/contents/return/index.html",
+                "rank": "A/C",
+                "note": "版籍奉還、廃藩置県、御親兵、県再編の解説"
+              },
+              {
+                "id": "M03",
+                "title": "廃藩置県が断行される",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/ayumi/kobetsu/m04_1871_04.html",
+                "rank": "A/C",
+                "note": "1871年7月14日の廃藩置県、藩知事罷免、3府302県"
+              }
+            ]
+          },
+          {
+            "id": "jp-meiji-state-001-q04",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "明治",
+            "tags": [
+              "廃藩置県",
+              "府県再編"
+            ],
+            "prompt": "廃藩置県の直後、日本全国の府県はどのような数になった？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "3府302県"
+              },
+              {
+                "id": "B",
+                "text": "1都1道2府43県"
+              },
+              {
+                "id": "C",
+                "text": "47都道府県"
+              },
+              {
+                "id": "D",
+                "text": "5畿7道"
+              }
+            ],
+            "answer": "A",
+            "explanation": "廃藩置県の直後は、藩をそのまま県に置き換えたため3府302県となった。その後、急速に統合が進む。現在の47都道府県をそのまま明治初期に当てはめないのがポイント。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "M02",
+                "title": "版籍奉還と廃藩置県",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/modean_state/contents/return/index.html",
+                "rank": "A/C",
+                "note": "版籍奉還、廃藩置県、御親兵、県再編の解説"
+              },
+              {
+                "id": "M03",
+                "title": "廃藩置県が断行される",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/ayumi/kobetsu/m04_1871_04.html",
+                "rank": "A/C",
+                "note": "1871年7月14日の廃藩置県、藩知事罷免、3府302県"
+              }
+            ]
+          },
+          {
+            "id": "jp-meiji-state-001-q05",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "明治",
+            "tags": [
+              "徴兵令",
+              "軍制"
+            ],
+            "prompt": "1873年の徴兵令で、満20歳男子について定められた中心的な仕組みはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "徴兵検査を受け、合格者から抽選で常備軍に服する"
+              },
+              {
+                "id": "B",
+                "text": "武士身分だけが兵役に就く"
+              },
+              {
+                "id": "C",
+                "text": "農民は兵役から完全に除外される"
+              },
+              {
+                "id": "D",
+                "text": "海外留学経験者だけが徴兵される"
+              }
+            ],
+            "answer": "A",
+            "explanation": "徴兵令は国民皆兵を原則とし、満20歳男子に徴兵検査を受けさせ、合格者の中から抽選で常備軍に服させる仕組みだった。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "M04",
+                "title": "徴兵令が発せられる",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/ayumi/kobetsu/m06_1873_01.html",
+                "rank": "A/C",
+                "note": "1873年徴兵令、満20歳男子、常備軍、免除規定"
+              },
+              {
+                "id": "M12",
+                "title": "徴兵令並近衛兵編成兵額等伺",
+                "author": "国立公文書館デジタルアーカイブ",
+                "url": "https://www.digital.archives.go.jp/img.pdf/3047786",
+                "rank": "A",
+                "note": "徴兵令関連公文書のデジタル画像"
+              }
+            ]
+          },
+          {
+            "id": "jp-meiji-state-001-q06",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "明治",
+            "tags": [
+              "徴兵令",
+              "制度の例外"
+            ],
+            "prompt": "徴兵令は国民皆兵を原則としたが、同時に存在した制度として正しいものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "官庁勤務者や官公立学校生徒、一家の主人、代人料納付者などの免除"
+              },
+              {
+                "id": "B",
+                "text": "すべての男子に例外なく常備軍3年を義務づける制度"
+              },
+              {
+                "id": "C",
+                "text": "女性だけを兵籍に登録する制度"
+              },
+              {
+                "id": "D",
+                "text": "旧大名だけを徴兵する制度"
+              }
+            ],
+            "answer": "A",
+            "explanation": "徴兵令は皆兵原則として語られやすいが、実際には免除規定も置かれた。国民国家化の理念と、当時の社会的条件の折り合いが見える部分。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "M04",
+                "title": "徴兵令が発せられる",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/ayumi/kobetsu/m06_1873_01.html",
+                "rank": "A/C",
+                "note": "1873年徴兵令、満20歳男子、常備軍、免除規定"
+              },
+              {
+                "id": "M12",
+                "title": "徴兵令並近衛兵編成兵額等伺",
+                "author": "国立公文書館デジタルアーカイブ",
+                "url": "https://www.digital.archives.go.jp/img.pdf/3047786",
+                "rank": "A",
+                "note": "徴兵令関連公文書のデジタル画像"
+              }
+            ]
+          },
+          {
+            "id": "jp-meiji-state-001-q07",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "明治",
+            "tags": [
+              "地租改正",
+              "税制"
+            ],
+            "prompt": "1873年の地租改正の骨子として正しいものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "地価の100分の3を地租とし、物納から金納へ改めた"
+              },
+              {
+                "id": "B",
+                "text": "米の収穫量に応じて毎年税率をゼロから決めた"
+              },
+              {
+                "id": "C",
+                "text": "すべての土地税を廃止した"
+              },
+              {
+                "id": "D",
+                "text": "武士だけが地租を納める制度にした"
+              }
+            ],
+            "answer": "A",
+            "explanation": "地租改正は、旧来の石高制にもとづく物納から、地価を基準にした金納へ変える大きな転換だった。国家財政を安定させる制度設計として重要。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "M05",
+                "title": "地租改正条例が制定される",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/ayumi/kobetsu/m06_1873_03.html",
+                "rank": "A/C",
+                "note": "1873年地租改正、地価3%、金納、地券所有者"
+              },
+              {
+                "id": "M14",
+                "title": "地租改正方法伺",
+                "author": "国立公文書館デジタルアーカイブ",
+                "url": "https://www.digital.archives.go.jp/item/3033466.html",
+                "rank": "A",
+                "note": "地租改正方法伺のデジタルアーカイブ項目"
+              }
+            ]
+          },
+          {
+            "id": "jp-meiji-state-001-q08",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "明治",
+            "tags": [
+              "学制",
+              "教育制度"
+            ],
+            "prompt": "1872年の学制は、最終的にどの国の制度を手本として制定されたと説明されている？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "フランス"
+              },
+              {
+                "id": "B",
+                "text": "ロシア"
+              },
+              {
+                "id": "C",
+                "text": "清"
+              },
+              {
+                "id": "D",
+                "text": "オランダ"
+              }
+            ],
+            "answer": "A",
+            "explanation": "学制は西洋諸国の制度を参酌し、最終的にフランスの制度を手本として制定された。学校制度も、近代国家づくりの基盤だった。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "M06",
+                "title": "学制の発布",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/meiji/contents1_01/",
+                "rank": "A/C",
+                "note": "1872年学制、フランス制度の参照、身分・男女の別なき教育"
+              },
+              {
+                "id": "M16",
+                "title": "学制",
+                "author": "国立教育政策研究所教育図書館",
+                "url": "https://www.nier.go.jp/library/rarebooks/seido/373.2-308/",
+                "rank": "A/C",
+                "note": "1872年の学制、フランスを模範にした学区制などの制度大綱、米国の教育内容面の影響"
+              }
+            ]
+          },
+          {
+            "id": "jp-meiji-state-001-q09",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "明治",
+            "tags": [
+              "自由民権",
+              "民撰議院設立建白書"
+            ],
+            "prompt": "1874年の民撰議院設立建白書が批判した政治のあり方として、もっとも近いものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "一部高官による有司専制"
+              },
+              {
+                "id": "B",
+                "text": "普通選挙の実施"
+              },
+              {
+                "id": "C",
+                "text": "新聞の発行"
+              },
+              {
+                "id": "D",
+                "text": "地方議会の存在そのもの"
+              }
+            ],
+            "answer": "A",
+            "explanation": "建白書は、政府の有司専制を批判し、民撰議院の設置を求めた。教科書では自由民権運動の一語で済まされがちだが、資料では政治参加の論理がはっきり見える。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "M07",
+                "title": "民撰議院設立建白書を提出する",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/ayumi/kobetsu/m07_1874_01.html",
+                "rank": "A/C",
+                "note": "1874年、板垣退助ら、左院提出、新聞公表、有司専制批判"
+              },
+              {
+                "id": "M08",
+                "title": "民撰議院設立の建白",
+                "author": "国立国会図書館",
+                "url": "https://www.ndl.go.jp/modern/cha1/description09.html",
+                "rank": "B/C",
+                "note": "自由民権運動の契機、日新真事誌掲載、愛国公党"
+              }
+            ]
+          },
+          {
+            "id": "jp-meiji-state-001-q10",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "明治",
+            "tags": [
+              "明治憲法",
+              "国会開設",
+              "立憲制"
+            ],
+            "prompt": "国会開設の勅諭と明治憲法制定過程について、正しい組み合わせはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "1881年に1890年の国会開設が示され、伊藤博文らはプロイセン憲法などを参照した"
+              },
+              {
+                "id": "B",
+                "text": "1871年に普通選挙による国会がすぐ開かれ、憲法は議会だけで起草された"
+              },
+              {
+                "id": "C",
+                "text": "明治憲法はアメリカ独立宣言をそのまま翻訳したものだった"
+              },
+              {
+                "id": "D",
+                "text": "国会開設の勅諭は、国会を開かないことを宣言したものだった"
+              }
+            ],
+            "answer": "A",
+            "explanation": "1881年の国会開設の勅諭は、1890年を期して国会を開くことを示した。明治憲法の起草では、伊藤博文らの欧州調査やプロイセン憲法参照が重要だった。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "M09",
+                "title": "国会開設の勅諭が発せられる",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/ayumi/kobetsu/m14_1881_01.html",
+                "rank": "A/C",
+                "note": "1881年国会開設の勅諭、1890年国会開設、官僚起草"
+              },
+              {
+                "id": "M10",
+                "title": "大日本帝国憲法の発布",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/modean_state/contents/constitutional-law/index.html",
+                "rank": "A/C",
+                "note": "伊藤博文の欧州調査、プロイセン憲法、1889年発布、法律の範囲内の権利"
+              },
+              {
+                "id": "M11",
+                "title": "近代法制の整備と明治憲法の制定",
+                "author": "国立国会図書館",
+                "url": "https://ndlsearch.ndl.go.jp/gallery/exhibit2022/342",
+                "rank": "B/C",
+                "note": "伊藤博文らの欧州憲法調査、ロエスレル・モッセ、枢密院審議"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "jp-wartime-mobilization-001",
+        "title": "戦時下の動員と統制",
+        "description": "総力戦が法律、価格、労働、地域組織、選挙にどう及んだかを学ぶ10問。",
+        "linkedChannel": {
+          "name": "AI日本の裏側",
+          "video_url": "",
+          "episode_title": "戦時下の生活はどう管理されたか: 総動員の裏側"
+        },
+        "questionCount": 10,
+        "questions": [
+          {
+            "id": "jp-wartime-mobilization-001-q01",
+            "type": "single_choice",
+            "difficulty": 1,
+            "era": "昭和戦前",
+            "tags": [
+              "国家総動員法",
+              "総力戦"
+            ],
+            "prompt": "1938年公布の国家総動員法の目的として、もっとも近いものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "戦争遂行に必要な人的・物的資源を統制運用すること"
+              },
+              {
+                "id": "B",
+                "text": "地方自治体の独立を強めること"
+              },
+              {
+                "id": "C",
+                "text": "軍需産業だけを完全に民営化すること"
+              },
+              {
+                "id": "D",
+                "text": "新聞の発行部数だけを増やすこと"
+              }
+            ],
+            "answer": "A",
+            "explanation": "国家総動員法は、日中戦争の長期化を背景に、人的・物的資源を国防目的に沿って統制運用する基本法だった。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "W01",
+                "title": "国家総動員法",
+                "author": "アジア歴史資料センター",
+                "url": "https://www.jacar.go.jp/glossary/term1/0090-0010-0030-0040-0010.html",
+                "rank": "B/C",
+                "note": "1938年公布、人的・物的資源の統制運用、委任立法、1945年廃止"
+              },
+              {
+                "id": "W02",
+                "title": "国家総動員法 昭和13年4月1日法律第55号",
+                "author": "国立国会図書館 日本法令索引",
+                "url": "https://hourei.ndl.go.jp/simple/detail?current=-1&lawId=0000027472",
+                "rank": "A/C",
+                "note": "国家総動員法の法令索引"
+              }
+            ]
+          },
+          {
+            "id": "jp-wartime-mobilization-001-q02",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "昭和戦前",
+            "tags": [
+              "国家総動員法",
+              "委任立法"
+            ],
+            "prompt": "国家総動員法が当時批判された理由として、出典に近いものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "具体的内容の多くを勅令に委ねるため、議会に白紙委任状を求めるものだと批判された"
+              },
+              {
+                "id": "B",
+                "text": "国民投票を義務化したため、投票所が不足した"
+              },
+              {
+                "id": "C",
+                "text": "戦時下の統制をすべて禁止した"
+              },
+              {
+                "id": "D",
+                "text": "地方議会の権限を急拡大した"
+              }
+            ],
+            "answer": "A",
+            "explanation": "国家総動員法は、労働・経済・物資統制などの具体化を勅令に委ねた。このため、非常大権侵害や議会への白紙委任という批判があった。",
+            "certainty": "確定的",
+            "contestedNote": "批判の評価は研究上の解釈を含むが、批判が存在したことは出典で確認できる。",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "W01",
+                "title": "国家総動員法",
+                "author": "アジア歴史資料センター",
+                "url": "https://www.jacar.go.jp/glossary/term1/0090-0010-0030-0040-0010.html",
+                "rank": "B/C",
+                "note": "1938年公布、人的・物的資源の統制運用、委任立法、1945年廃止"
+              },
+              {
+                "id": "W02",
+                "title": "国家総動員法 昭和13年4月1日法律第55号",
+                "author": "国立国会図書館 日本法令索引",
+                "url": "https://hourei.ndl.go.jp/simple/detail?current=-1&lawId=0000027472",
+                "rank": "A/C",
+                "note": "国家総動員法の法令索引"
+              }
+            ]
+          },
+          {
+            "id": "jp-wartime-mobilization-001-q03",
+            "type": "single_choice",
+            "difficulty": 1,
+            "era": "昭和戦前",
+            "tags": [
+              "国民徴用令",
+              "労務動員"
+            ],
+            "prompt": "1939年に制定され、国家総動員法に基づく労務動員と関係する勅令はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "国民徴用令"
+              },
+              {
+                "id": "B",
+                "text": "学制"
+              },
+              {
+                "id": "C",
+                "text": "五箇条の御誓文"
+              },
+              {
+                "id": "D",
+                "text": "府県制"
+              }
+            ],
+            "answer": "A",
+            "explanation": "国民徴用令は、国家総動員法に基づく勅令の一つとして制定された。戦時体制が労働力の配置にまで及んだことを示す。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "W03",
+                "title": "国民徴用令が制定される",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/ayumi/kobetsu/s14_1939_01.html",
+                "rank": "A/C",
+                "note": "国家総動員法に基づく国民徴用令"
+              },
+              {
+                "id": "W04",
+                "title": "国民徴用令ヲ定ム",
+                "author": "アジア歴史資料センター",
+                "url": "https://www.jacar.archives.go.jp/das/meta/A02030149200",
+                "rank": "A",
+                "note": "1939年国民徴用令の公文書メタデータ"
+              }
+            ]
+          },
+          {
+            "id": "jp-wartime-mobilization-001-q04",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "昭和戦前",
+            "tags": [
+              "価格統制",
+              "物価"
+            ],
+            "prompt": "1939年9月19日の「価格等統制の応急的措置」は、価格などを原則どの日の水準より引き上げない方針だった？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "昭和14年9月18日"
+              },
+              {
+                "id": "B",
+                "text": "明治元年3月14日"
+              },
+              {
+                "id": "C",
+                "text": "昭和20年8月15日"
+              },
+              {
+                "id": "D",
+                "text": "昭和22年5月3日"
+              }
+            ],
+            "answer": "A",
+            "explanation": "価格・運送賃・保管料・賃貸料・賃金などを、原則として昭和14年9月18日の額を超えて引き上げることを禁じる方針だった。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "W05",
+                "title": "価格等統制の応急的措置に関する件",
+                "author": "国立国会図書館リサーチ・ナビ",
+                "url": "https://ndlsearch.ndl.go.jp/rnavi/db/cabinet/s14_15/bib00214",
+                "rank": "A/C",
+                "note": "1939年9月19日閣議決定、価格等の引上げ禁止"
+              },
+              {
+                "id": "W06",
+                "title": "物価局",
+                "author": "アジア歴史資料センター",
+                "url": "https://www.jacar.go.jp/glossary/term1/0090-0010-0040-0060-0030.html",
+                "rank": "B/C",
+                "note": "物価統制、食料品・日用品の生産・配給・消費"
+              }
+            ]
+          },
+          {
+            "id": "jp-wartime-mobilization-001-q05",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "昭和戦前",
+            "tags": [
+              "物価局",
+              "生活統制"
+            ],
+            "prompt": "戦時下の物価局について、正しい説明はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "物価統制だけでなく、食料品や日用品の生産・配給・消費にも関わった"
+              },
+              {
+                "id": "B",
+                "text": "文化財の保存だけを担当した"
+              },
+              {
+                "id": "C",
+                "text": "地方の祭礼だけを管理した"
+              },
+              {
+                "id": "D",
+                "text": "海外旅行の奨励だけを担当した"
+              }
+            ],
+            "answer": "A",
+            "explanation": "物価局は物価統制に加え、食料品や日用品の生産・配給・消費に関する事務も担った。統制は市場価格だけでなく、暮らしの配分にも及んだ。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "W06",
+                "title": "物価局",
+                "author": "アジア歴史資料センター",
+                "url": "https://www.jacar.go.jp/glossary/term1/0090-0010-0040-0060-0030.html",
+                "rank": "B/C",
+                "note": "物価統制、食料品・日用品の生産・配給・消費"
+              },
+              {
+                "id": "W05",
+                "title": "価格等統制の応急的措置に関する件",
+                "author": "国立国会図書館リサーチ・ナビ",
+                "url": "https://ndlsearch.ndl.go.jp/rnavi/db/cabinet/s14_15/bib00214",
+                "rank": "A/C",
+                "note": "1939年9月19日閣議決定、価格等の引上げ禁止"
+              }
+            ]
+          },
+          {
+            "id": "jp-wartime-mobilization-001-q06",
+            "type": "single_choice",
+            "difficulty": 1,
+            "era": "昭和戦前",
+            "tags": [
+              "大政翼賛会",
+              "新体制"
+            ],
+            "prompt": "大政翼賛会について、もっとも正しい説明はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "1940年に結成された、国策協力のための官制国民運動団体"
+              },
+              {
+                "id": "B",
+                "text": "江戸時代の町人組合"
+              },
+              {
+                "id": "C",
+                "text": "明治初期の私立学校"
+              },
+              {
+                "id": "D",
+                "text": "戦後の農地改革委員会"
+              }
+            ],
+            "answer": "A",
+            "explanation": "大政翼賛会は、日中戦争の長期化と新体制運動を背景に結成された国策協力のための官制国民運動団体だった。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "W07",
+                "title": "大政翼賛会",
+                "author": "アジア歴史資料センター",
+                "url": "https://www.jacar.go.jp/glossary/term1/0090-0010-0030-0010-0020.html",
+                "rank": "B/C",
+                "note": "1940年結成、衆議統裁、町内会・部落会、1945年解散"
+              },
+              {
+                "id": "W08",
+                "title": "国民精神総動員本部",
+                "author": "アジア歴史資料センター",
+                "url": "https://www.jacar.go.jp/glossary/term1/0090-0010-0030-0020-0010-0010.html",
+                "rank": "B/C",
+                "note": "町内会・部落会を末端組織として整備、1940年大政翼賛会へ包摂"
+              }
+            ]
+          },
+          {
+            "id": "jp-wartime-mobilization-001-q07",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "昭和戦前",
+            "tags": [
+              "大政翼賛会",
+              "組織運営"
+            ],
+            "prompt": "大政翼賛会の意思決定方式として、出典で説明されている特徴はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "議決方式をとらず、総裁が最終決定する「衆議統裁」"
+              },
+              {
+                "id": "B",
+                "text": "全住民による毎月の直接投票"
+              },
+              {
+                "id": "C",
+                "text": "無作為抽選で総裁を決める方式"
+              },
+              {
+                "id": "D",
+                "text": "地方議会だけが最終決定する方式"
+              }
+            ],
+            "answer": "A",
+            "explanation": "大政翼賛会は「衆議統裁」とされ、議決ではなく総裁の最終決定を軸にした。名前の印象だけでなく、組織の決め方を見ると性格が見える。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "W07",
+                "title": "大政翼賛会",
+                "author": "アジア歴史資料センター",
+                "url": "https://www.jacar.go.jp/glossary/term1/0090-0010-0030-0010-0020.html",
+                "rank": "B/C",
+                "note": "1940年結成、衆議統裁、町内会・部落会、1945年解散"
+              },
+              {
+                "id": "W09",
+                "title": "翼賛政治会",
+                "author": "国立国会図書館",
+                "url": "https://www.ndl.go.jp/modern/cha4/description14.html",
+                "rank": "B/C",
+                "note": "1942年翼賛選挙、推薦候補が8割以上当選"
+              }
+            ]
+          },
+          {
+            "id": "jp-wartime-mobilization-001-q08",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "昭和戦前",
+            "tags": [
+              "町内会",
+              "部落会",
+              "地域組織"
+            ],
+            "prompt": "戦時下の町内会・部落会について、出典から読み取れる位置づけはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "国民運動や行政の末端組織として整備・組み込みが進んだ"
+              },
+              {
+                "id": "B",
+                "text": "すべて海外移住団体に転換された"
+              },
+              {
+                "id": "C",
+                "text": "政治や行政とは無関係な娯楽クラブだけになった"
+              },
+              {
+                "id": "D",
+                "text": "明治初年に完全に廃止された"
+              }
+            ],
+            "answer": "A",
+            "explanation": "国民精神総動員本部や大政翼賛会の流れでは、町内会・部落会が実践網・末端組織として整備、組み込みの対象になった。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "W08",
+                "title": "国民精神総動員本部",
+                "author": "アジア歴史資料センター",
+                "url": "https://www.jacar.go.jp/glossary/term1/0090-0010-0030-0020-0010-0010.html",
+                "rank": "B/C",
+                "note": "町内会・部落会を末端組織として整備、1940年大政翼賛会へ包摂"
+              },
+              {
+                "id": "W07",
+                "title": "大政翼賛会",
+                "author": "アジア歴史資料センター",
+                "url": "https://www.jacar.go.jp/glossary/term1/0090-0010-0030-0010-0020.html",
+                "rank": "B/C",
+                "note": "1940年結成、衆議統裁、町内会・部落会、1945年解散"
+              }
+            ]
+          },
+          {
+            "id": "jp-wartime-mobilization-001-q09",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "昭和戦前",
+            "tags": [
+              "翼賛選挙",
+              "議会政治"
+            ],
+            "prompt": "1942年の翼賛選挙について、国立国会図書館の解説に合うものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "推薦候補の当選が全体の8割以上を占めた"
+              },
+              {
+                "id": "B",
+                "text": "推薦候補は一人も当選しなかった"
+              },
+              {
+                "id": "C",
+                "text": "選挙そのものが明治時代に行われた"
+              },
+              {
+                "id": "D",
+                "text": "女性議員39名が初めて当選した選挙だった"
+              }
+            ],
+            "answer": "A",
+            "explanation": "1942年の翼賛選挙では、推薦候補の当選が全体の8割以上を占めたと解説されている。戦時下の議会政治を見る入口になる。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "W09",
+                "title": "翼賛政治会",
+                "author": "国立国会図書館",
+                "url": "https://www.ndl.go.jp/modern/cha4/description14.html",
+                "rank": "B/C",
+                "note": "1942年翼賛選挙、推薦候補が8割以上当選"
+              },
+              {
+                "id": "W07",
+                "title": "大政翼賛会",
+                "author": "アジア歴史資料センター",
+                "url": "https://www.jacar.go.jp/glossary/term1/0090-0010-0030-0010-0020.html",
+                "rank": "B/C",
+                "note": "1940年結成、衆議統裁、町内会・部落会、1945年解散"
+              }
+            ]
+          },
+          {
+            "id": "jp-wartime-mobilization-001-q10",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "昭和戦前/戦後直後",
+            "tags": [
+              "国家総動員法",
+              "終戦後"
+            ],
+            "prompt": "国家総動員法の廃止について、正しいものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "1945年12月20日に廃止された"
+              },
+              {
+                "id": "B",
+                "text": "明治元年に廃止された"
+              },
+              {
+                "id": "C",
+                "text": "現在も同じ内容で施行されている"
+              },
+              {
+                "id": "D",
+                "text": "廃止されたことは一度もない"
+              }
+            ],
+            "answer": "A",
+            "explanation": "国家総動員法は、戦後の1945年12月20日に廃止された。総力戦体制は、終戦と同時に自然消滅したのではなく、法制度の整理を経て解かれていった。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "W01",
+                "title": "国家総動員法",
+                "author": "アジア歴史資料センター",
+                "url": "https://www.jacar.go.jp/glossary/term1/0090-0010-0030-0040-0010.html",
+                "rank": "B/C",
+                "note": "1938年公布、人的・物的資源の統制運用、委任立法、1945年廃止"
+              },
+              {
+                "id": "W02",
+                "title": "国家総動員法 昭和13年4月1日法律第55号",
+                "author": "国立国会図書館 日本法令索引",
+                "url": "https://hourei.ndl.go.jp/simple/detail?current=-1&lawId=0000027472",
+                "rank": "A/C",
+                "note": "国家総動員法の法令索引"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "jp-occupation-reforms-001",
+        "title": "占領期改革と戦後制度",
+        "description": "憲法、女性参政権、労働、農地、教育改革を、GHQと日本政府のやり取り込みで学ぶ10問。",
+        "linkedChannel": {
+          "name": "AI日本の裏側",
+          "video_url": "",
+          "episode_title": "戦後日本の制度はどこで決まったか: 占領期改革の裏側"
+        },
+        "questionCount": 10,
+        "questions": [
+          {
+            "id": "jp-occupation-reforms-001-q01",
+            "type": "single_choice",
+            "difficulty": 1,
+            "era": "占領期",
+            "tags": [
+              "日本国憲法",
+              "公布",
+              "施行"
+            ],
+            "prompt": "日本国憲法の公布日と施行日の組み合わせとして正しいものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "1946年11月3日公布、1947年5月3日施行"
+              },
+              {
+                "id": "B",
+                "text": "1945年8月15日公布、同日施行"
+              },
+              {
+                "id": "C",
+                "text": "1889年2月11日公布、1890年11月29日施行"
+              },
+              {
+                "id": "D",
+                "text": "1938年4月1日公布、1945年12月20日施行"
+              }
+            ],
+            "answer": "A",
+            "explanation": "日本国憲法は1946年11月3日に公布され、1947年5月3日に施行された。日付はアプリの基礎知識として扱う。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "O12",
+                "title": "日本国憲法 昭和21年11月3日公布、昭和22年5月3日施行",
+                "author": "国立国会図書館 日本法令索引",
+                "url": "https://hourei.ndl.go.jp/simple/detail?current=1&lawId=0000038277",
+                "rank": "A/C",
+                "note": "日本国憲法の公布日、施行日、法令基本情報"
+              },
+              {
+                "id": "O05",
+                "title": "誕生 日本国憲法",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/tanjo_kenpo/index.html",
+                "rank": "A/C",
+                "note": "日本国憲法の原本、制定過程、1947年5月3日施行"
+              }
+            ]
+          },
+          {
+            "id": "jp-occupation-reforms-001-q02",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "占領期",
+            "tags": [
+              "松本委員会",
+              "憲法改正"
+            ],
+            "prompt": "憲法問題調査委員会、いわゆる松本委員会について正しい説明はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "幣原内閣に設けられ、松本烝治が委員長となった憲法改正調査の委員会"
+              },
+              {
+                "id": "B",
+                "text": "明治初年に廃藩置県を決めた藩主会議"
+              },
+              {
+                "id": "C",
+                "text": "戦時中に価格を決めた町内会"
+              },
+              {
+                "id": "D",
+                "text": "農地を買収した市町村農地委員会の別名"
+              }
+            ],
+            "answer": "A",
+            "explanation": "松本委員会は幣原内閣に置かれた憲法改正の調査研究委員会。GHQとのやり取りに入る前の日本政府側の検討過程を知る鍵になる。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "O01",
+                "title": "日本国憲法の誕生 用語解説",
+                "author": "国立国会図書館",
+                "url": "https://www.ndl.go.jp/constitution/etc/yogo.html",
+                "rank": "B/C",
+                "note": "松本委員会、憲法研究会、GHQ民政局などの解説"
+              },
+              {
+                "id": "O02",
+                "title": "GHQ草案と日本政府の対応",
+                "author": "国立国会図書館",
+                "url": "https://www.ndl.go.jp/constitution/gaisetsu/03gaisetsu.html",
+                "rank": "B/C",
+                "note": "毎日新聞スクープ、マッカーサー三原則、GHQ草案作成、2月13日手交"
+              }
+            ]
+          },
+          {
+            "id": "jp-occupation-reforms-001-q03",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "占領期",
+            "tags": [
+              "GHQ草案",
+              "マッカーサー三原則"
+            ],
+            "prompt": "GHQ草案の作成が始まる直接の流れとして、正しいものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "毎日新聞のスクープ後、マッカーサー三原則が示され、民政局内で作業班が設置された"
+              },
+              {
+                "id": "B",
+                "text": "廃藩置県の詔が出され、すぐにGHQ草案が作られた"
+              },
+              {
+                "id": "C",
+                "text": "大政翼賛会が憲法草案を作り、GHQが承認した"
+              },
+              {
+                "id": "D",
+                "text": "地租改正条例の付属文書として草案が作られた"
+              }
+            ],
+            "answer": "A",
+            "explanation": "NDLの解説では、毎日新聞による委員会試案のスクープをきっかけに、マッカーサー三原則が示され、1946年2月4日に民政局内で起草作業が始まった流れが説明されている。",
+            "certainty": "確定的",
+            "contestedNote": "制定過程の評価には多様な議論があるが、ここではNDLの概説で確認できる手続き上の流れを問う。",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "O02",
+                "title": "GHQ草案と日本政府の対応",
+                "author": "国立国会図書館",
+                "url": "https://www.ndl.go.jp/constitution/gaisetsu/03gaisetsu.html",
+                "rank": "B/C",
+                "note": "毎日新聞スクープ、マッカーサー三原則、GHQ草案作成、2月13日手交"
+              },
+              {
+                "id": "O01",
+                "title": "日本国憲法の誕生 用語解説",
+                "author": "国立国会図書館",
+                "url": "https://www.ndl.go.jp/constitution/etc/yogo.html",
+                "rank": "B/C",
+                "note": "松本委員会、憲法研究会、GHQ民政局などの解説"
+              }
+            ]
+          },
+          {
+            "id": "jp-occupation-reforms-001-q04",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "占領期",
+            "tags": [
+              "GHQ草案",
+              "松本案"
+            ],
+            "prompt": "1946年2月13日のGHQ草案手交について、正しい説明はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "松本案への返答を期待していた日本政府側に、松本案拒否とGHQ草案提示が伝えられた"
+              },
+              {
+                "id": "B",
+                "text": "GHQ草案は日本政府からGHQへ提出された"
+              },
+              {
+                "id": "C",
+                "text": "廃藩置県の詔として手交された"
+              },
+              {
+                "id": "D",
+                "text": "この時点で日本国憲法はすでに施行済みだった"
+              }
+            ],
+            "answer": "A",
+            "explanation": "2月13日の会談記録からは、日本政府側が松本案への返答を期待していたところ、拒否とGHQ草案提示に直面した様子が読み取れる。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "O04",
+                "title": "GHQ草案手交時の記録",
+                "author": "国立国会図書館",
+                "url": "https://www.ndl.go.jp/constitution/shiryo/03/077shoshi.html",
+                "rank": "A/B",
+                "note": "1946年2月13日の手交、松本案拒否、GHQ草案提示"
+              },
+              {
+                "id": "O02",
+                "title": "GHQ草案と日本政府の対応",
+                "author": "国立国会図書館",
+                "url": "https://www.ndl.go.jp/constitution/gaisetsu/03gaisetsu.html",
+                "rank": "B/C",
+                "note": "毎日新聞スクープ、マッカーサー三原則、GHQ草案作成、2月13日手交"
+              }
+            ]
+          },
+          {
+            "id": "jp-occupation-reforms-001-q05",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "占領期",
+            "tags": [
+              "GHQ草案",
+              "人権規定"
+            ],
+            "prompt": "NDLのGHQ草案作成スタッフ一覧で、人権に関する委員会に含まれている人物はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "B.シロタ"
+              },
+              {
+                "id": "B",
+                "text": "伊藤博文"
+              },
+              {
+                "id": "C",
+                "text": "板垣退助"
+              },
+              {
+                "id": "D",
+                "text": "松方正義"
+              }
+            ],
+            "answer": "A",
+            "explanation": "NDLの一覧では、人権に関する委員会にB.シロタが含まれる。憲法の人権規定は、個人名と委員会単位で制定過程を追える。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "O03",
+                "title": "GHQ草案作成スタッフ一覧",
+                "author": "国立国会図書館",
+                "url": "https://www.ndl.go.jp/constitution/gaisetsu/ghq.html",
+                "rank": "B/C",
+                "note": "GHQ草案の各委員会とスタッフ"
+              },
+              {
+                "id": "O02",
+                "title": "GHQ草案と日本政府の対応",
+                "author": "国立国会図書館",
+                "url": "https://www.ndl.go.jp/constitution/gaisetsu/03gaisetsu.html",
+                "rank": "B/C",
+                "note": "毎日新聞スクープ、マッカーサー三原則、GHQ草案作成、2月13日手交"
+              }
+            ]
+          },
+          {
+            "id": "jp-occupation-reforms-001-q06",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "占領期",
+            "tags": [
+              "女性参政権",
+              "選挙制度"
+            ],
+            "prompt": "1945年の衆議院議員選挙法改正について、正しいものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "女性に選挙権・被選挙権を認め、選挙権は20歳以上、被選挙権は25歳以上へ引き下げられた"
+              },
+              {
+                "id": "B",
+                "text": "女性の政治参加を治安警察法で初めて禁止した"
+              },
+              {
+                "id": "C",
+                "text": "選挙権を旧藩主だけに限定した"
+              },
+              {
+                "id": "D",
+                "text": "選挙制度をすべて廃止した"
+              }
+            ],
+            "answer": "A",
+            "explanation": "1945年の改正で女性参政権が認められ、選挙権・被選挙権の年齢も引き下げられた。日本国憲法の施行より前に進んだ改革である点も重要。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "O06",
+                "title": "衆議院議員選挙法が改正され、婦人参政権が認められる",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/ayumi/kobetsu/s20_1945_06.html",
+                "rank": "A/C",
+                "note": "1945年改正、女性の選挙権・被選挙権、年齢引下げ"
+              },
+              {
+                "id": "O07",
+                "title": "衆議院議員選挙法の改正 -女性参政権の実現-",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/woman/contents/22.html",
+                "rank": "A/C",
+                "note": "五大改革指令、女性参政権、衆議院議員選挙法改正"
+              }
+            ]
+          },
+          {
+            "id": "jp-occupation-reforms-001-q07",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "占領期",
+            "tags": [
+              "女性議員",
+              "総選挙"
+            ],
+            "prompt": "1946年4月10日の戦後初の衆議院議員総選挙について、正しいものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "日本初の女性議員39名が選出された"
+              },
+              {
+                "id": "B",
+                "text": "推薦候補だけで全議席が埋まった"
+              },
+              {
+                "id": "C",
+                "text": "選挙は江戸幕府のもとで行われた"
+              },
+              {
+                "id": "D",
+                "text": "女性の投票は禁止されたままだった"
+              }
+            ],
+            "answer": "A",
+            "explanation": "改正後の選挙で、日本初の女性議員39名が選出された。制度改正が実際の代表者構成を変えた例として扱える。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "O11",
+                "title": "昭和20年 11月から12月 様々な改革",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/s20/contents/7_02.html",
+                "rank": "A/C",
+                "note": "戦後改革、女性参政権、1946年総選挙、女性議員39名"
+              },
+              {
+                "id": "O07",
+                "title": "衆議院議員選挙法の改正 -女性参政権の実現-",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/woman/contents/22.html",
+                "rank": "A/C",
+                "note": "五大改革指令、女性参政権、衆議院議員選挙法改正"
+              }
+            ]
+          },
+          {
+            "id": "jp-occupation-reforms-001-q08",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "占領期",
+            "tags": [
+              "労働組合法",
+              "労働権"
+            ],
+            "prompt": "1945年制定の労働組合法で保障されたものとして正しい組み合わせはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "団結権、団体交渉権、ストライキ権"
+              },
+              {
+                "id": "B",
+                "text": "参勤交代、石高制、身分統制"
+              },
+              {
+                "id": "C",
+                "text": "版籍奉還、廃藩置県、地租改正"
+              },
+              {
+                "id": "D",
+                "text": "徴兵検査、代人料、後備軍"
+              }
+            ],
+            "answer": "A",
+            "explanation": "労働組合法は1945年12月22日に公布され、翌年3月1日に施行された。労働者の団結権・団体交渉権・ストライキ権を保障した。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "O08",
+                "title": "労働組合法が制定される",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/ayumi/kobetsu/s20_1945_07.html",
+                "rank": "A/C",
+                "note": "1945年労働組合法、団結権・団体交渉権・ストライキ権"
+              },
+              {
+                "id": "O11",
+                "title": "昭和20年 11月から12月 様々な改革",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/s20/contents/7_02.html",
+                "rank": "A/C",
+                "note": "戦後改革、女性参政権、1946年総選挙、女性議員39名"
+              }
+            ]
+          },
+          {
+            "id": "jp-occupation-reforms-001-q09",
+            "type": "single_choice",
+            "difficulty": 3,
+            "era": "占領期",
+            "tags": [
+              "農地改革",
+              "自作農創設特別措置法"
+            ],
+            "prompt": "第二次農地改革について、正しい説明はどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "不在地主の小作地や保有限度を超える在村地主の小作地を国が買収し、小作農に売却した"
+              },
+              {
+                "id": "B",
+                "text": "小作農から土地を取り上げ、すべて大地主へ売却した"
+              },
+              {
+                "id": "C",
+                "text": "農地の所有関係には一切触れなかった"
+              },
+              {
+                "id": "D",
+                "text": "明治6年の徴兵令として実施された"
+              }
+            ],
+            "answer": "A",
+            "explanation": "自作農創設特別措置法などにより、不在地主や保有限度を超えた在村地主の小作地を国が買収し、小作農に売却する改革が実施された。",
+            "certainty": "確定的",
+            "contestedNote": "農地改革の長期的評価には研究上の議論があるが、この問題は制度内容を問う。",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "O09",
+                "title": "農地改革",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/learning/archive_collection_6/collection_5/",
+                "rank": "A/C",
+                "note": "自作農創設特別措置法、第二次農地改革、不在地主・在村地主の保有限度"
+              },
+              {
+                "id": "O11",
+                "title": "昭和20年 11月から12月 様々な改革",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/s20/contents/7_02.html",
+                "rank": "A/C",
+                "note": "戦後改革、女性参政権、1946年総選挙、女性議員39名"
+              }
+            ]
+          },
+          {
+            "id": "jp-occupation-reforms-001-q10",
+            "type": "single_choice",
+            "difficulty": 2,
+            "era": "占領期",
+            "tags": [
+              "教育基本法",
+              "学校教育法",
+              "六三三四制"
+            ],
+            "prompt": "1947年3月31日に公布された教育基本法・学校教育法について、正しいものはどれ？",
+            "choices": [
+              {
+                "id": "A",
+                "text": "教育基本法は日本国憲法の精神に則るとし、学校教育法は六・三・三・四制を定めた"
+              },
+              {
+                "id": "B",
+                "text": "学制を廃止し、学校教育をすべて寺子屋に戻した"
+              },
+              {
+                "id": "C",
+                "text": "大学だけを対象にした法律だった"
+              },
+              {
+                "id": "D",
+                "text": "戦時中の国家総動員法の一部として公布された"
+              }
+            ],
+            "answer": "A",
+            "explanation": "教育基本法は日本国憲法の精神に則り教育の目的を示し、学校教育法は小・中・高・大学の六・三・三・四制を定めた。戦後制度の基礎を作った改革の一つ。",
+            "certainty": "確定的",
+            "contestedNote": "",
+            "reviewStatus": "fact_checked",
+            "sources": [
+              {
+                "id": "O10",
+                "title": "教育基本法・学校教育法が公布される",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/ayumi/kobetsu/s22_1947_01.html",
+                "rank": "A/C",
+                "note": "1947年3月31日公布、教育基本法、学校教育法、六・三・三・四制"
+              },
+              {
+                "id": "O11",
+                "title": "昭和20年 11月から12月 様々な改革",
+                "author": "国立公文書館",
+                "url": "https://www.archives.go.jp/exhibition/digital/s20/contents/7_02.html",
+                "rank": "A/C",
+                "note": "戦後改革、女性参政権、1946年総選挙、女性議員39名"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quotes": [
+      {
+        "id": "quote_fukuzawa_gakumon_001",
+        "person": "福沢諭吉",
+        "workTitle": "学問のすすめ",
+        "text": "天は人の上に人を造らず、人の下に人を造らず。",
+        "note": "身分差を自然なものとせず、学問による自立を説く文脈の冒頭句。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000296/files/47061_29420.html",
+        "certainty": "確定的"
+      },
+      {
+        "id": "quote_natsume_kojinshugi_001",
+        "person": "夏目漱石",
+        "workTitle": "私の個人主義",
+        "text": "義務心を持っていない自由は本当の自由ではない。",
+        "note": "自由と責任を切り離さずに考える講演の一節。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000148/files/772_33100.html",
+        "certainty": "確定的"
+      },
+      {
+        "id": "quote_natsume_kojinshugi_002",
+        "person": "夏目漱石",
+        "workTitle": "私の個人主義",
+        "text": "他の存在を尊敬すると同時に自分の存在を尊敬する。",
+        "note": "自己本位を、他者の自由を侵さない自立として説明する文脈。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000148/files/772_33100.html",
+        "certainty": "確定的"
+      },
+      {
+        "id": "quote_nitobe_jikeiroku_001",
+        "person": "新渡戸稲造",
+        "workTitle": "自警録",
+        "text": "道徳の効用と目的は、日々の言行に現すところにある。",
+        "note": "原文の趣旨を短く読める形に整えた抜粋。日常の行動に表れる道徳を説く箇所。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000718/files/43675_39655.html",
+        "certainty": "条件付き"
+      },
+      {
+        "id": "quote_nitobe_jikeiroku_002",
+        "person": "新渡戸稲造",
+        "workTitle": "自警録",
+        "text": "つねに若い心持ちで向上する。",
+        "note": "若さを年齢ではなく、学び続ける姿勢として扱う文脈の短い抜粋。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000718/files/43675_39655.html",
+        "certainty": "確定的"
+      },
+      {
+        "id": "quote_uchimura_isan_001",
+        "person": "内村鑑三",
+        "workTitle": "後世への最大遺物",
+        "text": "勇ましい高尚なる生涯。",
+        "note": "後世に残せるものを、金銭や事業だけでなく生き方として考える講演の結語に近い一節。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000034/files/519_43561.html",
+        "certainty": "確定的"
+      }
+    ]
+  }
+}

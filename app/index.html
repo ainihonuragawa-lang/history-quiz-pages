@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1f4e5f">
+  <meta name="description" content="AI日本の裏側と連動した、出典つきの歴史クイズPWA。今日の格言、今日の1問、テーマ別30問をスマホで読めます。">
+  <title>歴史の裏側クイズ Web版 | AI日本の裏側</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="../assets/app-icon-512.png">
+  <link rel="apple-touch-icon" href="../assets/app-icon-512.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <a class="brand" href="./" aria-label="歴史の裏側クイズ Web版">
+      <img src="../assets/app-icon-512.png" alt="">
+      <span>歴史の裏側クイズ</span>
+    </a>
+    <nav class="nav" aria-label="主要リンク">
+      <a href="../index.html">公式サイト</a>
+      <a href="../privacy.html">プライバシー</a>
+      <a href="https://www.youtube.com/@AI%E6%97%A5%E6%9C%AC%E3%81%AE%E8%A3%8F%E5%81%B4" rel="noopener">YouTube</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">AI日本の裏側 / Web PWA</p>
+        <h1>今日も1問、歴史の裏側へ。</h1>
+        <p>教科書の行間にある制度、統制、改革の流れを、出典つきの短いクイズで確認できます。</p>
+      </div>
+      <div class="hero-actions" aria-label="クイック操作">
+        <button class="primary-action" id="start-today-question" type="button">今日の1問</button>
+        <button class="secondary-action" id="install-button" type="button" hidden>ホームに追加</button>
+      </div>
+    </section>
+
+    <section class="daily-grid" id="today-question" aria-label="今日のコンテンツ">
+      <article class="panel quote-panel">
+        <div class="panel-head">
+          <p class="section-label">今日の格言</p>
+          <span class="certainty" id="quote-certainty">読み込み中</span>
+        </div>
+        <blockquote id="quote-text">読み込み中...</blockquote>
+        <p class="quote-meta" id="quote-meta"></p>
+        <p class="quote-note" id="quote-note"></p>
+        <div class="inline-actions">
+          <button type="button" id="speak-quote">読み上げ</button>
+          <a id="quote-source" href="#" rel="noopener">出典を開く</a>
+        </div>
+      </article>
+
+      <article class="panel question-panel">
+        <div class="panel-head">
+          <p class="section-label">今日の1問</p>
+          <span id="today-theme">読み込み中</span>
+        </div>
+        <p class="prompt" id="today-prompt">読み込み中...</p>
+        <div class="inline-actions">
+          <button type="button" id="open-today-question">この問題を解く</button>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" id="themes">
+      <div class="section-title">
+        <div>
+          <p class="section-label">テーマ別クイズ</p>
+          <h2>3テーマ・30問</h2>
+        </div>
+        <p class="saved-state" id="saved-state">進捗を読み込み中</p>
+      </div>
+      <div class="theme-list" id="theme-list"></div>
+    </section>
+
+    <section class="quiz-shell" id="quiz-shell" hidden>
+      <div class="quiz-top">
+        <button type="button" class="ghost-button" id="back-to-themes">テーマ一覧へ</button>
+        <p id="quiz-progress"></p>
+      </div>
+      <article class="panel quiz-card">
+        <div class="panel-head">
+          <p class="section-label" id="quiz-theme"></p>
+          <span class="certainty" id="quiz-certainty"></span>
+        </div>
+        <h2 id="quiz-prompt"></h2>
+        <div class="choice-list" id="choice-list"></div>
+        <div class="result" id="result" hidden>
+          <p class="result-title" id="result-title"></p>
+          <p id="result-explanation"></p>
+          <p id="contested-note" class="contested-note"></p>
+          <div class="source-list" id="source-list"></div>
+          <div class="inline-actions">
+            <button type="button" id="next-question">次の問題</button>
+            <button type="button" id="retry-question">もう一度</button>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <p>© 2026 AI日本の裏側 / 歴史の裏側クイズ</p>
+    <p>このWeb版は端末内に進捗だけを保存します。ログインや個人情報の送信はありません。</p>
+  </footer>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
