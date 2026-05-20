@@ -3,123 +3,71 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#1f4e5f">
-  <meta name="description" content="AI日本の裏側と連動した、出典つき歴史クイズPWA。今日の格言、今日の1問、テーマ別90問をスマホで読めます。">
-  <title>歴史の裏側クイズ Web版 | AI日本の裏側</title>
-  <link rel="manifest" href="manifest.webmanifest">
-  <link rel="icon" href="../assets/app-icon-512.png">
-  <link rel="apple-touch-icon" href="../assets/app-icon-512.png">
+  <title>歴史の裏側クイズ | AI日本の裏側</title>
+  <meta name="description" content="AI日本の裏側と連動した出典つき歴史クイズWebアプリ。今日の格言、今日の1問、戦国・剣術・制度史など9テーマ90問を公開中。">
+  <meta property="og:title" content="歴史の裏側クイズ | AI日本の裏側">
+  <meta property="og:description" content="出典つき90問と今日の格言60件。戦国・剣術・制度史をスマホで腕試し。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ainihonuragawa-lang.github.io/history-quiz-pages/">
+  <meta property="og:image" content="https://ainihonuragawa-lang.github.io/history-quiz-pages/assets/feature-graphic-1024x500.png">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="app-header">
-    <a class="brand" href="./" aria-label="歴史の裏側クイズ Web版">
-      <img src="../assets/app-icon-512.png" alt="">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="歴史の裏側クイズ">
+      <img src="assets/app-icon-512.png" alt="">
       <span>歴史の裏側クイズ</span>
     </a>
     <nav class="nav" aria-label="主要リンク">
-      <a href="../index.html">公式サイト</a>
-      <a href="../privacy.html">プライバシー</a>
+      <a href="privacy.html">プライバシーポリシー</a>
       <a href="https://www.youtube.com/@AI%E6%97%A5%E6%9C%AC%E3%81%AE%E8%A3%8F%E5%81%B4" rel="noopener">YouTube</a>
     </nav>
   </header>
 
+  <section class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">AI日本の裏側 / Web PWA</p>
+      <h1>歴史の裏側クイズ</h1>
+      <p>教科書の行間にある制度、戦い方、史料の読み方を、出典つきの短いクイズで確認できます。今日の格言60件、テーマ別90問を公開中です。</p>
+      <div class="actions">
+        <a class="button primary" href="app/">Web版を開く</a>
+        <a class="button" href="privacy.html">プライバシーポリシー</a>
+        <a class="button secondary" href="https://www.youtube.com/@AI%E6%97%A5%E6%9C%AC%E3%81%AE%E8%A3%8F%E5%81%B4" rel="noopener">YouTubeを見る</a>
+      </div>
+    </div>
+  </section>
+
   <main>
-    <section class="hero">
-      <div>
-        <p class="eyebrow">AI日本の裏側 / Web PWA</p>
-        <h1>今日の一問から、歴史の裏側へ。</h1>
-        <p>戦国、剣術、制度史、戦後改革まで。出典つきの短いクイズで、知っているつもりの歴史をもう一段深く確認できます。</p>
-      </div>
-      <div class="hero-actions" aria-label="クイック操作">
-        <button class="primary-action" id="start-today-question" type="button">今日の1問</button>
-        <button class="secondary-action" id="install-button" type="button" hidden>ホームに追加</button>
+    <section class="section">
+      <h2>出典でたどる、日本史の問い</h2>
+      <p>明治国家、戦時下の統制、占領期改革、関ヶ原、戦国の城、宮本武蔵、鉄砲、柳生新陰流、刀と甲冑。答えのあとに解説と出典リンクを確認できます。</p>
+      <div class="grid">
+        <div class="panel">
+          <h3>90問公開中</h3>
+          <p>9テーマ各10問。戦国・剣術好きが入りやすいテーマを増やしました。</p>
+        </div>
+        <div class="panel">
+          <h3>今日の格言60件</h3>
+          <p>福沢諭吉、夏目漱石、新渡戸稲造、宮本武蔵など、出典つきの短い言葉を日替わりで表示します。</p>
+        </div>
+        <div class="panel">
+          <h3>スマホで読めるPWA</h3>
+          <p>インストール不要で使えます。対応ブラウザではホーム画面に追加できます。</p>
+        </div>
       </div>
     </section>
 
-    <section class="daily-grid" id="today-question" aria-label="今日のコンテンツ">
-      <article class="panel quote-panel">
-        <div class="panel-head">
-          <p class="section-label">今日の格言</p>
-          <span class="certainty" id="quote-certainty">読み込み中</span>
-        </div>
-        <div class="character-stage quote-character" id="quote-character" aria-live="polite">
-          <div class="character-avatar" id="quote-avatar" aria-hidden="true"></div>
-          <div class="character-caption">
-            <strong id="quote-character-name">読み込み中</strong>
-            <span id="quote-character-role"></span>
-          </div>
-        </div>
-        <blockquote id="quote-text">読み込み中...</blockquote>
-        <p class="quote-meta" id="quote-meta"></p>
-        <p class="quote-note" id="quote-note"></p>
-        <div class="inline-actions">
-          <button type="button" id="speak-quote">読み上げ</button>
-          <a id="quote-source" href="#" rel="noopener">出典を開く</a>
-        </div>
-      </article>
-
-      <article class="panel question-panel">
-        <div class="panel-head">
-          <p class="section-label">今日の1問</p>
-          <span id="today-theme">読み込み中</span>
-        </div>
-        <p class="prompt" id="today-prompt">読み込み中...</p>
-        <div class="inline-actions">
-          <button type="button" id="open-today-question">この問題を解く</button>
-        </div>
-      </article>
-    </section>
-
-    <section class="section" id="themes">
-      <div class="section-title">
-        <div>
-          <p class="section-label">テーマ別クイズ</p>
-          <h2>9テーマ・90問</h2>
-        </div>
-        <p class="saved-state" id="saved-state">進捗を読み込み中</p>
-      </div>
-      <div class="theme-list" id="theme-list"></div>
-    </section>
-
-    <section class="quiz-shell" id="quiz-shell" hidden>
-      <div class="quiz-top">
-        <button type="button" class="ghost-button" id="back-to-themes">テーマ一覧へ</button>
-        <p id="quiz-progress"></p>
-      </div>
-      <article class="panel quiz-card">
-        <div class="panel-head">
-          <p class="section-label" id="quiz-theme"></p>
-          <span class="certainty" id="quiz-certainty"></span>
-        </div>
-        <div class="character-stage quiz-character" id="quiz-character" aria-live="polite">
-          <div class="character-avatar" id="quiz-avatar" aria-hidden="true"></div>
-          <div class="character-caption">
-            <strong id="quiz-character-name">史料読み係</strong>
-            <span id="quiz-character-role"></span>
-          </div>
-        </div>
-        <h2 id="quiz-prompt"></h2>
-        <div class="choice-list" id="choice-list"></div>
-        <div class="result" id="result" hidden>
-          <p class="result-title" id="result-title"></p>
-          <p id="result-explanation"></p>
-          <p id="contested-note" class="contested-note"></p>
-          <div class="source-list" id="source-list"></div>
-          <div class="inline-actions">
-            <button type="button" id="next-question">次の問題</button>
-            <button type="button" id="retry-question">もう一度</button>
-          </div>
-        </div>
-      </article>
+    <section class="section">
+      <h2>チャンネル連動</h2>
+      <p>このWebアプリは、YouTubeチャンネル「AI日本の裏側」と連動して、動画テーマを出典ベースのクイズに変換していく入口です。</p>
+      <p><a href="https://www.youtube.com/@AI%E6%97%A5%E6%9C%AC%E3%81%AE%E8%A3%8F%E5%81%B4" rel="noopener">AI日本の裏側 YouTubeチャンネル</a></p>
     </section>
   </main>
 
-  <footer class="app-footer">
+  <footer class="site-footer">
     <p>&copy; 2026 AI日本の裏側 / 歴史の裏側クイズ</p>
-    <p>このWeb版は端末内に進捗だけを保存します。ログインや個人情報の送信はありません。</p>
+    <p>お問い合わせ: <a href="mailto:ai.nihon.uragawa@gmail.com">ai.nihon.uragawa@gmail.com</a></p>
   </footer>
-
-  <script src="app.js" type="module"></script>
 </body>
 </html>
