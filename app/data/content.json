@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-19T22:52:38.352Z",
+  "generatedAt": "2026-05-20T07:21:29.506Z",
   "app": {
     "name": "歴史の裏側クイズ",
     "brand": "AI日本の裏側",
@@ -11,6 +11,152 @@
     "reviewStatus": "fact_checked",
     "createdAt": "2026-05-20",
     "sourceAccessedAt": "2026-05-20",
+    "characters": [
+      {
+        "key": "fukuzawa_yukichi",
+        "name": "福沢諭吉",
+        "role": "実学の案内役",
+        "era": "明治",
+        "color": "#315d7c",
+        "accent": "#d7ad51",
+        "prop": "book"
+      },
+      {
+        "key": "natsume_soseki",
+        "name": "夏目漱石",
+        "role": "個人主義の先生",
+        "era": "近代",
+        "color": "#5f4b8b",
+        "accent": "#d7ad51",
+        "prop": "book"
+      },
+      {
+        "key": "nitobe_inazo",
+        "name": "新渡戸稲造",
+        "role": "自警の紳士",
+        "era": "近代",
+        "color": "#2f7656",
+        "accent": "#d7ad51",
+        "prop": "book"
+      },
+      {
+        "key": "uchimura_kanzo",
+        "name": "内村鑑三",
+        "role": "高尚な生涯の語り手",
+        "era": "近代",
+        "color": "#8b4a3a",
+        "accent": "#d7ad51",
+        "prop": "scroll"
+      },
+      {
+        "key": "miyamoto_musashi",
+        "name": "宮本武蔵",
+        "role": "五輪書の剣豪",
+        "era": "江戸初期",
+        "color": "#4a3b2f",
+        "accent": "#c85d3d",
+        "prop": "sword"
+      },
+      {
+        "key": "shibusawa_eiichi",
+        "name": "渋沢栄一",
+        "role": "論語と算盤の実業家",
+        "era": "近代",
+        "color": "#2f5f68",
+        "accent": "#d7ad51",
+        "prop": "abacus"
+      },
+      {
+        "key": "yoshida_shoin",
+        "name": "吉田松陰",
+        "role": "志を燃やす教育者",
+        "era": "幕末",
+        "color": "#6c3f4f",
+        "accent": "#d7ad51",
+        "prop": "scroll"
+      },
+      {
+        "key": "yagyu_munenori",
+        "name": "柳生宗矩",
+        "role": "徳川の兵法指南",
+        "era": "江戸初期",
+        "color": "#384f35",
+        "accent": "#d7ad51",
+        "prop": "sword"
+      },
+      {
+        "key": "tokugawa_ieyasu",
+        "name": "徳川家康",
+        "role": "勝ち筋を読む大将",
+        "era": "戦国",
+        "color": "#2f4c77",
+        "accent": "#d7ad51",
+        "prop": "fan"
+      },
+      {
+        "key": "ishida_mitsunari",
+        "name": "石田三成",
+        "role": "関ヶ原の西軍参謀",
+        "era": "戦国",
+        "color": "#6c3f68",
+        "accent": "#d7ad51",
+        "prop": "fan"
+      },
+      {
+        "key": "kobayakawa_hideaki",
+        "name": "小早川秀秋",
+        "role": "関ヶ原の分岐点",
+        "era": "戦国",
+        "color": "#8b6f2f",
+        "accent": "#c85d3d",
+        "prop": "fan"
+      },
+      {
+        "key": "oda_nobunaga",
+        "name": "織田信長",
+        "role": "鉄砲と城の革新者",
+        "era": "戦国",
+        "color": "#682f3f",
+        "accent": "#d7ad51",
+        "prop": "fan"
+      },
+      {
+        "key": "ikeda_terumasa",
+        "name": "池田輝政",
+        "role": "姫路城の築城大名",
+        "era": "江戸初期",
+        "color": "#3d5d62",
+        "accent": "#d7ad51",
+        "prop": "fan"
+      },
+      {
+        "key": "swordsmith",
+        "name": "刀鍛冶",
+        "role": "刀を読む職人",
+        "era": "中世",
+        "color": "#49443d",
+        "accent": "#d7ad51",
+        "prop": "hammer"
+      },
+      {
+        "key": "armor_master",
+        "name": "甲冑師",
+        "role": "よろいの仕組み係",
+        "era": "中世",
+        "color": "#4e5b62",
+        "accent": "#d7ad51",
+        "prop": "armor"
+      },
+      {
+        "key": "historian",
+        "name": "史料読み係",
+        "role": "出典確認の案内役",
+        "era": "通史",
+        "color": "#1f4e5f",
+        "accent": "#d7ad51",
+        "prop": "book"
+      }
+    ],
     "packs": [
       {
         "id": "jp-meiji-state-001",
@@ -55,6 +201,7 @@
             "answer": "A",
             "explanation": "五箇条の御誓文は、明治新政府の基本方針を示したもの。代表的な一条に「広く会議を興し万機公論に決すべし」があり、のちの公議・議会論の出発点として読める。",
             "certainty": "確定的",
+            "characterKey": "fukuzawa_yukichi",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -107,6 +254,7 @@
             "answer": "A",
             "explanation": "国立公文書館は、版籍奉還を「版（土地）と籍（人民）を天皇へ返還すること」と説明している。藩主の支配をすぐ廃止したというより、中央集権化へ進む途中段階だった。",
             "certainty": "確定的",
+            "characterKey": "fukuzawa_yukichi",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -159,6 +307,7 @@
             "answer": "A",
             "explanation": "廃藩置県では藩知事が罷免され、政府が任命する府知事・県知事が行政を担った。ここに、地方権力を中央政府の任命制へ置き換える狙いが見える。",
             "certainty": "確定的",
+            "characterKey": "fukuzawa_yukichi",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -211,6 +360,7 @@
             "answer": "A",
             "explanation": "廃藩置県の直後は、藩をそのまま県に置き換えたため3府302県となった。その後、急速に統合が進む。現在の47都道府県をそのまま明治初期に当てはめないのがポイント。",
             "certainty": "確定的",
+            "characterKey": "fukuzawa_yukichi",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -263,6 +413,7 @@
             "answer": "A",
             "explanation": "徴兵令は国民皆兵を原則とし、満20歳男子に徴兵検査を受けさせ、合格者の中から抽選で常備軍に服させる仕組みだった。",
             "certainty": "確定的",
+            "characterKey": "fukuzawa_yukichi",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -315,6 +466,7 @@
             "answer": "A",
             "explanation": "徴兵令は皆兵原則として語られやすいが、実際には免除規定も置かれた。国民国家化の理念と、当時の社会的条件の折り合いが見える部分。",
             "certainty": "確定的",
+            "characterKey": "fukuzawa_yukichi",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -367,6 +519,7 @@
             "answer": "A",
             "explanation": "地租改正は、旧来の石高制にもとづく物納から、地価を基準にした金納へ変える大きな転換だった。国家財政を安定させる制度設計として重要。",
             "certainty": "確定的",
+            "characterKey": "fukuzawa_yukichi",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -419,6 +572,7 @@
             "answer": "A",
             "explanation": "学制は西洋諸国の制度を参酌し、最終的にフランスの制度を手本として制定された。学校制度も、近代国家づくりの基盤だった。",
             "certainty": "確定的",
+            "characterKey": "fukuzawa_yukichi",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -471,6 +625,7 @@
             "answer": "A",
             "explanation": "建白書は、政府の有司専制を批判し、民撰議院の設置を求めた。教科書では自由民権運動の一語で済まされがちだが、資料では政治参加の論理がはっきり見える。",
             "certainty": "確定的",
+            "characterKey": "fukuzawa_yukichi",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -524,6 +679,7 @@
             "answer": "A",
             "explanation": "1881年の国会開設の勅諭は、1890年を期して国会を開くことを示した。明治憲法の起草では、伊藤博文らの欧州調査やプロイセン憲法参照が重要だった。",
             "certainty": "確定的",
+            "characterKey": "fukuzawa_yukichi",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -597,6 +753,7 @@
             "answer": "A",
             "explanation": "国家総動員法は、日中戦争の長期化を背景に、人的・物的資源を国防目的に沿って統制運用する基本法だった。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -649,6 +806,7 @@
             "answer": "A",
             "explanation": "国家総動員法は、労働・経済・物資統制などの具体化を勅令に委ねた。このため、非常大権侵害や議会への白紙委任という批判があった。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "批判の評価は研究上の解釈を含むが、批判が存在したことは出典で確認できる。",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -701,6 +859,7 @@
             "answer": "A",
             "explanation": "国民徴用令は、国家総動員法に基づく勅令の一つとして制定された。戦時体制が労働力の配置にまで及んだことを示す。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -753,6 +912,7 @@
             "answer": "A",
             "explanation": "価格・運送賃・保管料・賃貸料・賃金などを、原則として昭和14年9月18日の額を超えて引き上げることを禁じる方針だった。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -805,6 +965,7 @@
             "answer": "A",
             "explanation": "物価局は物価統制に加え、食料品や日用品の生産・配給・消費に関する事務も担った。統制は市場価格だけでなく、暮らしの配分にも及んだ。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -857,6 +1018,7 @@
             "answer": "A",
             "explanation": "大政翼賛会は、日中戦争の長期化と新体制運動を背景に結成された国策協力のための官制国民運動団体だった。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -909,6 +1071,7 @@
             "answer": "A",
             "explanation": "大政翼賛会は「衆議統裁」とされ、議決ではなく総裁の最終決定を軸にした。名前の印象だけでなく、組織の決め方を見ると性格が見える。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -962,6 +1125,7 @@
             "answer": "A",
             "explanation": "国民精神総動員本部や大政翼賛会の流れでは、町内会・部落会が実践網・末端組織として整備、組み込みの対象になった。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -1014,6 +1178,7 @@
             "answer": "A",
             "explanation": "1942年の翼賛選挙では、推薦候補の当選が全体の8割以上を占めたと解説されている。戦時下の議会政治を見る入口になる。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -1066,6 +1231,7 @@
             "answer": "A",
             "explanation": "国家総動員法は、戦後の1945年12月20日に廃止された。総力戦体制は、終戦と同時に自然消滅したのではなく、法制度の整理を経て解かれていった。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -1132,6 +1298,7 @@
             "answer": "A",
             "explanation": "日本国憲法は1946年11月3日に公布され、1947年5月3日に施行された。日付はアプリの基礎知識として扱う。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -1184,6 +1351,7 @@
             "answer": "A",
             "explanation": "松本委員会は幣原内閣に置かれた憲法改正の調査研究委員会。GHQとのやり取りに入る前の日本政府側の検討過程を知る鍵になる。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -1236,6 +1404,7 @@
             "answer": "A",
             "explanation": "NDLの解説では、毎日新聞による委員会試案のスクープをきっかけに、マッカーサー三原則が示され、1946年2月4日に民政局内で起草作業が始まった流れが説明されている。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "制定過程の評価には多様な議論があるが、ここではNDLの概説で確認できる手続き上の流れを問う。",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -1288,6 +1457,7 @@
             "answer": "A",
             "explanation": "2月13日の会談記録からは、日本政府側が松本案への返答を期待していたところ、拒否とGHQ草案提示に直面した様子が読み取れる。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -1340,6 +1510,7 @@
             "answer": "A",
             "explanation": "NDLの一覧では、人権に関する委員会にB.シロタが含まれる。憲法の人権規定は、個人名と委員会単位で制定過程を追える。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -1392,6 +1563,7 @@
             "answer": "A",
             "explanation": "1945年の改正で女性参政権が認められ、選挙権・被選挙権の年齢も引き下げられた。日本国憲法の施行より前に進んだ改革である点も重要。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -1444,6 +1616,7 @@
             "answer": "A",
             "explanation": "改正後の選挙で、日本初の女性議員39名が選出された。制度改正が実際の代表者構成を変えた例として扱える。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -1496,6 +1669,7 @@
             "answer": "A",
             "explanation": "労働組合法は1945年12月22日に公布され、翌年3月1日に施行された。労働者の団結権・団体交渉権・ストライキ権を保障した。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -1548,6 +1722,7 @@
             "answer": "A",
             "explanation": "自作農創設特別措置法などにより、不在地主や保有限度を超えた在村地主の小作地を国が買収し、小作農に売却する改革が実施された。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "農地改革の長期的評価には研究上の議論があるが、この問題は制度内容を問う。",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -1601,6 +1776,7 @@
             "answer": "A",
             "explanation": "教育基本法は日本国憲法の精神に則り教育の目的を示し、学校教育法は小・中・高・大学の六・三・三・四制を定めた。戦後制度の基礎を作った改革の一つ。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -1667,6 +1843,7 @@
             "answer": "A",
             "explanation": "国立公文書館は、慶長5年9月15日に家康方と三成方が関ヶ原で対峙したと説明している。文化遺産オンラインでも関ヶ原古戦場として、開戦地・決戦地などが指定されている。",
             "certainty": "確定的",
+            "characterKey": "ishida_mitsunari",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -1720,6 +1897,7 @@
             "answer": "A",
             "explanation": "関ヶ原は少数の英雄だけで決まった決闘ではなく、約7万対約8万と説明される大規模な会戦だった。古戦場の指定範囲にも複数の陣地や戦闘地点が残る。",
             "certainty": "確定的",
+            "characterKey": "ishida_mitsunari",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -1773,6 +1951,7 @@
             "answer": "A",
             "explanation": "国立公文書館の解説は、秀吉死後の豊臣政権運営、前田利家死去後のパワーバランス変化、反家康派形成という流れを示している。人物対立だけに縮めると背景を落としやすい。",
             "certainty": "条件付き",
+            "characterKey": "ishida_mitsunari",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -1826,6 +2005,7 @@
             "answer": "A",
             "explanation": "関ヶ原古戦場は、単一の碑だけではなく、開戦地、決戦地、徳川家康最初・最後陣地、石田三成陣地、首塚など複数地点から成る史跡として説明される。",
             "certainty": "確定的",
+            "characterKey": "ishida_mitsunari",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -1879,6 +2059,7 @@
             "answer": "A",
             "explanation": "国立公文書館は「金吾」小早川秀秋の裏切りを三成方崩壊の契機として説明し、文化遺産オンラインも決戦地の説明で小早川秀秋の反旗に触れている。",
             "certainty": "確定的",
+            "characterKey": "kobayakawa_hideaki",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -1932,6 +2113,7 @@
             "answer": "A",
             "explanation": "関ヶ原古戦場の解説では、決戦地は小早川秀秋の反旗後、大谷吉隆が戦死し、小西・宇喜多両軍が破れ、石田三成が最後の決戦を試みた笹尾山下一帯と説明される。",
             "certainty": "確定的",
+            "characterKey": "kobayakawa_hideaki",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -1985,6 +2167,7 @@
             "answer": "A",
             "explanation": "この屏風は江戸時代の作品として登録され、関ヶ原合戦当日の様子を戦場南方から俯瞰した構図と説明される。後世の絵画資料なので、直接の戦闘記録とは分けて読む必要がある。",
             "certainty": "条件付き",
+            "characterKey": "uchimura_kanzo",
             "contestedNote": "屏風は後世の美術資料であり、同時代の戦闘記録そのものではない。",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -2038,6 +2221,7 @@
             "answer": "A",
             "explanation": "文化遺産オンラインは、屏風の陣形がおおむね史実に沿うと説明する一方、江戸時代の作品として登録している。アプリでは「後世資料である」ことを表示して扱うのが安全。",
             "certainty": "条件付き",
+            "characterKey": "uchimura_kanzo",
             "contestedNote": "後世絵画資料のため、細部を同時代事実として断定しない。",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -2091,6 +2275,7 @@
             "answer": "A",
             "explanation": "岡山烽火場は、東西両軍の陣地を一望できる地点と説明される。戦場を読むには、人物名だけでなく地形と視界のポイントも効いてくる。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -2144,6 +2329,7 @@
             "answer": "A",
             "explanation": "国立公文書館は、関ヶ原後の慶長8年に家康が征夷大将軍へ任ぜられ、江戸幕府を開いたことを、武家の棟梁として頂点に立つ重要な契機として説明している。",
             "certainty": "確定的",
+            "characterKey": "tokugawa_ieyasu",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -2210,6 +2396,7 @@
             "answer": "A",
             "explanation": "姫路城公式サイトは、抵抗線が三重の螺旋形になった縄張を要塞機能の重要点として説明する。文化遺産オンラインの姫路城跡解説も、螺旋状の内堀や中堀、外堀の配置を示している。",
             "certainty": "確定的",
+            "characterKey": "ikeda_terumasa",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -2263,6 +2450,7 @@
             "answer": "A",
             "explanation": "文化遺産オンラインは、天守群だけでなく櫓、門、土塀、通路、堀などが防御のために配置されたことを説明する。姫路城跡の史跡解説も石垣・通路・堀の防備性を強調している。",
             "certainty": "条件付き",
+            "characterKey": "ikeda_terumasa",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -2316,6 +2504,7 @@
             "answer": "A",
             "explanation": "文化遺産オンラインは、1600年に城主となった池田輝政が、1601年から1609年にかけて古城を廃して新たに築造しなおしたと説明している。",
             "certainty": "確定的",
+            "characterKey": "ikeda_terumasa",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -2369,6 +2558,7 @@
             "answer": "A",
             "explanation": "文化遺産オンラインは、天守群へ至るには各門を通過する必要があり、道を曲がりくねらせて敵を通りにくくしたと説明する。見た目の美しさだけでなく、侵入経路の制御が重要だった。",
             "certainty": "確定的",
+            "characterKey": "ikeda_terumasa",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -2422,6 +2612,7 @@
             "answer": "A",
             "explanation": "滋賀県は、安土城を織田信長が天下統一の拠点として琵琶湖岸に築いた大城郭と説明している。英語版の県資料でも、全国統一の足場となる拠点としての性格が示される。",
             "certainty": "確定的",
+            "characterKey": "oda_nobunaga",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -2475,6 +2666,7 @@
             "answer": "A",
             "explanation": "滋賀県の英語版資料は、1576年に築城が始まり、1579年に天主が完成して信長が移ったこと、1582年の本能寺の変後に天主と本丸が焼失したことを説明している。",
             "certainty": "確定的",
+            "characterKey": "oda_nobunaga",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -2528,6 +2720,7 @@
             "answer": "A",
             "explanation": "滋賀県の調査成果では、大手道は大手口と城内を結ぶルートで、直線的に180m進み、道幅は直線部で約8m、両側に石敷側溝と石塁を持つとされる。",
             "certainty": "確定的",
+            "characterKey": "oda_nobunaga",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -2581,6 +2774,7 @@
             "answer": "A",
             "explanation": "滋賀県は、安土城の石垣を自然石を巧みに使って積み上げたものと説明し、整備では築城時の石垣の保存を基本に、安全上必要な部分だけを当時の工法で復元するとしている。",
             "certainty": "確定的",
+            "characterKey": "oda_nobunaga",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -2634,6 +2828,7 @@
             "answer": "A",
             "explanation": "歴博は、城館・城下遺跡の発掘調査情報を集成し、とくに検出遺構に注目するデータベースだと説明している。城は物語だけでなく、考古資料からも読む対象になる。",
             "certainty": "確定的",
+            "characterKey": "historian",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -2687,6 +2882,7 @@
             "answer": "A",
             "explanation": "姫路城・安土城・歴博データベースはいずれも、城を建物単体ではなく、堀、石垣、門、道、郭、発掘遺構などの総合として示している。視聴者層には、この実物感が刺さりやすい。",
             "certainty": "条件付き",
+            "characterKey": "oda_nobunaga",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -2769,6 +2965,7 @@
             "answer": "A",
             "explanation": "国立国会図書館サーチの『五輪の書 : 原本』は、著者を宮本武蔵とする書誌情報を示している。東北大学の所蔵情報でも、制作者は宮本武蔵とされる。",
             "certainty": "確定的",
+            "characterKey": "miyamoto_musashi",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -2822,6 +3019,7 @@
             "answer": "A",
             "explanation": "兵庫文学館は、『五輪書』が仏教の五輪、つまり地・水・火・風・空の意味から五部構成になったと説明している。NDLサーチの目次にも地の巻などが確認できる。",
             "certainty": "確定的",
+            "characterKey": "miyamoto_musashi",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -2875,6 +3073,7 @@
             "answer": "A",
             "explanation": "兵庫文学館は、地の巻では兵法一般と自らの二天一流の原点を説くと説明する。五輪書は単なる技名集ではなく、兵法の考え方を体系化した書として扱える。",
             "certainty": "確定的",
+            "characterKey": "miyamoto_musashi",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -2928,6 +3127,7 @@
             "answer": "A",
             "explanation": "兵庫文学館は、水の巻を実戦時の心身の持ちようや、相手の本質を見る「観」と表面を見る「見」に関わる内容として説明している。",
             "certainty": "確定的",
+            "characterKey": "miyamoto_musashi",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -2981,6 +3181,7 @@
             "answer": "A",
             "explanation": "兵庫文学館は、火の巻では先手や臨機応変、駆け引き、相手の立場に立って戦いを組み立てる必要性を述べると説明している。",
             "certainty": "確定的",
+            "characterKey": "miyamoto_musashi",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -3034,6 +3235,7 @@
             "answer": "A",
             "explanation": "兵庫文学館は、風の巻を、形や道具にこだわる他流派への批判を含む内容として説明している。『風』は気象ではなく、他流との比較として読める。",
             "certainty": "確定的",
+            "characterKey": "miyamoto_musashi",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -3087,6 +3289,7 @@
             "answer": "A",
             "explanation": "兵庫文学館は、空の巻を、迷い・執着から解き放たれた心境や、二天一流の真髄に関わる内容として説明している。",
             "certainty": "確定的",
+            "characterKey": "miyamoto_musashi",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -3140,6 +3343,7 @@
             "answer": "A",
             "explanation": "兵庫文学館は、地の巻の説明で、武道具は手に合うようにあるべきで、使いこなせる得物こそ十分な効力を発すると解説している。現代的に言えば、道具選びも兵法の一部ということ。",
             "certainty": "条件付き",
+            "characterKey": "miyamoto_musashi",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -3193,6 +3397,7 @@
             "answer": "A",
             "explanation": "兵庫文学館は、武蔵が美濃紙に書いた直筆の五輪書は焼失し、現在伝わるのは弟子筋が写したものだと説明している。書誌で著者や所蔵を確認しつつ、伝来の注意も添えるのが安全。",
             "certainty": "条件付き",
+            "characterKey": "miyamoto_musashi",
             "contestedNote": "伝来や序文の扱いには見方があり、アプリでは断定を避ける。",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -3246,6 +3451,7 @@
             "answer": "A",
             "explanation": "NDLサーチでは『五輪の書 : 原本』と吉川英治著『宮本武蔵』を別の書誌として確認できる。剣豪イメージの面白さは活かしつつ、出典種別を分けて示すのが公開前品質に合う。",
             "certainty": "条件付き",
+            "characterKey": "miyamoto_musashi",
             "contestedNote": "文学作品の筋書きは、一次的な人物史料とは分けて扱う。",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -3320,6 +3526,7 @@
             "answer": "A",
             "explanation": "新城市の長篠・設楽原の戦い解説は、天正3年5月21日の戦いとして説明している。関ヶ原や本能寺と混同せず、戦国の戦い方を変えた局面として扱う。",
             "certainty": "確定的",
+            "characterKey": "oda_nobunaga",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -3373,6 +3580,7 @@
             "answer": "A",
             "explanation": "新城市は、武田勝頼が三河へ進攻し、約500人が守る長篠城を包囲した流れを説明する。鉄砲だけでなく、城の救援戦として見ると構図がわかりやすい。",
             "certainty": "確定的",
+            "characterKey": "oda_nobunaga",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -3426,6 +3634,7 @@
             "answer": "A",
             "explanation": "新城市の解説では、信長と家康の連合軍が設楽原に布陣し、武田軍と対峙したと説明される。戦場は単なる鉄砲実験場ではなく、同盟・救援・野戦が重なった場所だった。",
             "certainty": "確定的",
+            "characterKey": "tokugawa_ieyasu",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -3479,6 +3688,7 @@
             "answer": "A",
             "explanation": "新城市は、連吾川沿い約2kmに武田騎馬隊を防ぐ三重の柵を設けたと説明している。鉄砲の威力だけでなく、防御施設と地形の組み合わせが戦い方のポイントになる。",
             "certainty": "確定的",
+            "characterKey": "oda_nobunaga",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -3532,6 +3742,7 @@
             "answer": "A",
             "explanation": "新城市は、馬防柵と鉄砲隊を関連づけて説明している。戦国の戦い方は、武器単体よりも地形、柵、城救援、部隊運用の組み合わせとして見るほうが実態に近い。",
             "certainty": "条件付き",
+            "characterKey": "oda_nobunaga",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -3585,6 +3796,7 @@
             "answer": "A",
             "explanation": "新城市設楽原歴史資料館は、三段撃ちの謎を企画展テーマにしており、近年は『実施していない』という説も示している。アプリでは定説扱いで押し切らず、条件付きで説明する。",
             "certainty": "条件付き",
+            "characterKey": "oda_nobunaga",
             "contestedNote": "三段撃ち説は有名だが、研究上の見直しがあるため断定しない。",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -3638,6 +3850,7 @@
             "answer": "A",
             "explanation": "歴博の企画展示は、種子島から戊辰戦争までを範囲に、鉄炮伝来とその影響を扱う。鉄砲は一戦闘だけでなく、技術・流通・戦国大名の軍事運用に関わるテーマとして読む。",
             "certainty": "確定的",
+            "characterKey": "oda_nobunaga",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -3691,6 +3904,7 @@
             "answer": "A",
             "explanation": "NDLサーチの書誌で確認できる同書は、伝来、製銃法の伝習、急速な普及などを扱う。武器の効果は、輸入だけでなく、製造・運用・普及の段階で見たほうがよい。",
             "certainty": "確定的",
+            "characterKey": "oda_nobunaga",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -3744,6 +3958,7 @@
             "answer": "A",
             "explanation": "文化遺産オンラインの合戦図屏風は、戦場イメージを学ぶ材料になる。一方で、後世に制作・伝来した視覚資料なので、鉄砲の運用や配置の細部を即断定しない扱いが安全。",
             "certainty": "条件付き",
+            "characterKey": "oda_nobunaga",
             "contestedNote": "合戦図は視覚資料であり、同時代の戦闘実況ではない。",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -3797,6 +4012,7 @@
             "answer": "A",
             "explanation": "新城市、歴博、NDLの出典を合わせると、鉄砲は一つの有名場面だけでなく、包囲戦、救援戦、地形、柵、普及・技術、後世説の見直しを含むテーマとして扱える。",
             "certainty": "条件付き",
+            "characterKey": "oda_nobunaga",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -3879,6 +4095,7 @@
             "answer": "A",
             "explanation": "なら旅ネットは、柳生宗厳が永禄6年に上泉信綱と出会い、のちに新陰流を伝えられたと説明している。柳生新陰流は、個人の武勇伝だけでなく流派伝承として読む必要がある。",
             "certainty": "確定的",
+            "characterKey": "yagyu_munenori",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -3932,6 +4149,7 @@
             "answer": "A",
             "explanation": "なら旅ネットは、文禄3年に宗厳が宗矩を連れて徳川家康のもとで演武し、宗矩が家康に仕える契機になったと説明している。",
             "certainty": "確定的",
+            "characterKey": "yagyu_munenori",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -3985,6 +4203,7 @@
             "answer": "A",
             "explanation": "なら旅ネットは、柳生宗矩が家康に出仕し、秀忠・家光に仕え、将軍家剣術指南として重要な位置にあったことを説明している。",
             "certainty": "確定的",
+            "characterKey": "yagyu_munenori",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -4038,6 +4257,7 @@
             "answer": "A",
             "explanation": "なら旅ネットは、宗矩が大坂夏の陣後の加増などを経て、柳生藩一万二千五百石の大名になったと説明している。剣術が政権中枢と結びついた点が見える。",
             "certainty": "確定的",
+            "characterKey": "yagyu_munenori",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -4091,6 +4311,7 @@
             "answer": "A",
             "explanation": "NDL典拠データは、『兵法家伝書』を柳生宗矩の著作として扱っている。柳生新陰流を扱うときは、人物伝だけでなく文献の書誌確認も重要になる。",
             "certainty": "確定的",
+            "characterKey": "yagyu_munenori",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -4144,6 +4365,7 @@
             "answer": "A",
             "explanation": "CiNii Booksの書誌は、『兵法家伝書』に進履橋、殺人刀、活人剣などの構成があることを示している。五輪書の五巻構成とは分けて覚えると整理しやすい。",
             "certainty": "確定的",
+            "characterKey": "yagyu_munenori",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -4197,6 +4419,7 @@
             "answer": "A",
             "explanation": "CiNii Researchには『柳生宗矩の「兵法家伝書」における剣術思想』という研究文献が確認できる。柳生の兵法は、単なる技リストではなく思想として問う余地がある。",
             "certainty": "確定的",
+            "characterKey": "yagyu_munenori",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -4250,6 +4473,7 @@
             "answer": "A",
             "explanation": "J-STAGE掲載論文は、細川家文書の『新陰流兵法書』を、柳生宗矩が細川忠利に教えた技法を記す文書として扱っている。流派は口伝だけでなく伝書研究の対象にもなる。",
             "certainty": "確定的",
+            "characterKey": "yagyu_munenori",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -4303,6 +4527,7 @@
             "answer": "A",
             "explanation": "なら旅ネットは宗矩の徳川家出仕と将軍家指南を説明し、NDL・CiNiiは『兵法家伝書』を宗矩の著作として示す。政権と兵法が交わる点が、このテーマの面白さになる。",
             "certainty": "条件付き",
+            "characterKey": "yagyu_munenori",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -4364,6 +4589,7 @@
             "answer": "A",
             "explanation": "柳生新陰流は人気テーマだが、伝承・演武・伝書・研究文献を混同すると過剰演出になりやすい。出典種別を分けることで、剣術ファンにも納得感のある問題にできる。",
             "certainty": "条件付き",
+            "characterKey": "yagyu_munenori",
             "contestedNote": "武芸伝承は後世の脚色を含む場合があるため、文献と伝承を分ける。",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -4446,6 +4672,7 @@
             "answer": "A",
             "explanation": "東京都教育委員会の資料は、日本刀を武器としてだけでなく、美術工芸品・文化財としても扱っている。アプリでは、斬る道具という一面だけにしない。",
             "certainty": "確定的",
+            "characterKey": "swordsmith",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -4499,6 +4726,7 @@
             "answer": "A",
             "explanation": "東京都教育委員会の資料は、日本刀の制作を複数工程の工芸技術として説明している。刀は単なる武器スペックではなく、素材と加工の知識が必要な対象でもある。",
             "certainty": "確定的",
+            "characterKey": "swordsmith",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -4552,6 +4780,7 @@
             "answer": "A",
             "explanation": "e国宝の刀剣資料は、刃長、反り、銘、制作時代、刃文などを示す。刀のリアルは、伝説ではなく実物の寸法と姿からも確認できる。",
             "certainty": "確定的",
+            "characterKey": "swordsmith",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -4605,6 +4834,7 @@
             "answer": "A",
             "explanation": "e国宝の太刀資料では、反り、鎬造、刃文などが説明される。日本刀を扱う問題では、武将名だけでなく、実物の形態情報を読むと厚みが出る。",
             "certainty": "確定的",
+            "characterKey": "swordsmith",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -4658,6 +4888,7 @@
             "answer": "A",
             "explanation": "e国宝の短刀資料は、刃長や姿、時代などの具体情報を示す。刀種は大ざっぱなイメージだけでなく、実物寸法と制作背景で見るのが安全。",
             "certainty": "確定的",
+            "characterKey": "swordsmith",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -4711,6 +4942,7 @@
             "answer": "A",
             "explanation": "文化遺産オンラインの白糸威胴丸具足は、胴、袖、兜、小具足などを含む資料として説明される。甲冑は一枚の鉄板ではなく、身体を守る複合装備として見る。",
             "certainty": "確定的",
+            "characterKey": "swordsmith",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -4764,6 +4996,7 @@
             "answer": "A",
             "explanation": "文化遺産オンラインの樫鳥糸肩赤威胴丸は、右脇開きや八間の草摺などの構造を説明している。甲冑は重さだけでなく、装着・可動の工夫も見るべき対象。",
             "certainty": "確定的",
+            "characterKey": "swordsmith",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -4817,6 +5050,7 @@
             "answer": "A",
             "explanation": "文化遺産オンラインの胴丸資料は威糸や配色を詳しく示し、東京国立博物館の資料も甲冑の保護機能と造形の面を扱う。戦場の道具であると同時に、見せる装備でもあった。",
             "certainty": "条件付き",
+            "characterKey": "swordsmith",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -4870,6 +5104,7 @@
             "answer": "A",
             "explanation": "京都国立博物館の解説は、古墳時代の甲冑を戦い方や馬具との関係で説明する。戦国の甲冑を考えるときも、武器・戦術・身体運用の変化と合わせる視点が有効。",
             "certainty": "条件付き",
+            "characterKey": "swordsmith",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -4923,6 +5158,7 @@
             "answer": "A",
             "explanation": "e国宝、文化遺産オンライン、博物館資料を合わせると、刀と甲冑は伝説の強さだけでなく、寸法、構造、制作工程、可動性、意匠から理解できる。歴史好き向けにはこの実物感が強い入口になる。",
             "certainty": "条件付き",
+            "characterKey": "swordsmith",
             "contestedNote": "",
             "reviewStatus": "fact_checked",
             "sources": [
@@ -4967,56 +5203,662 @@
       {
         "id": "quote_fukuzawa_gakumon_001",
         "person": "福沢諭吉",
+        "avatarKey": "fukuzawa_yukichi",
         "workTitle": "学問のすすめ",
         "text": "天は人の上に人を造らず、人の下に人を造らず。",
         "note": "身分差を自然なものとせず、学問による自立を説く文脈の冒頭句。",
         "sourceUrl": "https://www.aozora.gr.jp/cards/000296/files/47061_29420.html",
-        "certainty": "確定的"
+        "certainty": "確定的",
+        "quoteKind": "原文抜粋"
+      },
+      {
+        "id": "quote_fukuzawa_gakumon_002",
+        "person": "福沢諭吉",
+        "avatarKey": "fukuzawa_yukichi",
+        "workTitle": "学問のすすめ",
+        "text": "学問は、人が独立して生きるための力になる。",
+        "note": "『学問のすすめ』の独立自尊の趣旨を短く整えたもの。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000296/files/47061_29420.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_fukuzawa_gakumon_003",
+        "person": "福沢諭吉",
+        "avatarKey": "fukuzawa_yukichi",
+        "workTitle": "学問のすすめ",
+        "text": "読んだだけで終わらせず、実地に役立ててこそ学問である。",
+        "note": "学問を日用・実学として重んじる文脈の要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000296/files/47061_29420.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_fukuzawa_gakumon_004",
+        "person": "福沢諭吉",
+        "avatarKey": "fukuzawa_yukichi",
+        "workTitle": "学問のすすめ",
+        "text": "自分の身を支え、自分の考えで立つことが大切である。",
+        "note": "独立の精神を説く箇所の趣旨を現代語化。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000296/files/47061_29420.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_fukuzawa_gakumon_005",
+        "person": "福沢諭吉",
+        "avatarKey": "fukuzawa_yukichi",
+        "workTitle": "学問のすすめ",
+        "text": "権利を語るなら、同時に責任も引き受ける。",
+        "note": "権利と義務を切り離さない論旨の要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000296/files/47061_29420.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_fukuzawa_gakumon_006",
+        "person": "福沢諭吉",
+        "avatarKey": "fukuzawa_yukichi",
+        "workTitle": "学問のすすめ",
+        "text": "人の評判だけでなく、事実を見て判断する。",
+        "note": "虚飾や旧習に流されず、知によって判断する趣旨の要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000296/files/47061_29420.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_fukuzawa_gakumon_007",
+        "person": "福沢諭吉",
+        "avatarKey": "fukuzawa_yukichi",
+        "workTitle": "学問のすすめ",
+        "text": "文明は、日々の知識と働きの積み重ねで進む。",
+        "note": "文明論的な文脈を、短い格言として整えたもの。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000296/files/47061_29420.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_fukuzawa_gakumon_008",
+        "person": "福沢諭吉",
+        "avatarKey": "fukuzawa_yukichi",
+        "workTitle": "学問のすすめ",
+        "text": "学びは、身分ではなく志ある人に開かれている。",
+        "note": "学問による身分差克服という冒頭部の趣旨を要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000296/files/47061_29420.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_fukuzawa_gakumon_009",
+        "person": "福沢諭吉",
+        "avatarKey": "fukuzawa_yukichi",
+        "workTitle": "学問のすすめ",
+        "text": "自立した人が増えてこそ、国も強くなる。",
+        "note": "一身独立と一国独立を結びつける考えの要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000296/files/47061_29420.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_fukuzawa_gakumon_010",
+        "person": "福沢諭吉",
+        "avatarKey": "fukuzawa_yukichi",
+        "workTitle": "学問のすすめ",
+        "text": "疑い、調べ、考えることが旧い習慣を破る。",
+        "note": "学問によって迷信や旧習を離れる趣旨の要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000296/files/47061_29420.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
       },
       {
         "id": "quote_natsume_kojinshugi_001",
         "person": "夏目漱石",
+        "avatarKey": "natsume_soseki",
         "workTitle": "私の個人主義",
         "text": "義務心を持っていない自由は本当の自由ではない。",
         "note": "自由と責任を切り離さずに考える講演の一節。",
         "sourceUrl": "https://www.aozora.gr.jp/cards/000148/files/772_33100.html",
-        "certainty": "確定的"
+        "certainty": "確定的",
+        "quoteKind": "原文抜粋"
       },
       {
         "id": "quote_natsume_kojinshugi_002",
         "person": "夏目漱石",
+        "avatarKey": "natsume_soseki",
         "workTitle": "私の個人主義",
         "text": "他の存在を尊敬すると同時に自分の存在を尊敬する。",
         "note": "自己本位を、他者の自由を侵さない自立として説明する文脈。",
         "sourceUrl": "https://www.aozora.gr.jp/cards/000148/files/772_33100.html",
-        "certainty": "確定的"
+        "certainty": "確定的",
+        "quoteKind": "原文抜粋"
+      },
+      {
+        "id": "quote_natsume_kojinshugi_003",
+        "person": "夏目漱石",
+        "avatarKey": "natsume_soseki",
+        "workTitle": "私の個人主義",
+        "text": "自分の進む道は、最後には自分で掘り当てるしかない。",
+        "note": "自分本位を発見するまでの苦悩を語る文脈の要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000148/files/772_33100.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_natsume_kojinshugi_004",
+        "person": "夏目漱石",
+        "avatarKey": "natsume_soseki",
+        "workTitle": "私の個人主義",
+        "text": "借り物の思想では、自分の足場は作れない。",
+        "note": "西洋模倣だけでは足りないという講演全体の趣旨を要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000148/files/772_33100.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_natsume_kojinshugi_005",
+        "person": "夏目漱石",
+        "avatarKey": "natsume_soseki",
+        "workTitle": "私の個人主義",
+        "text": "力ある者ほど、濫用しない責任を持つ。",
+        "note": "権力と金力の使用に義務が伴うという趣旨の要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000148/files/772_33100.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_natsume_kojinshugi_006",
+        "person": "夏目漱石",
+        "avatarKey": "natsume_soseki",
+        "workTitle": "私の個人主義",
+        "text": "他人の自由を妨げないところに、自分の自由がある。",
+        "note": "個人主義を利己主義と分ける文脈の要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000148/files/772_33100.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_natsume_kojinshugi_007",
+        "person": "夏目漱石",
+        "avatarKey": "natsume_soseki",
+        "workTitle": "私の個人主義",
+        "text": "迷った時間も、自分の軸を見つける材料になる。",
+        "note": "留学期の迷いと自己発見を語る文脈からの要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000148/files/772_33100.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_natsume_kojinshugi_008",
+        "person": "夏目漱石",
+        "avatarKey": "natsume_soseki",
+        "workTitle": "私の個人主義",
+        "text": "自分の個性を育てるほど、他人の個性も尊重できる。",
+        "note": "自己と他者の尊敬を両立させる趣旨の要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000148/files/772_33100.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
       },
       {
         "id": "quote_nitobe_jikeiroku_001",
         "person": "新渡戸稲造",
+        "avatarKey": "nitobe_inazo",
         "workTitle": "自警録",
         "text": "道徳の効用と目的は、日々の言行に現すところにある。",
-        "note": "原文の趣旨を短く読める形に整えた抜粋。日常の行動に表れる道徳を説く箇所。",
+        "note": "道徳を日常の行動に表すべきだと説く箇所の短い抜粋。",
         "sourceUrl": "https://www.aozora.gr.jp/cards/000718/files/43675_39655.html",
-        "certainty": "条件付き"
+        "certainty": "条件付き",
+        "quoteKind": "原文整理"
       },
       {
         "id": "quote_nitobe_jikeiroku_002",
         "person": "新渡戸稲造",
+        "avatarKey": "nitobe_inazo",
         "workTitle": "自警録",
         "text": "つねに若い心持ちで向上する。",
         "note": "若さを年齢ではなく、学び続ける姿勢として扱う文脈の短い抜粋。",
         "sourceUrl": "https://www.aozora.gr.jp/cards/000718/files/43675_39655.html",
-        "certainty": "確定的"
+        "certainty": "確定的",
+        "quoteKind": "原文抜粋"
+      },
+      {
+        "id": "quote_nitobe_jikeiroku_003",
+        "person": "新渡戸稲造",
+        "avatarKey": "nitobe_inazo",
+        "workTitle": "自警録",
+        "text": "自分を戒める人ほど、静かに強くなる。",
+        "note": "自警という書名に通じる自己修養の趣旨を要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000718/files/43675_39655.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_nitobe_jikeiroku_004",
+        "person": "新渡戸稲造",
+        "avatarKey": "nitobe_inazo",
+        "workTitle": "自警録",
+        "text": "反省は、失敗を次の力に変える道である。",
+        "note": "自己反省と改善の文脈を格言化した要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000718/files/43675_39655.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_nitobe_jikeiroku_005",
+        "person": "新渡戸稲造",
+        "avatarKey": "nitobe_inazo",
+        "workTitle": "自警録",
+        "text": "知識は、品性と結びついてこそ人を助ける。",
+        "note": "知と徳を結びつける趣旨の要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000718/files/43675_39655.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_nitobe_jikeiroku_006",
+        "person": "新渡戸稲造",
+        "avatarKey": "nitobe_inazo",
+        "workTitle": "自警録",
+        "text": "小さな習慣が、人の品格を形づくる。",
+        "note": "日々の言行を重んじる文脈の要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000718/files/43675_39655.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_nitobe_jikeiroku_007",
+        "person": "新渡戸稲造",
+        "avatarKey": "nitobe_inazo",
+        "workTitle": "自警録",
+        "text": "勇気は、乱暴ではなく節度の中にある。",
+        "note": "武士道的な勇気を品性と結びつける趣旨の要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000718/files/43675_39655.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_nitobe_jikeiroku_008",
+        "person": "新渡戸稲造",
+        "avatarKey": "nitobe_inazo",
+        "workTitle": "自警録",
+        "text": "名誉は、人に見せる飾りではなく自分への約束である。",
+        "note": "名誉を内面的規範として扱う趣旨の要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000718/files/43675_39655.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_nitobe_jikeiroku_009",
+        "person": "新渡戸稲造",
+        "avatarKey": "nitobe_inazo",
+        "workTitle": "自警録",
+        "text": "人のために働く心が、自分の器を大きくする。",
+        "note": "公共心と自己修養を結びつける文脈の要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000718/files/43675_39655.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_nitobe_jikeiroku_010",
+        "person": "新渡戸稲造",
+        "avatarKey": "nitobe_inazo",
+        "workTitle": "自警録",
+        "text": "焦らず、怠らず、毎日を正す。",
+        "note": "日々の自警を促す趣旨を短く整えたもの。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000718/files/43675_39655.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
       },
       {
         "id": "quote_uchimura_isan_001",
         "person": "内村鑑三",
+        "avatarKey": "uchimura_kanzo",
         "workTitle": "後世への最大遺物",
         "text": "勇ましい高尚なる生涯。",
-        "note": "後世に残せるものを、金銭や事業だけでなく生き方として考える講演の結語に近い一節。",
+        "note": "後世に残せるものを、生き方として考える講演の結語に近い一節。",
         "sourceUrl": "https://www.aozora.gr.jp/cards/000034/files/519_43561.html",
-        "certainty": "確定的"
+        "certainty": "確定的",
+        "quoteKind": "原文抜粋"
+      },
+      {
+        "id": "quote_uchimura_isan_002",
+        "person": "内村鑑三",
+        "avatarKey": "uchimura_kanzo",
+        "workTitle": "後世への最大遺物",
+        "text": "金や事業だけが、後世に残るものではない。",
+        "note": "最大遺物を金銭や事業に限らない講演の趣旨を要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000034/files/519_43561.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_uchimura_isan_003",
+        "person": "内村鑑三",
+        "avatarKey": "uchimura_kanzo",
+        "workTitle": "後世への最大遺物",
+        "text": "人は、よく生きることで未来に何かを残せる。",
+        "note": "生涯そのものを遺物として捉える趣旨の要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000034/files/519_43561.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_uchimura_isan_004",
+        "person": "内村鑑三",
+        "avatarKey": "uchimura_kanzo",
+        "workTitle": "後世への最大遺物",
+        "text": "望みを捨てない人の歩みは、後の人を励ます。",
+        "note": "希望と生涯の価値を結びつける文脈の要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000034/files/519_43561.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_uchimura_isan_005",
+        "person": "内村鑑三",
+        "avatarKey": "uchimura_kanzo",
+        "workTitle": "後世への最大遺物",
+        "text": "正直な労働は、静かな遺産になる。",
+        "note": "働きと生き方を後世への遺物として見る趣旨の要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000034/files/519_43561.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_uchimura_isan_006",
+        "person": "内村鑑三",
+        "avatarKey": "uchimura_kanzo",
+        "workTitle": "後世への最大遺物",
+        "text": "大きな名声より、曲げない生き方が残る。",
+        "note": "高尚な生涯を重んじる講演全体の要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000034/files/519_43561.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_uchimura_isan_007",
+        "person": "内村鑑三",
+        "avatarKey": "uchimura_kanzo",
+        "workTitle": "後世への最大遺物",
+        "text": "何を残すかは、今日どう生きるかで決まる。",
+        "note": "後世への遺物を日々の行動へ引き寄せた要約。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000034/files/519_43561.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_uchimura_isan_008",
+        "person": "内村鑑三",
+        "avatarKey": "uchimura_kanzo",
+        "workTitle": "後世への最大遺物",
+        "text": "勇ましさとは、人知れず正しい道を選ぶことでもある。",
+        "note": "勇ましい高尚な生涯という表現の趣旨を現代語化。",
+        "sourceUrl": "https://www.aozora.gr.jp/cards/000034/files/519_43561.html",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_musashi_gorin_001",
+        "person": "宮本武蔵",
+        "avatarKey": "miyamoto_musashi",
+        "workTitle": "五輪書",
+        "text": "武具は、自分の手に合ってこそ力を発する。",
+        "note": "兵庫文学館の『地の巻』解説にある、武道具は手に合うべきという趣旨の要約。",
+        "sourceUrl": "https://www.artm.pref.hyogo.jp/bungaku/kikaku/musashi/",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_musashi_gorin_002",
+        "person": "宮本武蔵",
+        "avatarKey": "miyamoto_musashi",
+        "workTitle": "五輪書",
+        "text": "形だけにこだわると、実戦の道を見失う。",
+        "note": "『風の巻』の他流批判に関する解説をもとにした要約。",
+        "sourceUrl": "https://www.artm.pref.hyogo.jp/bungaku/kikaku/musashi/",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_musashi_gorin_003",
+        "person": "宮本武蔵",
+        "avatarKey": "miyamoto_musashi",
+        "workTitle": "五輪書",
+        "text": "観と見を分け、表面と本質をともに見る。",
+        "note": "『水の巻』の観見に関する解説をもとにした要約。",
+        "sourceUrl": "https://www.artm.pref.hyogo.jp/bungaku/kikaku/musashi/",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_musashi_gorin_004",
+        "person": "宮本武蔵",
+        "avatarKey": "miyamoto_musashi",
+        "workTitle": "五輪書",
+        "text": "先手と変化を知る者が、戦いの流れをつかむ。",
+        "note": "『火の巻』の先手・臨機応変の説明からの要約。",
+        "sourceUrl": "https://www.artm.pref.hyogo.jp/bungaku/kikaku/musashi/",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_musashi_gorin_005",
+        "person": "宮本武蔵",
+        "avatarKey": "miyamoto_musashi",
+        "workTitle": "五輪書",
+        "text": "迷いを離れたところに、技の真髄が見える。",
+        "note": "『空の巻』の迷い・執着から離れる趣旨を要約。",
+        "sourceUrl": "https://www.artm.pref.hyogo.jp/bungaku/kikaku/musashi/",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_musashi_gorin_006",
+        "person": "宮本武蔵",
+        "avatarKey": "miyamoto_musashi",
+        "workTitle": "五輪書",
+        "text": "兵法は、刀の技だけでなく考え方の道である。",
+        "note": "五巻構成全体を兵法思想として読む趣旨の要約。",
+        "sourceUrl": "https://www.artm.pref.hyogo.jp/bungaku/kikaku/musashi/",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_musashi_gorin_007",
+        "person": "宮本武蔵",
+        "avatarKey": "miyamoto_musashi",
+        "workTitle": "五輪書",
+        "text": "一つの道具に寄りかからず、状況に合わせる。",
+        "note": "武具や他流批判に関する解説を、実用の格言として整理。",
+        "sourceUrl": "https://www.artm.pref.hyogo.jp/bungaku/kikaku/musashi/",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_musashi_gorin_008",
+        "person": "宮本武蔵",
+        "avatarKey": "miyamoto_musashi",
+        "workTitle": "五輪書",
+        "text": "稽古は、勝ち方より先に見方を鍛える。",
+        "note": "観見・心身の持ちようを説く解説からの要約。",
+        "sourceUrl": "https://www.artm.pref.hyogo.jp/bungaku/kikaku/musashi/",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_shibusawa_rongo_001",
+        "person": "渋沢栄一",
+        "avatarKey": "shibusawa_eiichi",
+        "workTitle": "論語と算盤",
+        "text": "道徳と経済は、離して考えるものではない。",
+        "note": "『論語と算盤』の代表的な道徳経済合一の趣旨を要約。",
+        "sourceUrl": "https://eiichi.shibusawa.or.jp/features/rongotosoroban/",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_shibusawa_rongo_002",
+        "person": "渋沢栄一",
+        "avatarKey": "shibusawa_eiichi",
+        "workTitle": "論語と算盤",
+        "text": "信用は、商いを支える目に見えない資本である。",
+        "note": "信用を事業の根幹として重んじる趣旨の要約。",
+        "sourceUrl": "https://eiichi.shibusawa.or.jp/features/rongotosoroban/",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_shibusawa_rongo_003",
+        "person": "渋沢栄一",
+        "avatarKey": "shibusawa_eiichi",
+        "workTitle": "論語と算盤",
+        "text": "利益は、社会をよくする働きと結びついてこそ続く。",
+        "note": "公益と事業を結びつける考えの要約。",
+        "sourceUrl": "https://eiichi.shibusawa.or.jp/features/rongotosoroban/",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_shibusawa_rongo_004",
+        "person": "渋沢栄一",
+        "avatarKey": "shibusawa_eiichi",
+        "workTitle": "論語と算盤",
+        "text": "大きな志は、日々の実務に宿る。",
+        "note": "理想と実務を結びつける趣旨の要約。",
+        "sourceUrl": "https://eiichi.shibusawa.or.jp/features/rongotosoroban/",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_shibusawa_rongo_005",
+        "person": "渋沢栄一",
+        "avatarKey": "shibusawa_eiichi",
+        "workTitle": "論語と算盤",
+        "text": "算盤だけでも、論語だけでも足りない。",
+        "note": "道徳と経済の両立を短く表した要約。",
+        "sourceUrl": "https://eiichi.shibusawa.or.jp/features/rongotosoroban/",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_shibusawa_rongo_006",
+        "person": "渋沢栄一",
+        "avatarKey": "shibusawa_eiichi",
+        "workTitle": "論語と算盤",
+        "text": "事業は、自分だけでなく世の中を相手にする。",
+        "note": "公共性を重んじる渋沢の思想を要約。",
+        "sourceUrl": "https://eiichi.shibusawa.or.jp/features/rongotosoroban/",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_shibusawa_rongo_007",
+        "person": "渋沢栄一",
+        "avatarKey": "shibusawa_eiichi",
+        "workTitle": "論語と算盤",
+        "text": "小さな約束を守る人が、大きな信用を得る。",
+        "note": "信用を積み上げる考えの要約。",
+        "sourceUrl": "https://eiichi.shibusawa.or.jp/features/rongotosoroban/",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_shibusawa_rongo_008",
+        "person": "渋沢栄一",
+        "avatarKey": "shibusawa_eiichi",
+        "workTitle": "論語と算盤",
+        "text": "富を得る道にも、人格が問われる。",
+        "note": "経済活動と人格を結びつける趣旨の要約。",
+        "sourceUrl": "https://eiichi.shibusawa.or.jp/features/rongotosoroban/",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_yoshida_komosakki_001",
+        "person": "吉田松陰",
+        "avatarKey": "yoshida_shoin",
+        "workTitle": "講孟箚記",
+        "text": "志を立てることが、学びの出発点になる。",
+        "note": "志と学問を結びつける思想の趣旨を要約。",
+        "sourceUrl": "https://www.digital.archives.go.jp/file/1239108",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_yoshida_komosakki_002",
+        "person": "吉田松陰",
+        "avatarKey": "yoshida_shoin",
+        "workTitle": "講孟箚記",
+        "text": "学んだことは、行動に移して初めて身につく。",
+        "note": "知行を結びつける姿勢の要約。",
+        "sourceUrl": "https://www.digital.archives.go.jp/file/1239108",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_yoshida_komosakki_003",
+        "person": "吉田松陰",
+        "avatarKey": "yoshida_shoin",
+        "workTitle": "講孟箚記",
+        "text": "時勢を嘆くより、まず自分の志を定める。",
+        "note": "志を軸に現実へ向き合う姿勢を要約。",
+        "sourceUrl": "https://www.digital.archives.go.jp/file/1239108",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_yoshida_komosakki_004",
+        "person": "吉田松陰",
+        "avatarKey": "yoshida_shoin",
+        "workTitle": "講孟箚記",
+        "text": "人を育てることは、未来へ火を残すことでもある。",
+        "note": "松下村塾の教育者イメージと史料上の志の思想を結びつけた要約。",
+        "sourceUrl": "https://www.digital.archives.go.jp/file/1239108",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_yagyu_kadensho_001",
+        "person": "柳生宗矩",
+        "avatarKey": "yagyu_munenori",
+        "workTitle": "兵法家伝書",
+        "text": "兵法は、斬る技だけでなく心を治める道でもある。",
+        "note": "『兵法家伝書』を剣術思想として扱う文脈の要約。",
+        "sourceUrl": "https://id.ndl.go.jp/auth/ndlna/00935035",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_yagyu_kadensho_002",
+        "person": "柳生宗矩",
+        "avatarKey": "yagyu_munenori",
+        "workTitle": "兵法家伝書",
+        "text": "活人剣は、力を乱用しないための思想でもある。",
+        "note": "殺人刀・活人剣の構成を踏まえた、公開向けの要約。",
+        "sourceUrl": "https://id.ndl.go.jp/auth/ndlna/00935035",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_yagyu_kadensho_003",
+        "person": "柳生宗矩",
+        "avatarKey": "yagyu_munenori",
+        "workTitle": "兵法家伝書",
+        "text": "勝つことより、乱れない心を持つことが先にある。",
+        "note": "徳川政権の兵法思想として読める部分の要約。",
+        "sourceUrl": "https://id.ndl.go.jp/auth/ndlna/00935035",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
+      },
+      {
+        "id": "quote_yagyu_kadensho_004",
+        "person": "柳生宗矩",
+        "avatarKey": "yagyu_munenori",
+        "workTitle": "兵法家伝書",
+        "text": "剣術は、政の場でも人を読む技になる。",
+        "note": "将軍家指南役としての宗矩像と兵法書の性格を踏まえた要約。",
+        "sourceUrl": "https://id.ndl.go.jp/auth/ndlna/00935035",
+        "certainty": "条件付き",
+        "quoteKind": "現代語要約"
       }
     ]
   }

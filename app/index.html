@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#1f4e5f">
-  <meta name="description" content="AI日本の裏側と連動した、出典つきの歴史クイズPWA。今日の格言、今日の1問、テーマ別30問をスマホで読めます。">
+  <meta name="description" content="AI日本の裏側と連動した、出典つき歴史クイズPWA。今日の格言、今日の1問、テーマ別90問をスマホで読めます。">
   <title>歴史の裏側クイズ Web版 | AI日本の裏側</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="../assets/app-icon-512.png">
@@ -28,8 +28,8 @@
     <section class="hero">
       <div>
         <p class="eyebrow">AI日本の裏側 / Web PWA</p>
-        <h1>今日も1問、歴史の裏側へ。</h1>
-        <p>教科書の行間にある制度、統制、改革の流れを、出典つきの短いクイズで確認できます。</p>
+        <h1>今日の一問から、歴史の裏側へ。</h1>
+        <p>戦国、剣術、制度史、戦後改革まで。出典つきの短いクイズで、知っているつもりの歴史をもう一段深く確認できます。</p>
       </div>
       <div class="hero-actions" aria-label="クイック操作">
         <button class="primary-action" id="start-today-question" type="button">今日の1問</button>
@@ -42,6 +42,13 @@
         <div class="panel-head">
           <p class="section-label">今日の格言</p>
           <span class="certainty" id="quote-certainty">読み込み中</span>
+        </div>
+        <div class="character-stage quote-character" id="quote-character" aria-live="polite">
+          <div class="character-avatar" id="quote-avatar" aria-hidden="true"></div>
+          <div class="character-caption">
+            <strong id="quote-character-name">読み込み中</strong>
+            <span id="quote-character-role"></span>
+          </div>
         </div>
         <blockquote id="quote-text">読み込み中...</blockquote>
         <p class="quote-meta" id="quote-meta"></p>
@@ -68,7 +75,7 @@
       <div class="section-title">
         <div>
           <p class="section-label">テーマ別クイズ</p>
-          <h2>3テーマ・30問</h2>
+          <h2>9テーマ・90問</h2>
         </div>
         <p class="saved-state" id="saved-state">進捗を読み込み中</p>
       </div>
@@ -84,6 +91,13 @@
         <div class="panel-head">
           <p class="section-label" id="quiz-theme"></p>
           <span class="certainty" id="quiz-certainty"></span>
+        </div>
+        <div class="character-stage quiz-character" id="quiz-character" aria-live="polite">
+          <div class="character-avatar" id="quiz-avatar" aria-hidden="true"></div>
+          <div class="character-caption">
+            <strong id="quiz-character-name">史料読み係</strong>
+            <span id="quiz-character-role"></span>
+          </div>
         </div>
         <h2 id="quiz-prompt"></h2>
         <div class="choice-list" id="choice-list"></div>
@@ -102,7 +116,7 @@
   </main>
 
   <footer class="app-footer">
-    <p>© 2026 AI日本の裏側 / 歴史の裏側クイズ</p>
+    <p>&copy; 2026 AI日本の裏側 / 歴史の裏側クイズ</p>
     <p>このWeb版は端末内に進捗だけを保存します。ログインや個人情報の送信はありません。</p>
   </footer>
 

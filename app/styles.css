@@ -229,6 +229,111 @@ blockquote {
   font-weight: 800;
 }
 
+.character-stage {
+  align-items: center;
+  background: linear-gradient(135deg, rgba(219, 236, 233, 0.88), rgba(255, 248, 236, 0.92));
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: grid;
+  gap: 14px;
+  grid-template-columns: 112px minmax(0, 1fr);
+  margin: 16px 0;
+  min-height: 128px;
+  overflow: hidden;
+  padding: 12px;
+}
+
+.character-avatar {
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  width: 112px;
+}
+
+.character-avatar svg {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.character-caption {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.character-caption strong {
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.character-caption span {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.character-stage[data-mood="speaking"] .character-avatar {
+  animation: avatar-talk 0.44s ease-in-out infinite;
+}
+
+.character-stage[data-mood="correct"] .character-avatar {
+  animation: avatar-correct 0.72s ease-out 1;
+}
+
+.character-stage[data-mood="wrong"] .character-avatar {
+  animation: avatar-wrong 0.48s ease-in-out 1;
+}
+
+.character-stage[data-mood="thinking"] .character-avatar {
+  animation: avatar-think 1.8s ease-in-out infinite;
+}
+
+@keyframes avatar-talk {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-5px) rotate(-2deg);
+  }
+}
+
+@keyframes avatar-correct {
+  0% {
+    transform: scale(0.94);
+  }
+  45% {
+    transform: scale(1.1) rotate(-3deg);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes avatar-wrong {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-6px);
+  }
+  75% {
+    transform: translateX(6px);
+  }
+}
+
+@keyframes avatar-think {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
 .section {
   border-top: 1px solid var(--line);
   margin-top: 28px;
@@ -428,5 +533,14 @@ blockquote {
   .panel-head {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .character-stage {
+    grid-template-columns: 92px minmax(0, 1fr);
+    min-height: 108px;
+  }
+
+  .character-avatar {
+    width: 92px;
   }
 }
