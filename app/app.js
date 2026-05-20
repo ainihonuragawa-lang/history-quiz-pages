@@ -343,6 +343,41 @@ function expressionSvg(mood) {
   };
 }
 
+function safePortraitUrl(value) {
+  if (!value) return "";
+  try {
+    const url = new URL(value, window.location.href);
+    return ["http:", "https:"].includes(url.protocol) ? url.href : "";
+  } catch {
+    return "";
+  }
+}
+
+function portraitMoodLabel(mood) {
+  if (mood === "correct") return "正解";
+  if (mood === "wrong") return "惜しい";
+  if (mood === "speaking") return "朗読中";
+  if (mood === "thinking") return "考え中";
+  return "史";
+}
+
+function renderPortraitAvatar({ avatar, character, mood, accent, portraitUrl }) {
+  avatar.innerHTML = `
+    <figure class="portrait-avatar" style="--portrait-accent: ${accent}">
+      <span class="portrait-frame">
+        <img src="${escapeHtml(portraitUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer">
+        <span class="portrait-badge">${escapeHtml(portraitMoodLabel(mood))}</span>
+      </span>
+    </figure>
+  `;
+  avatar.title = character.portraitCredit || character.portraitSourceUrl || "";
+
+  const image = avatar.querySelector("img");
+  image.addEventListener("error", () => {
+    avatar.innerHTML = `<span class="portrait-fallback">${escapeHtml(character.name.slice(0, 1))}</span>`;
+  }, { once: true });
+}
+
 function renderCharacter({ avatar, name, role, stage, character, mood }) {
   const base = safeColor(character.color, "#1f4e5f");
   const accent = safeColor(character.accent, "#d7ad51");
@@ -350,6 +385,11 @@ function renderCharacter({ avatar, name, role, stage, character, mood }) {
   stage.dataset.mood = mood;
   name.textContent = character.name;
   role.textContent = `${character.role} / ${character.era}`;
+  const portraitUrl = safePortraitUrl(character.imageUrl || character.image_url);
+  if (portraitUrl) {
+    renderPortraitAvatar({ avatar, character, mood, accent, portraitUrl });
+    return;
+  }
   avatar.innerHTML = `
     <svg viewBox="0 0 180 180" role="img" aria-label="${escapeHtml(character.name)}の2頭身キャラクター">
       <defs>

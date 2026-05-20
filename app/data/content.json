@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-20T07:21:29.506Z",
+  "generatedAt": "2026-05-20T09:19:24.941Z",
   "app": {
     "name": "歴史の裏側クイズ",
     "brand": "AI日本の裏側",
@@ -19,7 +19,13 @@
         "era": "明治",
         "color": "#315d7c",
         "accent": "#d7ad51",
-        "prop": "book"
+        "prop": "book",
+        "imageUrl": "./assets/portraits/fukuzawa_yukichi.jpg",
+        "portraitSourceUrl": "https://commons.wikimedia.org/wiki/File:Fukuzawa_Yukichi.jpg",
+        "portraitCredit": "Wikimedia Commons / National Diet Library",
+        "portraitLicense": "Public domain",
+        "remoteImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukuzawa_Yukichi.jpg?width=512",
+        "portraitLocalAsset": "app/assets/portraits/fukuzawa_yukichi.jpg"
       },
       {
         "key": "natsume_soseki",
@@ -28,7 +34,13 @@
         "era": "近代",
         "color": "#5f4b8b",
         "accent": "#d7ad51",
-        "prop": "book"
+        "prop": "book",
+        "imageUrl": "./assets/portraits/natsume_soseki.jpg",
+        "portraitSourceUrl": "https://commons.wikimedia.org/wiki/File:Natsume_Soseki_photo.jpg",
+        "portraitCredit": "Wikimedia Commons / Ogawa Kazumasa",
+        "portraitLicense": "Public domain",
+        "remoteImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Natsume_Soseki_photo.jpg?width=512",
+        "portraitLocalAsset": "app/assets/portraits/natsume_soseki.jpg"
       },
       {
         "key": "nitobe_inazo",
@@ -37,7 +49,13 @@
         "era": "近代",
         "color": "#2f7656",
         "accent": "#d7ad51",
-        "prop": "book"
+        "prop": "book",
+        "imageUrl": "./assets/portraits/nitobe_inazo.jpg",
+        "portraitSourceUrl": "https://commons.wikimedia.org/wiki/File:Inazo_Nitobe.jpg",
+        "portraitCredit": "Wikimedia Commons",
+        "portraitLicense": "Wikimedia Commons file license",
+        "remoteImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Inazo_Nitobe.jpg?width=512",
+        "portraitLocalAsset": "app/assets/portraits/nitobe_inazo.jpg"
       },
       {
         "key": "uchimura_kanzo",
@@ -46,7 +64,13 @@
         "era": "近代",
         "color": "#8b4a3a",
         "accent": "#d7ad51",
-        "prop": "scroll"
+        "prop": "scroll",
+        "imageUrl": "./assets/portraits/uchimura_kanzo.jpg",
+        "portraitSourceUrl": "https://commons.wikimedia.org/wiki/File:Uchimura_Kanzo.jpg",
+        "portraitCredit": "Wikimedia Commons",
+        "portraitLicense": "Public domain",
+        "remoteImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Uchimura_Kanzo.jpg?width=512",
+        "portraitLocalAsset": "app/assets/portraits/uchimura_kanzo.jpg"
       },
       {
         "key": "miyamoto_musashi",
@@ -55,7 +79,13 @@
         "era": "江戸初期",
         "color": "#4a3b2f",
         "accent": "#c85d3d",
-        "prop": "sword"
+        "prop": "sword",
+        "imageUrl": "./assets/portraits/miyamoto_musashi.jpg",
+        "portraitSourceUrl": "https://commons.wikimedia.org/wiki/File:Miyamoto_Musashi_Self-Portrait.jpg",
+        "portraitCredit": "Wikimedia Commons / Shimada Museum of Art",
+        "portraitLicense": "Public domain",
+        "remoteImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Miyamoto_Musashi_Self-Portrait.jpg?width=512",
+        "portraitLocalAsset": "app/assets/portraits/miyamoto_musashi.jpg"
       },
       {
         "key": "shibusawa_eiichi",
@@ -64,7 +94,13 @@
         "era": "近代",
         "color": "#2f5f68",
         "accent": "#d7ad51",
-        "prop": "abacus"
+        "prop": "abacus",
+        "imageUrl": "./assets/portraits/shibusawa_eiichi.png",
+        "portraitSourceUrl": "https://commons.wikimedia.org/wiki/File:Shibusawa_Eiichi_Portrait_1900.png",
+        "portraitCredit": "Wikimedia Commons / National Diet Library",
+        "portraitLicense": "Public domain",
+        "remoteImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shibusawa_Eiichi_Portrait_1900.png?width=512",
+        "portraitLocalAsset": "app/assets/portraits/shibusawa_eiichi.png"
       },
       {
         "key": "yoshida_shoin",
@@ -73,7 +109,13 @@
         "era": "幕末",
         "color": "#6c3f4f",
         "accent": "#d7ad51",
-        "prop": "scroll"
+        "prop": "scroll",
+        "imageUrl": "./assets/portraits/yoshida_shoin.jpg",
+        "portraitSourceUrl": "https://commons.wikimedia.org/wiki/File:Yoshida_Shoin.jpg",
+        "portraitCredit": "Wikimedia Commons",
+        "portraitLicense": "Wikimedia Commons file license",
+        "remoteImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoshida_Shoin.jpg?width=512",
+        "portraitLocalAsset": "app/assets/portraits/yoshida_shoin.jpg"
       },
       {
         "key": "yagyu_munenori",
@@ -82,7 +124,13 @@
         "era": "江戸初期",
         "color": "#384f35",
         "accent": "#d7ad51",
-        "prop": "sword"
+        "prop": "sword",
+        "imageUrl": "./assets/portraits/yagyu_munenori.jpg",
+        "portraitSourceUrl": "https://commons.wikimedia.org/wiki/File:Yagyu_Munenori.jpg",
+        "portraitCredit": "Wikimedia Commons / Hisane",
+        "portraitLicense": "Public domain dedication",
+        "remoteImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yagyu_Munenori.jpg?width=512",
+        "portraitLocalAsset": "app/assets/portraits/yagyu_munenori.jpg"
       },
       {
         "key": "tokugawa_ieyasu",
@@ -91,7 +139,13 @@
         "era": "戦国",
         "color": "#2f4c77",
         "accent": "#d7ad51",
-        "prop": "fan"
+        "prop": "fan",
+        "imageUrl": "./assets/portraits/tokugawa_ieyasu.jpg",
+        "portraitSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokugawa_Ieyasu2_full.JPG",
+        "portraitCredit": "Wikimedia Commons",
+        "portraitLicense": "Wikimedia Commons file license",
+        "remoteImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tokugawa_Ieyasu2_full.JPG?width=512",
+        "portraitLocalAsset": "app/assets/portraits/tokugawa_ieyasu.jpg"
       },
       {
         "key": "ishida_mitsunari",
@@ -100,7 +154,13 @@
         "era": "戦国",
         "color": "#6c3f68",
         "accent": "#d7ad51",
-        "prop": "fan"
+        "prop": "fan",
+        "imageUrl": "./assets/portraits/ishida_mitsunari.jpg",
+        "portraitSourceUrl": "https://commons.wikimedia.org/wiki/File:Ishida_Mitsunari.jpg",
+        "portraitCredit": "Wikimedia Commons",
+        "portraitLicense": "Public domain",
+        "remoteImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ishida_Mitsunari.jpg?width=512",
+        "portraitLocalAsset": "app/assets/portraits/ishida_mitsunari.jpg"
       },
       {
         "key": "kobayakawa_hideaki",
@@ -109,7 +169,13 @@
         "era": "戦国",
         "color": "#8b6f2f",
         "accent": "#c85d3d",
-        "prop": "fan"
+        "prop": "fan",
+        "imageUrl": "./assets/portraits/kobayakawa_hideaki.jpg",
+        "portraitSourceUrl": "https://commons.wikimedia.org/wiki/File:Kobayakawa_Hideaki_2.jpg",
+        "portraitCredit": "Wikimedia Commons",
+        "portraitLicense": "Wikimedia Commons file license",
+        "remoteImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kobayakawa_Hideaki_2.jpg?width=512",
+        "portraitLocalAsset": "app/assets/portraits/kobayakawa_hideaki.jpg"
       },
       {
         "key": "oda_nobunaga",
@@ -118,7 +184,13 @@
         "era": "戦国",
         "color": "#682f3f",
         "accent": "#d7ad51",
-        "prop": "fan"
+        "prop": "fan",
+        "imageUrl": "./assets/portraits/oda_nobunaga.jpg",
+        "portraitSourceUrl": "https://commons.wikimedia.org/wiki/File:Oda-Nobunaga.jpg",
+        "portraitCredit": "Wikimedia Commons / Historiographical Institute, University of Tokyo",
+        "portraitLicense": "Public domain",
+        "remoteImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Oda-Nobunaga.jpg?width=512",
+        "portraitLocalAsset": "app/assets/portraits/oda_nobunaga.jpg"
       },
       {
         "key": "ikeda_terumasa",
@@ -127,7 +199,13 @@
         "era": "江戸初期",
         "color": "#3d5d62",
         "accent": "#d7ad51",
-        "prop": "fan"
+        "prop": "fan",
+        "imageUrl": "./assets/portraits/ikeda_terumasa.jpg",
+        "portraitSourceUrl": "https://commons.wikimedia.org/wiki/File:Terumasa_Ikeda.jpg",
+        "portraitCredit": "Wikimedia Commons",
+        "portraitLicense": "Wikimedia Commons file license",
+        "remoteImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Terumasa_Ikeda.jpg?width=512",
+        "portraitLocalAsset": "app/assets/portraits/ikeda_terumasa.jpg"
       },
       {
         "key": "swordsmith",
