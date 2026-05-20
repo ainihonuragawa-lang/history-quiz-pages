@@ -1,0 +1,32 @@
+{
+  "name": "歴史の裏側クイズ",
+  "short_name": "歴史クイズ",
+  "description": "AI日本の裏側と連動した、出典つきの歴史クイズPWA。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fff8ec",
+  "theme_color": "#1f4e5f",
+  "lang": "ja",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "../assets/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "今日の1問",
+      "short_name": "1問",
+      "url": "./#today-question"
+    },
+    {
+      "name": "テーマ別クイズ",
+      "short_name": "テーマ",
+      "url": "./#themes"
+    }
+  ]
+}
